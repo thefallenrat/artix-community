@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/camlp4.git
 	branch = master
-	commit = 367ff61c9a2bbbe1ad3583ad80b9a652394d77f3
-	parent = e4dd2b79426f08c6a48737111d11e5848a6b96c9
+	commit = 5bb97deb06e9f1f84621477ba239f54ea77a71f9
+	parent = df35549b9908aabafca966d41b3f2d846a33ea45
 	method = merge
 	update = auto
 	cmdver = 0.4.1
