@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesR/redis.git
 	branch = master
-	commit = 32443edbe9e20abff901e4e597aeb271d25dbbad
-	parent = 284cf83ebf02b5db362251773595561a2926a3ec
+	commit = bf91b6c5f9ebbe7ec0fb806237544df3185409de
+	parent = bba54a2c3fdbe6e3e7466e1bf985c997df5eac0f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
