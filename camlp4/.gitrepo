@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesC/camlp4.git
+	branch = master
+	commit = 367ff61c9a2bbbe1ad3583ad80b9a652394d77f3
+	parent = e4dd2b79426f08c6a48737111d11e5848a6b96c9
+	method = merge
+	update = auto
+	cmdver = 0.4.1
