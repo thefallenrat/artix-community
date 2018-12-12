@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-bcrypt.git
 	branch = master
-	commit = b698e40c4f239c6ba55c70c04660f311c9a97efa
-	parent = 348981a33d5a294492aeca7586380a31994c74d5
+	commit = 74547c87ad8469863b18ddbe6b7a5640c6587618
+	parent = a5caa241e4a09465299fabbc6678d33ff848b801
 	method = merge
 	update = auto
 	cmdver = 0.4.1
