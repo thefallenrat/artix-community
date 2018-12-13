@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-bottle.git
 	branch = master
-	commit = 24173fafaf2bc6b448acf1158bcac08a16bd47b0
-	parent = f8b5b2cbfb54d86d86ccee2f5dc54239801b5a41
+	commit = 8f0b0c8f7b9856412bf3119c5e6d636c07fefe14
+	parent = d6ca54f4cbd24ca9ff37d0d6c2320469fa5e5b62
 	method = merge
 	update = auto
 	cmdver = 0.4.1
