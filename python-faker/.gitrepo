@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-faker.git
 	branch = master
-	commit = 571b282ff8cc8c5e06622e9d4b3886cbadb52017
-	parent = 77882cd29b4b3a2569b45a772dc95ae9ec689b5a
+	commit = 25025c5674cb88e39f89e594d4bd4cc4b63dd76c
+	parent = 44f1efc96acab3689f8fe6484a10ae6c269082d8
 	method = merge
 	update = auto
 	cmdver = 0.4.1
