@@ -3,7 +3,7 @@
 # Contributor: Alfredo Palhares <masterkorp@masterkorp.net>
 
 pkgname=hub
-pkgver=2.5.1
+pkgver=2.6.1
 pkgrel=1
 
 pkgdesc="cli interface for Github"
@@ -21,7 +21,7 @@ prepare() {
   mkdir -p src/github.com/github
   cp -r hub-$pkgver src/github.com/github/hub
 
-  sed -i 's@1.ronn bin/ronn@1.ronn@;s@bin/ronn@ronn@' src/github.com/github/hub/Makefile
+sed -i 's@.man-pages.stamp: bin/ronn@.man-pages.stamp:@;s@bin/ronn@ronn@' src/github.com/github/hub/Makefile
 }
 
 build() {
@@ -48,4 +48,4 @@ package() {
   install -Dm644 etc/hub.zsh_completion "$pkgdir"/usr/share/zsh/site-functions/_hub
   install -Dm644 etc/hub.fish_completion "$pkgdir"/usr/share/fish/vendor_completions.d/hub.fish
 }
-sha256sums=('35fecdbcaf0afb6b7273a160cc169f76ec62b95105037ac3fc833b24573f9a4f')
+sha256sums=('3a78f7fc8a024cc232463c664fecf0b49574f5205a49f2320886763c136ac000')
