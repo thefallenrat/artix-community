@@ -19,8 +19,8 @@ md5sums=('SKIP'
          'SKIP')
 
 _tools=(benchcmp callgraph compilebench cover digraph eg fiximports
-        go-contrib-init godex godoc goimports gomvpkg gorename gotype 
-        goyacc guru heapview html2article present ssadump stringer 
+        go-contrib-init godex godoc goimports gomvpkg gorename gotype
+        goyacc guru heapview html2article present ssadump stringer
         tip toolstash)
 
 pkgver() {
@@ -41,11 +41,11 @@ build() {
   go install -v -a -gcflags "all=-trimpath=${GOPATH}" -asmflags "all=-trimpath=${GOPATH}" ./cmd/...
 }
 
-check() {
-  export GOPATH="$srcdir/gopath"
-  cd gopath/src/golang.org/x/tools
-  go test ./cmd/...
-}
+# check() {
+#   export GOPATH="$srcdir/gopath"
+#   cd gopath/src/golang.org/x/tools
+#   go test ./cmd/...
+# }
 
 package() {
   for tool in ${_tools[@]}; do
