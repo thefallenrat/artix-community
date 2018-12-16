@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesM/mongodb-runit.git
 	branch = master
-	commit = 9dedda41527da72be5af67446baf67e7bfa689aa
-	parent = 125392127aa1ede74f834cb4a3f59722b8f16f72
+	commit = 5b0f6bf431f1eb24be8a91b3351631d336839865
+	parent = e2b61e15005756b08701e14715ab8d347148ed65
 	method = merge
 	update = auto
 	cmdver = 0.4.1
