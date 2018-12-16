@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesM/mongodb-runit.git
+	branch = master
+	commit = 9dedda41527da72be5af67446baf67e7bfa689aa
+	parent = 125392127aa1ede74f834cb4a3f59722b8f16f72
+	method = merge
+	update = auto
+	cmdver = 0.4.1
