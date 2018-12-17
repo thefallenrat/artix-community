@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python2-pathlib.git
 	branch = master
-	commit = 92a38d9d1e6426c9d4bc58a9b9b5cf2e1274aed3
-	parent = a4660e46f2c1716fe8a53ae341be8919adf55c91
+	commit = fe4e16c5cad68654fdd3317661bf21f49009e37c
+	parent = e92ec9dd31d309588134c493271dedeb10b39681
 	method = merge
 	update = auto
 	cmdver = 0.4.1
