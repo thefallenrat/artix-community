@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-semantic-version.git
 	branch = master
-	commit = 18a86d696d877c2ba738202f2471cf4e2a228b6e
-	parent = f5da02445278ef04215565e5eb72812bb418d081
+	commit = 11ed3382bba9980aa2afeeb34d2ba9bfaaf4a92b
+	parent = e4343542d143d5cd1498f512593a9854e8d0774a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
