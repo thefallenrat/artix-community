@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-oslotest.git
 	branch = master
-	commit = 5f77a2297417752aa7aa28b7df83eba5a2636936
-	parent = 6f508964af44f59c17a2141a4c22a24c4d06aac6
+	commit = e293864a3173c1cd0d29d43710fe4480544930d3
+	parent = 29e4e8ea142293f883a5d23787370662de8d9ef7
 	method = merge
 	update = auto
 	cmdver = 0.4.1
