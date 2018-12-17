@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesR/ragel.git
 	branch = master
-	commit = 3d7eea1935990766e1bebe4ef74e82617eb5017e
-	parent = df5e15c2002ebf493336da6434424fc8ddb6bf31
+	commit = 24e3a0debef6070ed5e2c187ff9a1b6b6424acdd
+	parent = 1c5c11e39e184cfd66ef10bf4bd0d204c359c257
 	method = merge
 	update = auto
 	cmdver = 0.4.1
