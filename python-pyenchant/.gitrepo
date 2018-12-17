@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyenchant.git
 	branch = master
-	commit = 8dd5ae62e451dc87ac53d111dcef0915992efcb9
-	parent = 1ded0957edecd4086712d6c3424dc60f262ceb1f
+	commit = 9560352cfd2ab5c6c3a57494b6f8fc598f3c61fa
+	parent = 563904ff87767aa488444d2d1eaecb9ff0b3513d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
