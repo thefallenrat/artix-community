@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesZ/znc-openrc.git
 	branch = master
-	commit = 33f8284b1b48916b375c445aee1623aa182343ec
-	parent = 3368f9dd55f328050d2c4c129ace85eec2b8f646
+	commit = 2c5614185e6aecfc3bd6cb5cf9175c17d225b13a
+	parent = a271b410717c4323099f4a3f36d44547979361c1
 	method = merge
 	update = auto
 	cmdver = 0.4.1
