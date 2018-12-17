@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-yaml.git
 	branch = master
-	commit = d0d678caa89c4a7c2d4514a2aa670741d2c91606
-	parent = 6b66bb7f6b1cbaa85308dc53be644f1d97ea378b
+	commit = d77cc516d6cf1dd288213acc95e1a9f4fd95ec78
+	parent = c97c93806afde44077b125363b128fc9162a97ca
 	method = merge
 	update = auto
 	cmdver = 0.4.1
