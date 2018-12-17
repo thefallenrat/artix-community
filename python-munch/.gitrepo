@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-munch.git
 	branch = master
-	commit = 93cefa86746d4a85336ced76be159a58fdd87e90
-	parent = d695da06e587ceeb713b18ededccfa912035150c
+	commit = ca4370c65464979eca1273ee940666e8f6629207
+	parent = 867e2630374fb4004febbf26e6317ab4351bec60
 	method = merge
 	update = auto
 	cmdver = 0.4.1
