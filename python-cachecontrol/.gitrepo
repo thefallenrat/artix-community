@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-cachecontrol.git
 	branch = master
-	commit = 6f9a1e4903a15a90875ea3a18ee3aa0bf9afd236
-	parent = 937ad30b9f1d9394984259d2e4aff2ca38e52e1a
+	commit = b3fd3efb5eca1115581d1394268543d4bdd35dc4
+	parent = 7bad2b4b3451c2cf2c9b47574e1160bc91c95302
 	method = merge
 	update = auto
 	cmdver = 0.4.1
