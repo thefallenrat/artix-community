@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-anyjson.git
 	branch = master
-	commit = 22e612d6f32f97bf1bcb9dca1031600d65ff5c34
-	parent = 3a764d23761f2c6636c24dc865397f4a2c30687d
+	commit = 04196d6c8e2bece46bafe00d6ecef7cd2a46d360
+	parent = add0c9b9b7505cc235641a7157edc65aacf7c6fc
 	method = merge
 	update = auto
 	cmdver = 0.4.1
