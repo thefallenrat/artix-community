@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesE/espeak.git
 	branch = master
-	commit = 17f9f59fa9c3151f3ff059e8186eee87c1dba55c
-	parent = b0d45387de06e8c551db96aa7de4cdd82f034146
+	commit = 877b8558f1401ae96e4562153bb8409ec68f6754
+	parent = 76ae553528783564de4fb41226070e272b43107e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
