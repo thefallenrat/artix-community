@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/transmission-sequential.git
 	branch = master
-	commit = 4bd8c4af064427331f139c874f6ae3f98454a3ca
-	parent = 958b48015bc5888e6d54851078b0b4489deea7be
+	commit = 95a0bdfda4d8534f79964c54ba3a7145aba91121
+	parent = 2a1e615651d757258cec259e4b7fcd4b1a6717d8
 	method = merge
 	update = auto
 	cmdver = 0.4.1
