@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-tornado.git
 	branch = master
-	commit = d9e824ca3e5916f33dd110107e8fdae10cfd37e4
-	parent = 32496abc0639718a28c03747029a313acf36e912
+	commit = 3c77b221af5cbf32a55192817d04e53ac5a5141d
+	parent = bff6d21b3454dec4d7ede65e94acf82263d3f058
 	method = merge
 	update = auto
 	cmdver = 0.4.1
