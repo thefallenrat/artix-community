@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libsass.git
 	branch = master
-	commit = 4879c0b02264f404f5fbfa3dbad65336f750add3
-	parent = d74e94fe0dba441bdb53c44be25b4fbb2bdec763
+	commit = 0dcf5a0e75e30eac3892cfc7aebbb7d53604b890
+	parent = d377f9e5a1945e12b8b5957c4c3361c9149bfd9a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
