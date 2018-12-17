@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/calamares.git
 	branch = master
-	commit = 77b95fd473d1de937b159d8ef15421ef027db20f
-	parent = 2f2b4dd14da1e1e39acf973151f91a8c2cb4d183
+	commit = ebc52a8e20d5cf3b2fcfa3bc196bdc96a7126e3e
+	parent = cf97b01b4d20e39b6e94dcabce621e9862217dff
 	method = merge
 	update = auto
 	cmdver = 0.4.1
