@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-mox3.git
 	branch = master
-	commit = 1d03714981ffafeb29d9413c0807593dbf9997d9
-	parent = bd6e3523cf0b11f3eff8bc90de62c7d237af9711
+	commit = b83dec3c0248f03ce27deb3bc5445a07ebd8c4d0
+	parent = 3cf251d9fb8c3a2d308e52060c687556adf4e844
 	method = merge
 	update = auto
 	cmdver = 0.4.1
