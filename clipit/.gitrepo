@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/clipit.git
 	branch = master
-	commit = cd72b1619b60267396f193714a176fdcd9bf1f1b
-	parent = b0b0ac7621309e128d26f7a98a635a72c3cc5679
+	commit = dbe803948611dc1db984b09283e21485913b40d2
+	parent = a31ee808eae553bfa0406565a295348644401bcc
 	method = merge
 	update = auto
 	cmdver = 0.4.1
