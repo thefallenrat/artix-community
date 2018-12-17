@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-tox.git
 	branch = master
-	commit = e545cf649f3f3561e579f806febc710604a83a23
-	parent = cd8302f289c0ac3152571a1531aacb0beb4e2083
+	commit = da5d6e845207e9bf761b9b5169a99a5db418df3b
+	parent = 0a3046ee7cb80f270e9753bcc1473d3e7093c32e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
