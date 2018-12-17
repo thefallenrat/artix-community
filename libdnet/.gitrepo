@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libdnet.git
 	branch = master
-	commit = f406f4b083c7da1415d4f685df38435747a4ed94
-	parent = 1ad11e56bde6b313e96981f4d5a17ff96a8d9d76
+	commit = b3d682bc482003a8165a71987ccb93c78f1de245
+	parent = bb3aaea85829095e9b733e5c1eeddfd9dd1d52b4
 	method = merge
 	update = auto
 	cmdver = 0.4.1
