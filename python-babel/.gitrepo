@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-babel.git
 	branch = master
-	commit = 94e8a61045118bd96f28de045465b92ab8b4d7e4
-	parent = e53c93af5a4b2fe86a9fc7bcc251ccda1ab7c953
+	commit = 55816fe628ba1cf53d92be4288e7cdcd978e5774
+	parent = 9ae1d7c77807faa45145dd79fe78892118c797a4
 	method = merge
 	update = auto
 	cmdver = 0.4.1
