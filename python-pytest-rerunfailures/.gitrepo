@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-rerunfailures.git
 	branch = master
-	commit = 0d0bdc2b4523f2647b15e234582b7d24c8687be1
-	parent = 9b6e823e35a44f74089874da658f133487e0f1b7
+	commit = 2a64793736f7ed32d2975e9ffe863a9539d65844
+	parent = f37b924e5b4a533c3a67c8f6a880ce0b6b311d81
 	method = merge
 	update = auto
 	cmdver = 0.4.1
