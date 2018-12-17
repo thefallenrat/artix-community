@@ -1,4 +1,3 @@
-@Library(["PackagePipeline", "RepoPackage"]) import org.artixlinux.RepoPackage
+@Library('artix-ci') import org.artixlinux.RepoPackage
 
 PackagePipeline(new RepoPackage(this))
-
