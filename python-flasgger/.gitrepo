@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-flasgger.git
 	branch = master
-	commit = ddd36fab66589d920ed00f35d90ab04fecc76a38
-	parent = e12b1fd6f46b63071b8e6c524c7270b8578bd273
+	commit = 25c3afe9e207d2492ef8c846a360d84f71b12d4d
+	parent = ca66aa3d7684a4566a4bc2b1bdc7d21f000c4443
 	method = merge
 	update = auto
 	cmdver = 0.4.1
