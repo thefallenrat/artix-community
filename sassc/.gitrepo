@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/sassc.git
 	branch = master
-	commit = abce1031730b51e2ac664b40598ec03ad04f7173
-	parent = fec87892e2582f8ea7892b3564b9b4acecaa85f8
+	commit = 6ce1be7c81266036b2e1b1243153d553e39018dd
+	parent = 5afab5b5943189879445114561d3f8ba1e277e3b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
