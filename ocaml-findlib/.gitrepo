@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesO/ocaml-findlib.git
 	branch = master
-	commit = 8d6432cb6a68b433adb224354e24254551fa7a1f
-	parent = 2e70e81739391d7aaee03d134fa9faad15977a70
+	commit = 3d2244701da30d899c7b22ed4f7c3f84c2882a74
+	parent = d9981aabf7129465b7876eb7de7eed10e69dd638
 	method = merge
 	update = auto
 	cmdver = 0.4.1
