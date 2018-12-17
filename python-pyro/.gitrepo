@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyro.git
 	branch = master
-	commit = 98ad943f7f023f9b868a202444a43c83c0222ddd
-	parent = 7b655d0c0aaf4b4461a15f7fe9fa6d0884d423f0
+	commit = bfbd1cfa241e5dfc921a7eda929ad67e5c77a8b3
+	parent = 7c9cc497c295f3c14e7acea0c63bf47dc7265ac6
 	method = merge
 	update = auto
 	cmdver = 0.4.1
