@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/autofs-runit.git
 	branch = master
-	commit = f53d02b703ab2ed45679e75e460e95f03bb75841
-	parent = 4570a84ee68f820b53671407270eef39d91d000a
+	commit = c30987da15e5c8079281f279bf0bbe905c1a9c36
+	parent = 2e7ad3c3189a1c572f63f23620554a1660000dd1
 	method = merge
 	update = auto
 	cmdver = 0.4.1
