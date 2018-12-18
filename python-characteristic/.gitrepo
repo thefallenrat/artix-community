@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-characteristic.git
 	branch = master
-	commit = ff29a09ebad978668dd5389a992e05b6fa13b8e1
-	parent = c988971037b741ee0d59f1335db1ed55c6078c12
+	commit = 099b4c2c037869b362606c05f8dec80cc9609c8e
+	parent = b30327e1d6c42465002b9673e4aea69f693c3b3a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
