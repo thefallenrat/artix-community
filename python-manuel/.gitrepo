@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-manuel.git
 	branch = master
-	commit = 9abbdf311a74532be93336264358fbea5ca0a70b
-	parent = 11317e3eb698ea9f7a4390560a79a5c421550acf
+	commit = a63a68987ff1bf828dc50f239928a6def1b938b0
+	parent = 239762e31bff9bff3591b5c7c44e5a3b5e35806a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
