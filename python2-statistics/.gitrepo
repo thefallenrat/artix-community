@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python2-statistics.git
 	branch = master
-	commit = c0f11b812797db332c163ecaf69c9fec6fe2dc3f
-	parent = 5a616d7566b89f5d2c6ec493d6572915c7fb04e1
+	commit = db2fab021ad91149a8a0d406b7cf69510d3abdf1
+	parent = 8e9e2ab69a03e94579325dbdaa4ca9791933e354
 	method = merge
 	update = auto
 	cmdver = 0.4.1
