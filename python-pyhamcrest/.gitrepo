@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyhamcrest.git
 	branch = master
-	commit = d2cc9492420fd9fc21f911753461eb7e46602688
-	parent = f65e2a57ded1e382cc84e190c6500bb209401a3b
+	commit = 27fa03716cb2ff1b6316ed04a828ddb7d6fb9bbc
+	parent = 16572cace62354420f849538671bb36fe0f7737c
 	method = merge
 	update = auto
 	cmdver = 0.4.1
