@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-objgraph.git
 	branch = master
-	commit = 0a0c8c81498d4159f4b42d4b0dcee465bd557f0e
-	parent = 6e09a3ccca645c2ccd9ae3043e13ffe675cd5a84
+	commit = a4beca0ba3d3a48c49e6992969ba096f8a3e8582
+	parent = cc30b76d9c853b3a83aa76e230688570167132ce
 	method = merge
 	update = auto
 	cmdver = 0.4.1
