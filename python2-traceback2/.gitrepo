@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python2-traceback2.git
 	branch = master
-	commit = d0d7c92a145685edf6e157f7e3e5dff12c72c55f
-	parent = cd14b05589c3ea7a4af1c5be740e2fedd4f3059a
+	commit = ce21c6776b16f1150ae593a6cdddcdc0686a5b1d
+	parent = bc9b4f2e56c50ac5d96edbe534e10c59aca0aef4
 	method = merge
 	update = auto
 	cmdver = 0.4.1
