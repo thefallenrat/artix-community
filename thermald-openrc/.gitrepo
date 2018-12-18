@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/thermald-openrc.git
 	branch = master
-	commit = f55415b0f84621f4e3440b8b844d63aa74032f13
-	parent = 6d10d968479169eb37ed7bc8a07902f87a8ab5c7
+	commit = 73917d5670da4210a889361a1b132c3dcd778052
+	parent = 290040274aa4a8448384952cd07087702ab85506
 	method = merge
 	update = auto
 	cmdver = 0.4.1
