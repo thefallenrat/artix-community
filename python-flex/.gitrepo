@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-flex.git
 	branch = master
-	commit = db08918a597715ff9938d33ef2f29acd7d8ca823
-	parent = 0b95e9e412be2815e99fec5a4e4089418e35d4b4
+	commit = 471e4de4c3681a0ee32d84bbdab523d32995c2dc
+	parent = b4c92b4187e0658d9fdbc7edeb3fc9fc00a82485
 	method = merge
 	update = auto
 	cmdver = 0.4.1
