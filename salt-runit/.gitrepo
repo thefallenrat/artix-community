@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/salt-runit.git
 	branch = master
-	commit = 27bb370d8f9b9cd7a8355d7131e73ace0f20eed8
-	parent = ed3cb267de93a56fda7d65660762c40c367d838d
+	commit = 4150d2a6b3c8e74a461c6cef7e2e34a9f1d663b8
+	parent = 93683d444980ff7ca634bb3d081308bbd97a3b5d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
