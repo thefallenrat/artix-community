@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-genty.git
 	branch = master
-	commit = 2d6a6d15be31b8381d39d2692c55c1f9266f0e21
-	parent = 85ffd8e421de8962694df1af286ee62945f1f950
+	commit = 525f0e7a61490080e4b664b31bb1f2207265f9fb
+	parent = b3fd090912cf0bf3e1c2a51b77b925b070497ccf
 	method = merge
 	update = auto
 	cmdver = 0.4.1
