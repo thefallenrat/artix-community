@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/terminus-font.git
 	branch = master
-	commit = 9ba8c4f449566caeb85a9b856cf613f4bd0a112b
-	parent = f16e31bab7b2591b95284968f5b948a3e7ddd8ea
+	commit = df72438ce85cfc1f61a0ab4b559ee34b454e2df0
+	parent = 8e100fdc55c859e793f39b7713ec4893353c5cae
 	method = merge
 	update = auto
 	cmdver = 0.4.1
