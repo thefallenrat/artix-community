@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyflakes.git
 	branch = master
-	commit = 6f8908022a9bf737aef9e9f86be796278e98dfdf
-	parent = aecd247da93e158eeeab6986b32cf98ad8c65ab4
+	commit = 2feb546fd9602ee0e6e53319b4dc0f1fbe09e648
+	parent = 8d08cd2ea0cf5521fc94c5906df2d461162a4608
 	method = merge
 	update = auto
 	cmdver = 0.4.1
