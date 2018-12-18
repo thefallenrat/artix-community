@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-aniso8601.git
 	branch = master
-	commit = 467e97449b0e495c4cbe609912836ce8d50f2078
-	parent = bfb36ccab22d84bbbbbadf583bad1092a1281817
+	commit = 9b608eff84e9a03b368d75ebab6ad11df6c52ee8
+	parent = d1253fe11faac16864a1be1efb21aa7934267e94
 	method = merge
 	update = auto
 	cmdver = 0.4.1
