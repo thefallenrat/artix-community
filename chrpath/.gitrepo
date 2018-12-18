@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/chrpath.git
 	branch = master
-	commit = eb5c624127b3cb19e71d5c08e6251b1d03abf208
-	parent = ea11747155103c3fa0b499a9b056965054bca599
+	commit = f89967c7380ab444726b933c86e9fa9577aa2a9f
+	parent = effa05c1e0448f533e30708a353999dd496cb433
 	method = merge
 	update = auto
 	cmdver = 0.4.1
