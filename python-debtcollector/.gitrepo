@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-debtcollector.git
 	branch = master
-	commit = 5cff8f56777efb131978e8ef83cf613513a7acf6
-	parent = d98d1d22e7d7da8502c5607a4bc67c72da296a44
+	commit = 8a4a2b70ee6e4574deed80b7ba442c51772562fc
+	parent = 918dea93ffe7a2638744b390be42a7669c256528
 	method = merge
 	update = auto
 	cmdver = 0.4.1
