@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-xattr.git
 	branch = master
-	commit = 2b7d8f0386e8b22366996a016d1e30cc33c3a7ee
-	parent = f1ca39ff5170823ea02fd2455e9c001d2fab0d44
+	commit = cb8496a3fca51e1d67821898d988a87dda223d5a
+	parent = faffe0bf03776e1151ee91fa5d75ec1df67f9e5f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
