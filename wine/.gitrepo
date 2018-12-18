@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesW/wine.git
 	branch = master
-	commit = 30cb740cf6d52982a39764c3f02a87cb86f5ebf0
-	parent = c02c86ff76c46deaaee9e7988717f1c7300fd4d2
+	commit = e81ae2a0f1a11a96447f5bc7ab6854364d19f3f2
+	parent = 4b721803d803a5e484b10a70317da64b3ec3457f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
