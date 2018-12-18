@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-secretstorage.git
 	branch = master
-	commit = 1e44ed6b25c70d72960b9f049cf16ef4a45af75f
-	parent = 51036a48b9519ecdc56ab8b4a6a9e49a3ffe447c
+	commit = 8c4ea5ddf19e0e2a9057af0c51f11bb620d972ba
+	parent = edae160c724ae48321eb89511ef9ec1792799a0e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
