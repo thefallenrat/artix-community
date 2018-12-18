@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-cairosvg.git
 	branch = master
-	commit = b39d198c106ae5c9afa388383ec89e1552d1c84e
-	parent = 73b55e9808474a86f056681b4f5305f2595207d3
+	commit = ce7392840eb5c5ecda39f32266e801c369927a0c
+	parent = f70a589c1158b140fd322fb45ce02fd186854cba
 	method = merge
 	update = auto
 	cmdver = 0.4.1
