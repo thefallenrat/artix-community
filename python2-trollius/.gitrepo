@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python2-trollius.git
 	branch = master
-	commit = 872d76ab24414eed29cad95462fb1df57b82bba5
-	parent = 188d8d5d8e4d2862f456007b27c5a0b0e834a316
+	commit = 5db29b4f8759a56c59def79c630bc644da50ea65
+	parent = f0111f1af80cb11d2d83ee9c8699ca3b3205a567
 	method = merge
 	update = auto
 	cmdver = 0.4.1
