@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python2-funcsigs.git
 	branch = master
-	commit = b78c687002b9130f81e081a579bd9043b3eef44d
-	parent = 05da993d0ce955fff02d755f5b1e462e972020bc
+	commit = 3715c6987892e14d2b133cd8b15e32fe5a90461d
+	parent = 6545669ce4ff7a2259f54e6006f888ccbdb6ca53
 	method = merge
 	update = auto
 	cmdver = 0.4.1
