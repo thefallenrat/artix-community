@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesM/mktorrent.git
 	branch = master
-	commit = 4fc1117995163e4dd41b4154b2b274245ef3a551
-	parent = 58ef0606f71519556b0c62f65ba399671c38c645
+	commit = 1fa0ea4c37a5e9a80948f28aa85a3dd551e15d22
+	parent = 163eea2fb1b408162ad644f2b9de0648a35dd12a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
