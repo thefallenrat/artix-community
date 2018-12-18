@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-marshmallow.git
 	branch = master
-	commit = a09b0130b77fe12e89a15f39007205009eb989ec
-	parent = 2e5c64e07d0d4f3a29a853e28f25465c3d70c3ac
+	commit = afff0d3796d671e7a07ccc1655690990dcd70fe2
+	parent = 3a315123c9bc57c510b47986a19e34fbfcc7f141
 	method = merge
 	update = auto
 	cmdver = 0.4.1
