@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-click.git
 	branch = master
-	commit = 39fa6f3a1f925b453384e7f2461ead5dd4c55a87
-	parent = 06efff06469dec30f9d864d553922326fe32e4ba
+	commit = 0c71fd88e2e24d2f2cd3a6cc0ca3874e98b992fa
+	parent = 925f91886598d04c940ce12d0a5f437cf5dee25f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
