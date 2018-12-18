@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-webtest.git
 	branch = master
-	commit = f8b19f67d45f69b1a5bcd111e096d719cea529a9
-	parent = 7dbbb0bcd137e809b089430a33c493ab76dbf3b3
+	commit = 0fa4d35a9e0e46dd7ca1a570bb65543aaee1e251
+	parent = b096ffe61d9979a5f559d7e91caf2939a6335c16
 	method = merge
 	update = auto
 	cmdver = 0.4.1
