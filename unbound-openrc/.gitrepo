@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesU/unbound-openrc.git
 	branch = master
-	commit = f9126b3ffe1bdd3e46d9acd8160e6fe325c09e1c
-	parent = 29f8482415df3f71c0b2019e68b3ca3298511b80
+	commit = 6e5736a90fcfaf90da2ea370c024b6261d97ba3f
+	parent = b9a11a48f2bdbc05b1c83b371a258331cdaf8754
 	method = merge
 	update = auto
 	cmdver = 0.4.1
