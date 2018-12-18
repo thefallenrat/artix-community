@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesO/openntpd-runit.git
 	branch = master
-	commit = 857996b8fb80ddf38c30e41a187319e694df439a
-	parent = e5d36df6adbfe0c3a75d25d9a6b54da3d72a3d33
+	commit = e9e98f9b411aa19befa63389d5177622a20039b6
+	parent = 8c0203ad3ae76d98fcd1b8e7de1ac80522be6f37
 	method = merge
 	update = auto
 	cmdver = 0.4.1
