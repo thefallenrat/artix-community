@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-glanceclient.git
 	branch = master
-	commit = 8c00f9023bab982cf3fdc7528a6833e925ae02ab
-	parent = c00f7656e187885b85b3dd5d22cb5316489df368
+	commit = a3ba1f3039730e4e45ab10f8108d13fc41b25443
+	parent = 3a38150e6e69b53adbebfc7baa7ca5013472a639
 	method = merge
 	update = auto
 	cmdver = 0.4.1
