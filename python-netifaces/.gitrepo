@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-netifaces.git
 	branch = master
-	commit = c19e7b7de5cdda8929e02def842f570a43ebb492
-	parent = f0283c8c5225e3e0d9f5a649d1fe834ee86b224c
+	commit = 2c1b02b16741d98276b43f9073f1d404cb68760b
+	parent = 1795325f453d8350cc6a991cb88effb9064737b2
 	method = merge
 	update = auto
 	cmdver = 0.4.1
