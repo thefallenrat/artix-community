@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-zope-exceptions.git
 	branch = master
-	commit = c08c7196036e6bc4861f26fbb2570b7997e802de
-	parent = b87ecffcd06ca9757f848321db9eae0489b1fee6
+	commit = ac260e92a8de825ff64e3309485042d10e8cbc40
+	parent = 643ac5c6c21e1b340557bf6ac5bf704918d39090
 	method = merge
 	update = auto
 	cmdver = 0.4.1
