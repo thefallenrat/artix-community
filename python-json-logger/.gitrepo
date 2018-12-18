@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-json-logger.git
 	branch = master
-	commit = 66135a8900a1bb7710dfc3e3560fbd92339b0b76
-	parent = 8c2462c6326af9c734f9da8c376277eb50b9e7b8
+	commit = 05db057b0c2c60332b2191fdb402f867ff22a02b
+	parent = cc2518543bf9efb8237b7f08327f53d313651dde
 	method = merge
 	update = auto
 	cmdver = 0.4.1
