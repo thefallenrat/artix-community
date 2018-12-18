@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libftdi.git
 	branch = master
-	commit = 776fe86b27cb4b6e7314a94b62a985541e2c9f63
-	parent = 5e711d9680cefb82579d56c73aa2fd3a2eb05df3
+	commit = f371668fd23968c366b6f9b0cdf1b41dc1d237aa
+	parent = e367fb5c3061ba107d758990130ad8be96414a43
 	method = merge
 	update = auto
 	cmdver = 0.4.1
