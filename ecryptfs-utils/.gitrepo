@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesE/ecryptfs-utils.git
 	branch = master
-	commit = 57aeb70a00fe16247be2f073be3876d27d3ec159
-	parent = a55d410ce52d64aee81791b82c69dbef8e171bcc
+	commit = 5671028916dfa19b5a511e08bd9ad9163adf28a1
+	parent = f76ec2363f8809889bb1f6400cf5cdadad350d30
 	method = merge
 	update = auto
 	cmdver = 0.4.1
