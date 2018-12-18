@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-psutil.git
 	branch = master
-	commit = cc4a3b03f24af8510db615c32370eb0f416473cd
-	parent = a7348948d7c9983fda4da68572e01ac9d567a856
+	commit = 5db3af0d4983e80267153b47aaa34cfec9cf7e26
+	parent = 009738c576af335271a28a8ed8badbacba85edbf
 	method = merge
 	update = auto
 	cmdver = 0.4.1
