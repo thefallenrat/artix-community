@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-distlib.git
 	branch = master
-	commit = 6da5ec1f3fce52bed45c7a29392d845b81f04c4b
-	parent = a8936e4d6a4ddcce93fded23e0c5bf7cf6a54d01
+	commit = b204faa252d4f24ecb9519e3cb664b1615d76f86
+	parent = adaff9a249ed7e70b5a5bd07de1a19fdea8e5343
 	method = merge
 	update = auto
 	cmdver = 0.4.1
