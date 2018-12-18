@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-factory-boy.git
 	branch = master
-	commit = 83d89a38277fe6bdbb88b2f9f3ab77fddda8de1a
-	parent = 8668443f3c8c628c6e4e5bb3d41eca2f83d52740
+	commit = 86c3cdb3a2183b300f202b06b0d33621d8325397
+	parent = 974283459ffa67fdc8ef1a5c1377a096fc111030
 	method = merge
 	update = auto
 	cmdver = 0.4.1
