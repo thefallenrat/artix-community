@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesX/xcursor-breeze.git
 	branch = master
-	commit = 0c37704abfa2d9168d15c8f32aff5eddca645bf4
-	parent = be34edfe0418a7ab31e7ba646e0d8ea22a2ad9f3
+	commit = 35eb62a02e3b8654cd0253eb07616e826742b681
+	parent = 088f073a387c9492065f01529f42e915bf3f86b5
 	method = merge
 	update = auto
 	cmdver = 0.4.1
