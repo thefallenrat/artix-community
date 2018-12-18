@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-keyring.git
 	branch = master
-	commit = 684eef53ef805a54fe28847d0194eed9293c80af
-	parent = 0448ce0b83dc681c4892e07754796cfc16e53305
+	commit = 0c867fb1bb072ea19d5eccf8a59326b351b7ce96
+	parent = c95119a4b860666d5d412123b029044d81a3f28a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
