@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/syncthing-runit.git
 	branch = master
-	commit = 1d3d5177ad9514792f63845618ec8e05d9aeb95d
-	parent = 9dceab7d3f658049698b47b6d15f833558b239b4
+	commit = 788a7046f383e6ee90b36894f450fa07e3050316
+	parent = 699aaaa5fe44833be61a11138013b4e27215a724
 	method = merge
 	update = auto
 	cmdver = 0.4.1
