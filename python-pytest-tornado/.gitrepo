@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-tornado.git
 	branch = master
-	commit = e259b48b8dd283e0e8b71296abae532b997778c7
-	parent = ff13c613725f490fe86ec0fcd9df32bfd4409067
+	commit = 09fa8dbd0040e47dbf2b1483ee7d5904c70bb9fc
+	parent = e2ab357340e90777cf589ade773a89ff084de289
 	method = merge
 	update = auto
 	cmdver = 0.4.1
