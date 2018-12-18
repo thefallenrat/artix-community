@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/cmocka.git
 	branch = master
-	commit = 54eb77b884a767641cff00f64a67df2cb82278ae
-	parent = 28626a5405a544c1315387c3f62d8d67d963e1da
+	commit = c75e1a1f864e7da764358f0e7460d6fb49a91f04
+	parent = 269fc1af570e4b1ba52d168d41756ec803db43b7
 	method = merge
 	update = auto
 	cmdver = 0.4.1
