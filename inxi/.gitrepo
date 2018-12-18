@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesI/inxi.git
 	branch = master
-	commit = 0f189738cbe5db95143dda0acbfc0a496e5f798e
-	parent = 58439bb830a4842cc6c92362caa3ea2981a6457e
+	commit = 8357cdb934f6094ffcba1d1dadff9ec35d32612d
+	parent = 0b4616a93afe7a9516641f842bfb3aa2e3c71ba2
 	method = merge
 	update = auto
 	cmdver = 0.4.1
