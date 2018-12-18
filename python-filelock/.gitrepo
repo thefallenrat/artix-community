@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-filelock.git
 	branch = master
-	commit = eb676782b768aafcadf50153134b21c88e045601
-	parent = 2ec496e9dc3169ac2615c577f3329201bcdf4691
+	commit = d01c939d9c1718b0fd48d26d4a691c98cf473e37
+	parent = 15a47d78a110dc6507a7e25f4abc6c0908beda93
 	method = merge
 	update = auto
 	cmdver = 0.4.1
