@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-execnet.git
 	branch = master
-	commit = 4e08128e29ef6c78f2eeb31648143553b66da11f
-	parent = 771f3543ec4986609b470ef5e8de94d0bc87ccd0
+	commit = 7908a28bf2b325443e9b0b5787bd0e93f5c1ac96
+	parent = d157940b41aca02cb67942b8eeec4b047ffa1927
 	method = merge
 	update = auto
 	cmdver = 0.4.1
