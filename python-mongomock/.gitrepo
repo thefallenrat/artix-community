@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-mongomock.git
 	branch = master
-	commit = 2317f7b40e29d8b7f780d2baf275e8c197f296de
-	parent = ff551b899cce74727afd51d0d3b117a66fe4489d
+	commit = 953180bcf6b1dc68f1bfe331822f0d5aa8e4eb2f
+	parent = 9b6062b631ae38605be0a3a66ba95f48fd2de21f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
