@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/privoxy-runit.git
 	branch = master
-	commit = 2291708e33953748272168b90d94ee5ec08919d3
-	parent = eb6721a737824389bf222706928f125ec4968b83
+	commit = 670fe4e1496067fcaf0df028441ebbaa30d2e88f
+	parent = fd5613f7dfea06b23305fbf783c6a5f0dea57ada
 	method = merge
 	update = auto
 	cmdver = 0.4.1
