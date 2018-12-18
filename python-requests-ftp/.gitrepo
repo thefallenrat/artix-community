@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-requests-ftp.git
 	branch = master
-	commit = 911853d9500b4d403ec2d782298286a6a9f01faa
-	parent = 031bb1e22aeba9b396a722f722e7b9819ad2567e
+	commit = 08fdc3d6b77164133993ef6642c60f0072ad1b71
+	parent = 42530bdefe6938c862828d5bef1e906ffa4388ce
 	method = merge
 	update = auto
 	cmdver = 0.4.1
