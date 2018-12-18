@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesG/gitlab-openrc.git
 	branch = master
-	commit = 4134451ba5f03e0f9ec07b45ffbf862ad59e8efa
-	parent = 622374661ec8c3e0567acf33c50f84ba94baf499
+	commit = c566eab632e09078103f1842475df3e7ec1c6bb2
+	parent = 8f19837bae0a9aa5bdee39d346f9dc7617b6616c
 	method = merge
 	update = auto
 	cmdver = 0.4.1
