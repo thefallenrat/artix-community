@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-memcached.git
 	branch = master
-	commit = f01c93efd3d06b017efc7ef5f52ed8b5caf34fab
-	parent = d3e62b310f616f52183a103f1a0696de6aa04021
+	commit = 893537a697dcccf9c3b5a3fe170a28f3f50ea774
+	parent = 8e66f44c3a2e18df2194d049d5af3fd5ff977260
 	method = merge
 	update = auto
 	cmdver = 0.4.1
