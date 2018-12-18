@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-snowballstemmer.git
 	branch = master
-	commit = 4e5e77acff9a3da530be623fa2e668bbf8c5e5cc
-	parent = 7758d216b000c62619fd571f6090eed8db692224
+	commit = 952d217ff3b42ab6153980c55a19892180283953
+	parent = 618760472e4627528c77be241c16610c03d53f1e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
