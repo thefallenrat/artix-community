@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesI/i3lock-wrapper.git
 	branch = master
-	commit = 9d2f66102efee1f0ab67831592df04a742329ee4
-	parent = fd45e9af267cc144d03351beb9d0c504426c92de
+	commit = eca5dbf24efed1b13759fc81a154c17dc02e1c52
+	parent = 482984f2ea8739d225731e310242edc7350eec3a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
