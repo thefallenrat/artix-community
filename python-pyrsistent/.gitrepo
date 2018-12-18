@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyrsistent.git
 	branch = master
-	commit = 3cb27dfeafa8c2aadfc72a2b8ce2af5c27940648
-	parent = e5b5d870f3cf4a16527115c606a97fc701ba84a4
+	commit = a06afede8bc2830d4b99419141b120acacedb812
+	parent = c9ffde2c32e5375a3ed18c08b9bca0a02d75159e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
