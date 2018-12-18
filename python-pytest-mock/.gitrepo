@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-mock.git
 	branch = master
-	commit = 0329e3cb90bf7810511626c8a94a3ddf3293c80b
-	parent = 88d899aa4fbe94d9b05a13ed0c644e7a0f8b8637
+	commit = 2b212d5dec8a83e875e409a6c4bc175f8c5e9619
+	parent = 290b04204d68a248b0963c2129000b3252b2668c
 	method = merge
 	update = auto
 	cmdver = 0.4.1
