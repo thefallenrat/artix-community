@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/lib32-v4l-utils.git
 	branch = master
-	commit = eb69104ae140fde7b9c0b52d2adac9b6c2801b08
-	parent = 0f425522d584f5008bc8f7b6e99e9a955371080a
+	commit = 9fbd7b7d48d85702485b5d9340bd070892cea282
+	parent = 818a43fd98f7038117743b1bc479deaa07215814
 	method = merge
 	update = auto
 	cmdver = 0.4.1
