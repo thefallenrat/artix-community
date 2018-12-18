@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesN/neofetch.git
 	branch = master
-	commit = 35bc506e892084cd06de79d6d57c553d6ddda16a
-	parent = 790b9e1f1d0ca83ae7ee7865a8af39032c5e0f49
+	commit = 3478e274d295888480555d1fd24bee044a378615
+	parent = d4c1e69e88d11701bf699dfcebfcb6cd44d3b5fd
 	method = merge
 	update = auto
 	cmdver = 0.4.1
