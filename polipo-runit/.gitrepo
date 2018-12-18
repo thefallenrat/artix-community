@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/polipo-runit.git
 	branch = master
-	commit = 6a060782c267a22305fdb9731d799b6164bc0d1a
-	parent = 14b3002cee218fd3703ee6e25f3e5e2f725fecda
+	commit = b1ce7c5e672cf93a3e32f2cb7739b6ae36a72fb1
+	parent = d64bafc1f296c739fe882c7cde68ecf5717f6a6b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
