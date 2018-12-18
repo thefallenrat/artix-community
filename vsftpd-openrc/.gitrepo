@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesV/vsftpd-openrc.git
 	branch = master
-	commit = 5638f274432fe54aa74b9669dfde7b892cf7aa7f
-	parent = 7a775aa503cd67c8023e38eafd06e181ad88d913
+	commit = f35c41e0d9bb363379612d6feb07a54ea2b1d34f
+	parent = 87fe828336816ea3e5be86dff2fccafa62d6739e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
