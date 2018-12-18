@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-exam.git
 	branch = master
-	commit = e414436f6f8994828f3b3132a42d86bb91b2a8e8
-	parent = 035375b1cace5664439445c1c8f0c651da14eeb5
+	commit = 8c4c0fd155b3a34b718dd6246a56daaee8f45f7d
+	parent = 004c3db3c4495d5118619babd1b659150ae28feb
 	method = merge
 	update = auto
 	cmdver = 0.4.1
