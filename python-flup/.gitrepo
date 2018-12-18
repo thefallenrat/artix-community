@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-flup.git
 	branch = master
-	commit = 9e1ade99e2de45cc87858a88ef0fa05f2fea8962
-	parent = 98caa5b42365c058d3f338d83607b1f2f6454c0a
+	commit = d750285b60a40e49c7941eb82858f68067b66c80
+	parent = 9364626ae0838ed37034d87db7ab92cee370281e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
