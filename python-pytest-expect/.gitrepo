@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-expect.git
 	branch = master
-	commit = 9dc6434a59169263ea3a8d77524977ac26dec127
-	parent = f7a4f129493220aae123938bf99c950a68a2cbe1
+	commit = 85fc3aacb661b89f4d42ea6371e266e6b5ab69a3
+	parent = 53b878efcc14ab09cec21ffa2d35e092d45d6569
 	method = merge
 	update = auto
 	cmdver = 0.4.1
