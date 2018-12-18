@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesD/ddclient-runit.git
 	branch = master
-	commit = c5f629c6f7ace1424ae9b7858aec7ddd7494aee5
-	parent = fa109c53e92e0868102ffc24b5b280a460b0182b
+	commit = f476af3338d22f92f7cd7039e5582c5fe5fd1c32
+	parent = 26fc887b311a2b8c54ff735768671c04dfa7ac69
 	method = merge
 	update = auto
 	cmdver = 0.4.1
