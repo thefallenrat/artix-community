@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesE/espeakup.git
 	branch = master
-	commit = dc7357c28fd2bb01b44ef3a99acb888d478aaf1b
-	parent = 1493cd8ef2d1caa9cc84fac32416c7dcb246a3ee
+	commit = d9b2f35f3c62fd30e95f153349d30aeeff188a89
+	parent = cd88910381cdfac41c651efd05b21778fb5ab8ab
 	method = merge
 	update = auto
 	cmdver = 0.4.1
