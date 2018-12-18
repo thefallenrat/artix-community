@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-cogapp.git
 	branch = master
-	commit = 301ddd8fee46578f9d2ac2df1dc9ed6895d60d83
-	parent = 1088c68e8ea4043c1425a02b3426842b93da7a29
+	commit = 242dce4eb43ff10743de0cced8eabd7e4996c982
+	parent = d8b55465c47d5b18dec7f858fef89443a0d27a90
 	method = merge
 	update = auto
 	cmdver = 0.4.1
