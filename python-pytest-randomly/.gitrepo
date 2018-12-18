@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-randomly.git
 	branch = master
-	commit = 180f93b825ae0a916fe5ca60f19eac678bfe7bb5
-	parent = 8fe771d5a03ee2e9646b89e2481944ab99d3018f
+	commit = f6600ceb85f55b7d9c30dd1c4685658ce12aa5c6
+	parent = 16fafe3b8989561c2a9b8103633d475de90a022a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
