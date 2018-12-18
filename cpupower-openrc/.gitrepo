@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/cpupower-openrc.git
 	branch = master
-	commit = dee88568c88d9f0c8b6ff6beb7a8cd10feb3ca6e
-	parent = 8a8a1d8d73230260d3103495e5186ac5c4524fd0
+	commit = a61fd97cbbd94dd341c5f5de91c6819c84fdd3d3
+	parent = 7540713edfa81ae8e80c3f58d027413cc5069dbc
 	method = merge
 	update = auto
 	cmdver = 0.4.1
