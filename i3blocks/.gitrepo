@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesI/i3blocks.git
 	branch = master
-	commit = 70c6ed6edf4d08e325a6fce531fd8f9c0b86be17
-	parent = 2bf73e807b5953eb1b38db0d0ad5434e22028f43
+	commit = 4803c20888f75b2e865248f7c4e3609de517ec48
+	parent = 3095a17477ea497a3f1c05eebbcd49bb3d570bed
 	method = merge
 	update = auto
 	cmdver = 0.4.1
