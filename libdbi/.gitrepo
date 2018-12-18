@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libdbi.git
 	branch = master
-	commit = 385effb1da6eeefda307e15a03439d66493da7cb
-	parent = 65b91fc3dacf0864703b0c6b2abfa23c1009f92b
+	commit = 0d477b7c3d8ec9dca42a6f64916b97004a064df6
+	parent = 8523e98a0dc644c4b252d027828c02cda2c5c2d4
 	method = merge
 	update = auto
 	cmdver = 0.4.1
