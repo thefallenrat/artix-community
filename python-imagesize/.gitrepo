@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-imagesize.git
 	branch = master
-	commit = d8788301bb990bfe7405084962a6f390a8c2e642
-	parent = a96492b79f2d61c87e4658597279339ba8ca5583
+	commit = 9d6e018cbcb81b79abf105ae3f23efb820f99dc0
+	parent = 927cdd7d78c95e04ca01544ff8c221e595e70f0d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
