@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/ttf-inconsolata.git
 	branch = master
-	commit = 104552b28adea2c32bffc7a2d964b148b578c74e
-	parent = 75f687c08731dea7073068ae0cf264c17571bdb8
+	commit = ec4805b310316d1cadd7db3c15363064f16b40ff
+	parent = 490a937743dc5ec2b269d75d611e515f24abf514
 	method = merge
 	update = auto
 	cmdver = 0.4.1
