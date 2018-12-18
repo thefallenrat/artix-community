@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libconfig.git
 	branch = master
-	commit = f49fd222ddd7d2c78a7c257aeefff6a4957ce6d5
-	parent = 9343c92014c8cc56bd2e1688a0f3daabd933edd3
+	commit = 12a29007ce4f0f744afc5e41818d043254c26f3a
+	parent = fabb7419c8598baa648f973c8bcda778bbf4f014
 	method = merge
 	update = auto
 	cmdver = 0.4.1
