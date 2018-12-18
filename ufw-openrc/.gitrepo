@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesU/ufw-openrc.git
 	branch = master
-	commit = d5a6da1c8696b5ee5095bef935aaaed1d6ba4df6
-	parent = 804287f6f238e3c1104f71cfc19d6c521436e4cb
+	commit = 0a01c90ebd70a8e2b785ee1b94a248d049e67135
+	parent = e62fa063a40f61ea6a32c8bf896e2fdceddd92d6
 	method = merge
 	update = auto
 	cmdver = 0.4.1
