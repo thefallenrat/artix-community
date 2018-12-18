@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/cinnamon-settings-daemon.git
 	branch = master
-	commit = d9a56f53fb1b5cbc75aed8de7f43c6b9929beb9f
-	parent = af1006eabac87ad0f8e4d1cd74b81c54fa6a5b26
+	commit = 2825731e42868710fc199d457fbe332d5f4bc5c0
+	parent = cdb339f67fee3474c3649247406234faaa2d396f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
