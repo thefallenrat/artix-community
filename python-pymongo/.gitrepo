@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pymongo.git
 	branch = master
-	commit = 1696357c15c61358e256d7c9ed4d594b5a4aa1b3
-	parent = 0f71de318bf4d7b13e2ef0c99a3ce7dffae212d3
+	commit = 6c27a6dcb242ea52a802dc951226e842b4704b4a
+	parent = aad8da57ef11733bc6687dff8af858bc02d4a3d3
 	method = merge
 	update = auto
 	cmdver = 0.4.1
