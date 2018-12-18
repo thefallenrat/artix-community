@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-jsonpointer.git
 	branch = master
-	commit = f3cc2c9b98445029e26497803e672bd59b356ae1
-	parent = 743e16e24006502568fea7cb7410c5c29948828a
+	commit = 0212049292ebef263640acbd9dafe05757b50d9f
+	parent = 2f8d07728146c325f4f7dabf0efb1dab470f2705
 	method = merge
 	update = auto
 	cmdver = 0.4.1
