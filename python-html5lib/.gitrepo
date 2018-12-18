@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-html5lib.git
 	branch = master
-	commit = e22a095f86875c6f95df8f240a046c99b8bd8ec3
-	parent = 216034989f5600d23b016a960ab225742ad6a6aa
+	commit = 21ab9361022c8d0c3d807bc74586e722c9c85468
+	parent = e2f913e40c2104e15f693aa4667101d0a94b65ef
 	method = merge
 	update = auto
 	cmdver = 0.4.1
