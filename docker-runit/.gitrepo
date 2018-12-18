@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesD/docker-runit.git
 	branch = master
-	commit = 7651036da3c19a008ba095b35a572b55cb925901
-	parent = ab321ce0b22fd79e761503f5daf7084c706db69e
+	commit = 321d64abbbbb278cc8c85daba2987e04bd72a0e4
+	parent = 643c4acf0ffc1d5be39deb6260d4e0eaa83cd10f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
