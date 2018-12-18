@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyftpdlib.git
 	branch = master
-	commit = 905bae7224b1539d4a70152c09c80906760aff34
-	parent = ca5d39790816f5beee8c367781fe5b0bd7896e33
+	commit = c1f3f35092b6817a932e643a18766c5b40475994
+	parent = 82059737bc3e9d7da96475745fe790a30be416fa
 	method = merge
 	update = auto
 	cmdver = 0.4.1
