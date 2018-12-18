@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-greenlet.git
 	branch = master
-	commit = 9c9de423b4136b40e1bd425ea038ee332d37cd71
-	parent = 1e39a3ea9bafeafa73e67c0a87c0acaf1d6bffa4
+	commit = 080a408d17982510d83225580340da055008970d
+	parent = cc3fc08bbfebe8075235ff9137009a811ef64540
 	method = merge
 	update = auto
 	cmdver = 0.4.1
