@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-mistune.git
 	branch = master
-	commit = 3752bd6e4160b898e1966cd7f061c1b8a6a152d0
-	parent = 5a73d1a556ca9f518327123440d5db654c213934
+	commit = 5b4d026162c9b0e848ad564de0275666d8d65fb1
+	parent = 7801007f12619ed0ab1541fd2df97c86cf125494
 	method = merge
 	update = auto
 	cmdver = 0.4.1
