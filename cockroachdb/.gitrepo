@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/cockroachdb.git
 	branch = master
-	commit = 8ebae961375ce3b9ff50f7f8dbafb24f982b651c
-	parent = f5148ae659ac54d66f6aa01282902c390aec44b0
+	commit = 107b4e5a3370e135000ed32894528248d92fc1fd
+	parent = fbfad013f213822edbf5bba57ee9c621f8b91817
 	method = merge
 	update = auto
 	cmdver = 0.4.1
