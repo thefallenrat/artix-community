@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-aiohttp.git
 	branch = master
-	commit = 1ccc4197bfb2caec57520e52e3f4e47d82705a6b
-	parent = c899c79224c055ad3407d53e173c7f70b85cd045
+	commit = f292c1fdeaaca73463f7255f9928f15700dff82c
+	parent = eda3b6e6b201de51acd2e69f05d05e75bb2d93da
 	method = merge
 	update = auto
 	cmdver = 0.4.1
