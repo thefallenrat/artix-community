@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-logbook.git
 	branch = master
-	commit = fd4f763032a2e8fc44cd1af14820547bea5c4e65
-	parent = 4dac21030c3d1365bf4efa5d1692939f7a306ee9
+	commit = 5f1e6067ac3e057b9d5287ab7f60d3e6d8169ccc
+	parent = ad09a003287d09923ff78a3ac2208387037b7884
 	method = merge
 	update = auto
 	cmdver = 0.4.1
