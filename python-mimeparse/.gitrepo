@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-mimeparse.git
 	branch = master
-	commit = e02dff6a43adc88ab9c6c52f78eef8e7a459fa93
-	parent = 8940c35ad5b2c32a30871100af874efbe006d860
+	commit = 730687a4894b5c22183631ca9dd86abf5d1a98f4
+	parent = 70c24931f9d5ff4254ce9513848306ca62c90982
 	method = merge
 	update = auto
 	cmdver = 0.4.1
