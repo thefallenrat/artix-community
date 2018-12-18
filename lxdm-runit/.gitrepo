@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/lxdm-runit.git
 	branch = master
-	commit = 2dfb2a67b3fb4bc0a499edbfbca9d6600b159d21
-	parent = 0c1d8ee4978cb6a50dd952020dc30bcc0d36e2b6
+	commit = 1e4cd043de79d277a4a4fd131de69d2e048f6491
+	parent = a36ec5447250c43dd5350d17a4bea901ed26351e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
