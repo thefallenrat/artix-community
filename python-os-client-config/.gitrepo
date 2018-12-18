@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-os-client-config.git
 	branch = master
-	commit = 929bf18e184e5fa8edad86626c2e859fff0c10a8
-	parent = f6c2e6c7a9343cfdc8f82dd88823d2248f3f1d3c
+	commit = b76a696e7be11471c361a008f97442c83d5fb750
+	parent = d852de7897e120d4e70302c89384deff57d8da82
 	method = merge
 	update = auto
 	cmdver = 0.4.1
