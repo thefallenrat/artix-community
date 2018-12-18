@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/acpi.git
 	branch = master
-	commit = d166db09ba351c51bda1f0e19fc934721736b2e7
-	parent = a49543d0e8e0e6093852818c1bb57aba3696ad25
+	commit = be185dcb6456232ebfe26511d3e703c5b384091e
+	parent = f81f8b4b633d30bcffc3e50cdd4429abfc60029b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
