@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/package-query.git
 	branch = master
-	commit = 998cba3b6278936b173d3e507eca87561c3cc371
-	parent = a0291645082734d44bbde21ad8074e50e1364eeb
+	commit = c342bf36110efe8434bc3a9b93d3af2d6e6fb436
+	parent = a99d5b917d4d9bdbdf14d8d6ada6ef4db0f71814
 	method = merge
 	update = auto
 	cmdver = 0.4.1
