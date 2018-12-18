@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/lib32-libltdl.git
 	branch = master
-	commit = 9edce6ee4b17d735486b8130dbe0774ae6349d74
-	parent = e27e0c9c2a829877aa71e20c407db4af9957a66b
+	commit = 7f427b3f98ca4c1cb30d1da4483d6c1d5f502cbd
+	parent = 1518fa061f3f3507d42094f3305b1762f5d46f6e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
