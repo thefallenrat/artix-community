@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python2-unittest2.git
 	branch = master
-	commit = 0f455f29bd40acda380fe8b8a1dd594565a25f56
-	parent = d017f75c01a19ac6b61008852b5706d1d3e9d8e2
+	commit = a14e997fb358df7cd6da43e00e68ddd7e94a0206
+	parent = aa470bc1334def0d39303104d5ff8eb88357d4bd
 	method = merge
 	update = auto
 	cmdver = 0.4.1
