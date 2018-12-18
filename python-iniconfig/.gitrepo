@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-iniconfig.git
 	branch = master
-	commit = c891ab69bf3dbbc635ce0ee6f438f912f761eec8
-	parent = 059250e3aec6c8d872aeb60999540677163916d2
+	commit = e111fcd4a74c2a60a3e326e3938732cc21a9134c
+	parent = 8d531a9bf7dca6036e9331a3b5df9f6c18430805
 	method = merge
 	update = auto
 	cmdver = 0.4.1
