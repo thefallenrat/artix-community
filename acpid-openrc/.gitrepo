@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/acpid-openrc.git
 	branch = master
-	commit = 8635564204484baf50ae63c0ebddc349936f3bd1
-	parent = 28359a72d19186527460a4ed57122d37469c26c6
+	commit = ed579f155477502f5d62c117dc9754489ae5d66d
+	parent = a3659c01b1136f22710e676a0fc072c02b69a153
 	method = merge
 	update = auto
 	cmdver = 0.4.1
