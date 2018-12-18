@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-process-tests.git
 	branch = master
-	commit = 673aaef43ac0c5a35dbdd52c499b4f8f11d59755
-	parent = 2ec362125a8e98e356416806ed6aa73f00e63df4
+	commit = b75af6cf2bfffdeafb3535ad79dc32aff0f93bf6
+	parent = 698a343aae039d98009f4cb627a0c61aace7d0bc
 	method = merge
 	update = auto
 	cmdver = 0.4.1
