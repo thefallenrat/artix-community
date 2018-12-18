@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-rfc3987.git
 	branch = master
-	commit = 0fe97499eea742a530ca47e5d4061bb72d9c1c93
-	parent = f2e98f4fbe26a8214819faf7e608c9ae4bfebc78
+	commit = f8c3c2981d35fafaac7ebefd0743bf134a0644bb
+	parent = 35708e0ed057965477c0cbcf71747d99b2b80da1
 	method = merge
 	update = auto
 	cmdver = 0.4.1
