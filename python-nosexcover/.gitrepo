@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-nosexcover.git
 	branch = master
-	commit = e9ce4ea1be119048b4284360a11a3d680e61dae7
-	parent = 9fb31fe915a9337b5f58b70ef779ff2444ce79ac
+	commit = 3210d7d732b62a2e8ee40fef837bd3fee0f5423b
+	parent = a9530b4c189292ca702ed1e05a573d8a4d613db5
 	method = merge
 	update = auto
 	cmdver = 0.4.1
