@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-ukpostcodeparser.git
 	branch = master
-	commit = 993f5d0b9c5c82ad15492742ee4b9c1409e18af9
-	parent = 20797249a8dd8c819234759570f37bb59ef7f0ea
+	commit = 512969e6468d23d5bc25b8c218002179bdff7c13
+	parent = ea3b63156b8680e6fd5fe394a9929d70527f002b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
