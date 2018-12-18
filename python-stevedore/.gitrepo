@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-stevedore.git
 	branch = master
-	commit = bbc0d8aab20efcf7a270a162a048fee4993a3ee1
-	parent = 0ac7664d46e034abad308e7d89eadaf6910e74a8
+	commit = da5f9f312b98e4ed4e6cf8f2e087eb4fea5e8e81
+	parent = 35df5d68427e222c3c3d419b3ba7390e2de63025
 	method = merge
 	update = auto
 	cmdver = 0.4.1
