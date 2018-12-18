@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pygal.git
 	branch = master
-	commit = ee21641ce1ba7a98ba553f22a0b3181ef70bd6ed
-	parent = a956142413c0d39b2c3f75dda86d14aabcde410a
+	commit = 94c209c143642e77bf8931b351337ce0cf1fa49c
+	parent = 7ac02d971e4b4e7f82196b8e955a2de5d599160a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
