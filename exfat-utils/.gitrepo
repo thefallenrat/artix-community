@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesE/exfat-utils.git
 	branch = master
-	commit = 3d3ed6e942576bce1a841a3c6f8b4b4635a428c1
-	parent = 99d6407d8e3b4272eb0c4fea1a2861bf532212cb
+	commit = bf56b033f8a9eab3823dfc52658b1ec18b1bd79a
+	parent = accf3af610307a7ccb7ce3377487bd7d1af3dc5c
 	method = merge
 	update = auto
 	cmdver = 0.4.1
