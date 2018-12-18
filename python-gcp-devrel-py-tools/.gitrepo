@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-gcp-devrel-py-tools.git
 	branch = master
-	commit = 1a97aab50b35a21079155b63ab3fd2848fa83115
-	parent = 09dd389537be5fe0a2e130fbbcea62168e3fdac4
+	commit = 4d3adbdddbc16eaf3582962b7c4e143bfea55708
+	parent = 7620b09951f2fa37cbdd6f5ee08fb26fbbc7143a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
