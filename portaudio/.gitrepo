@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/portaudio.git
 	branch = master
-	commit = d03164a6f937cbe270c65facc748cca20df9b4cd
-	parent = c7e56c8590304e711bfa7d07614cbeb06be03aab
+	commit = 9e8b139dcfaf0691d04b1a6eac1c096726d446ee
+	parent = 2e49b462eb963965e770b402e58b53f77d3a1069
 	method = merge
 	update = auto
 	cmdver = 0.4.1
