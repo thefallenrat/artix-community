@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/prometheus-runit.git
 	branch = master
-	commit = 344ea1769accf8522868a778d19454e2e6201839
-	parent = 77ebed0600c6ea235eeeb53953e333d325115707
+	commit = 354b5a2eb456dd654815dc0e5fa1914c3d2afeee
+	parent = b09db92d8e09f47b6db8d3147fd8ff9e13ecb66a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
