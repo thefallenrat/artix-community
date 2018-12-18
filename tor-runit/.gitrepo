@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/tor-runit.git
 	branch = master
-	commit = b2c7563629c19a1deed0e0dc747a5fe3073c6d07
-	parent = 66cfa7a34ebf2172c173f3f0c3f173041772c682
+	commit = 379fe3b6b69e368f9b958583e8224a6e07c56c65
+	parent = 2d20182320330397712db382ca955b4c338e3b3b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
