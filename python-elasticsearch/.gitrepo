@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-elasticsearch.git
 	branch = master
-	commit = e57c9e1da1bc65480a01d27fdd9ef8a52a41a44e
-	parent = 2a4244f427a9708a7dd9a6b2163ab5f4f37b44dd
+	commit = 0338f48a28641739580c464a00a9946c7b4619c5
+	parent = b9869a628c38ff63811418db5589c413438c3a9b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
