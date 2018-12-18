@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesD/distcc-openrc.git
 	branch = master
-	commit = 84b6fb222afeacfe67b3b5516f812f47934cc580
-	parent = 34e1c509a18fc9787cf1ef483c8c352a4c556aae
+	commit = 96f09ea9ccc4a3edae49fc839b0c99a372a69eca
+	parent = c7c3ccc652bad83fd28fa6f59d195e2444a6bbb3
 	method = merge
 	update = auto
 	cmdver = 0.4.1
