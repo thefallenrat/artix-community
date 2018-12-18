@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-timeout.git
 	branch = master
-	commit = f9f5852fc87a2be67163c613ef7f8c4e36e92a22
-	parent = 9ce2e13a1aff28d112b86ee039fa10da3086f435
+	commit = 4b14a7485bf6b7b73c8f8a2d0d3dee37a5ec79d7
+	parent = 19bc083f941c955c7b3fe6bd31f9101554a12f24
 	method = merge
 	update = auto
 	cmdver = 0.4.1
