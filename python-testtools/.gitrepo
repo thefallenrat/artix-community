@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-testtools.git
 	branch = master
-	commit = 0f4018e0a97c0168645b552a1518dfd729af16e1
-	parent = 739267bf516e78ec1089a0fe13d248ce6064b9a7
+	commit = 7f521d5a5d5acecb909e1b8213061d6414fbd5b8
+	parent = e747589d03cdc26e6efb9b4d2d55a2d1dfeb8772
 	method = merge
 	update = auto
 	cmdver = 0.4.1
