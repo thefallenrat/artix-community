@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyquery.git
 	branch = master
-	commit = a2d780554616b86cf32c4525783c02b26299f305
-	parent = fe0b4cde56abaee7d9cc0b2133613b0177ec7667
+	commit = bb322712bd1f93f8b783005b0be560ad65c0204b
+	parent = 36e589728dff4b42a615712c6d7308f667bb7d8e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
