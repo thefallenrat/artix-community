@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-flask-login.git
 	branch = master
-	commit = cb1232a823f1ba793baf5a2b4581bc9a99398a9d
-	parent = 3326484b857b93aa3ec2d2c7062fd40faac1395b
+	commit = f8e9e7211f89247a191ecd09d8d309e9f8f979c2
+	parent = cde7c6d92530e16c74f86c9477d9cb508f25070e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
