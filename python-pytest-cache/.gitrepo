@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-cache.git
 	branch = master
-	commit = bf37279fa1ee4d7701d094c6b6f9f8fb486dff48
-	parent = 004d81b71f5b25106fc9b84c0dc83dd1f60a65ec
+	commit = 64c084fc5e56b6877d57ab498bd4a248da638c76
+	parent = 02f31ced32ac9f6b9294b427cda793149b0e84d7
 	method = merge
 	update = auto
 	cmdver = 0.4.1
