@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-http-parser.git
 	branch = master
-	commit = eddc5fa1dd7246414af2b7dc36304ff61b53ad72
-	parent = 3a9304d0544872b488f342ec4d5c5b7f20653981
+	commit = ff59f09ed022d48b3b32c1486e0801f1a7197482
+	parent = a4e3c5cf197486f3cd9b9316afe50f1c5c53592d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
