@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pysocks.git
 	branch = master
-	commit = 3ae0efa351959cae611075104f49c7f7d6140a34
-	parent = 6438a4b971b982da2c66710c958e5b8a21e6d7dd
+	commit = 2abebda6620bd32aaddb8b65667cb5ddc8922963
+	parent = dd58e79b4ba0306fdbff4243b1812e11abb27faf
 	method = merge
 	update = auto
 	cmdver = 0.4.1
