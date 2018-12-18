@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-cov.git
 	branch = master
-	commit = 018c8e8869b53a22bda218a039c793321fe0bd85
-	parent = e567dd833e3b0feae852d7a809e7a9401d432468
+	commit = 8aedadfc77b9ce6fd74ba06225b8657acb0c1ef7
+	parent = 5a83fabd0ee68a64120b9bb1f922f76d33f6ff85
 	method = merge
 	update = auto
 	cmdver = 0.4.1
