@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-blinker.git
 	branch = master
-	commit = bb3c3730992035d51d64f1af82a7b49440ee30a2
-	parent = 77061abb7ecfb6eac6021d0ecc6be69145bc0ca0
+	commit = 96aac610a7573eb89402071cfdc574ca53c677e0
+	parent = 96ec9a365732b3442c29fd93f26664dd385e4b6e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
