@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-restkit.git
 	branch = master
-	commit = 19b5b63fd08926c2973eef7981f2704053550a62
-	parent = af03f8e3d77b2ecff640982516a0325ab164b752
+	commit = eeade3dce6918eb1a9c3cf66fd50a03bc88fdc4a
+	parent = 1f81fb3169b938920fed2de60d35328fee329191
 	method = merge
 	update = auto
 	cmdver = 0.4.1
