@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-async_generator.git
 	branch = master
-	commit = 27de6c2a18ee944155628faa9bacdecef47fbf80
-	parent = 19f4e0b2f71ed9afc60d46ba7fe64f2ba2ca2086
+	commit = e631a7ab6710386644a3a8c4fdd957a985d5053d
+	parent = fd3fee761ee3713b0b6b3fa036aece89b9c958e6
 	method = merge
 	update = auto
 	cmdver = 0.4.1
