@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-netaddr.git
 	branch = master
-	commit = 4b6a11bbf106d775b5e23dd931ebd69e5f0e4e0e
-	parent = 6fbd6c30a24f6a424fc918db570e21571949f0eb
+	commit = 330172bae1fe437fd70f24ba372c6e830b0b8d90
+	parent = 3522601025370ec761273d2ea0e3e23b47da3cc5
 	method = merge
 	update = auto
 	cmdver = 0.4.1
