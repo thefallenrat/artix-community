@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/pdnsd-runit.git
 	branch = master
-	commit = d7fa84321f3826afade1352d4b3b3548ff3e83b2
-	parent = b2e7c9a63c3d4a52b969cbe5191b79aafa3aba7f
+	commit = eec96e6314e60f0e23f08b21db4c2df29a828e95
+	parent = 45efdc645669c9e5aae1467b91ef34a0d316ddbb
 	method = merge
 	update = auto
 	cmdver = 0.4.1
