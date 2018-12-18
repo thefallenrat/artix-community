@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/artix-lxqt-presets.git
 	branch = master
-	commit = 96de8f289f8f3e69e4a4244c377eefba1e081b38
-	parent = 3b225c68c6d9df990be943e869f8a90d9fc56891
+	commit = a97ad77ce273da8f044bb7a7c081ee12797f2c85
+	parent = 363840dfbb8a15ea2c3d7b7d41a5b944432ed4a2
 	method = merge
 	update = auto
 	cmdver = 0.4.1
