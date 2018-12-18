@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/tlp.git
 	branch = master
-	commit = 7652ade97cba0caef369a6518cdd5e4522be6791
-	parent = 5d389e12476e9253958cf00790b71cef7b97a8cd
+	commit = 16ca5e812aec44fc9353913c38e49a7a2384a65e
+	parent = 068f416a869e0a84efc3b9a3c1906d8ba847c67a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
