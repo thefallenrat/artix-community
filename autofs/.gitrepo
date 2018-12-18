@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/autofs.git
 	branch = master
-	commit = efa992197830805dbd612a8bbf7093cc4f657c05
-	parent = 2558b29ed5ade49a114c68aba8d90c228df07195
+	commit = 38349d39a435eb8955f50f4a720be48fc7242c19
+	parent = 7034697509270e6a8450016fed948ce0429a46da
 	method = merge
 	update = auto
 	cmdver = 0.4.1
