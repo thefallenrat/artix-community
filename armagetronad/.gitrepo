@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/armagetronad.git
 	branch = master
-	commit = d78c49fbdd4740118ff802a3aac01eb968d2f000
-	parent = 5d6de3db141761e7a5f98f1d53898bbb12368875
+	commit = 278cc83827867550885c2640ee64d9d2d96c524e
+	parent = 97e776fc5ed9fe4dfc92a0756d5fcffb2fd8d093
 	method = merge
 	update = auto
 	cmdver = 0.4.1
