@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-fields.git
 	branch = master
-	commit = ba16223682a1c32926069ec849d2b02a94d76df3
-	parent = 16608b5d4227ff6d23662061643d6655072ea908
+	commit = 34cff7604b0c4884d89c56cd9c04814992ebe176
+	parent = 2e057e920875d250ff0daab0227111200ed16782
 	method = merge
 	update = auto
 	cmdver = 0.4.1
