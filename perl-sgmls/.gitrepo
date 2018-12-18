@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPerl/perl-sgmls.git
 	branch = master
-	commit = 87e07e894fe8676b924f9af33a6ec27f0e7cca8e
-	parent = 39489935819d7a1ff087d75191cd71d3744ee807
+	commit = fac015bfbbeb7638aa105fa91f4edae943bb839d
+	parent = 9947fbab7a0413b85712ca847d02788abe03e0ea
 	method = merge
 	update = auto
 	cmdver = 0.4.1
