@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/librabbitmq-c.git
 	branch = master
-	commit = 9cfb063f5883c62d67b1f0ea4c29e3aa9d98d128
-	parent = a17bd38c6c8bff5833ac5536b853e13039214fcc
+	commit = 16b78baabad910d209627782a1d8f103d570f44f
+	parent = 327626408b9bce97f0dbec7230bbb792d061a1f2
 	method = merge
 	update = auto
 	cmdver = 0.4.1
