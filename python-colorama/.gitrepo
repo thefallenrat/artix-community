@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-colorama.git
 	branch = master
-	commit = f9bd4bdf4b63d416b912bd93e1ce41b32b6b1c0a
-	parent = f293a799bcabebaea71fc00a2185060afbebe66a
+	commit = 7be65d3e3becf1f457d2eb6125b1a18a21dfe6e8
+	parent = 245cb31d1e53fdc546ba45b42ecd96d4355e1e0d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
