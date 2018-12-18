@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-warlock.git
 	branch = master
-	commit = 114849e03762f5b55c5350133973d86714b086ad
-	parent = 4d31e580f9d4a82cb25211eb25126513ee8b667a
+	commit = b98eb3f18c6a03178e3aa55ef34f0335cda5b141
+	parent = ef166cf15bf99752f3c72b138400502e564ca7f7
 	method = merge
 	update = auto
 	cmdver = 0.4.1
