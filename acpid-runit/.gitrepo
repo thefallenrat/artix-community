@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/acpid-runit.git
 	branch = master
-	commit = 7d97950253e1d50520afea1aa4b3f7719a6e5f6e
-	parent = 08b398e0bdebfbe9900e8706e05bf77b41c3aaaf
+	commit = 5f7042887521b500ea780761201c95202ab940f0
+	parent = 04af7d2392a8cfe7aaed0eaf210d112a6a9930af
 	method = merge
 	update = auto
 	cmdver = 0.4.1
