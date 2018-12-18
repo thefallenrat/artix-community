@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-mongoengine.git
 	branch = master
-	commit = f47ee7b379339db317fbb8b43d2c393142a0ee83
-	parent = 946283bd65477232e9013fb28490f00c1a84e798
+	commit = fca013a5a92893587296b2bb43df79fbeff93d5f
+	parent = 6574bfc7cc9ee64fc0f9ffbfb43d8f5571e84f65
 	method = merge
 	update = auto
 	cmdver = 0.4.1
