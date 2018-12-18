@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-forked.git
 	branch = master
-	commit = fd885b7224c6cd4c5d580c83b66c34d0cf794431
-	parent = b51b26901fc58e7bc503779301eede04046bb831
+	commit = 2b78f4c2ef59c19156fd9f22b969a00cb54d646d
+	parent = 5237c0d5b2df0a9e7d0d664fb44a10f95e68bbb5
 	method = merge
 	update = auto
 	cmdver = 0.4.1
