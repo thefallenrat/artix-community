@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-py-cpuinfo.git
 	branch = master
-	commit = 7d4bbe35fba4c7839e719e15ab5ab891fc6987ba
-	parent = 46ba310336e2c7aa0996d6747ee459bdd5c6c096
+	commit = ca1ff3a5016b35c1b8b999810097a0584c43eac4
+	parent = 73b97dab9015ca2e8516a7b58065f91e7f126af6
 	method = merge
 	update = auto
 	cmdver = 0.4.1
