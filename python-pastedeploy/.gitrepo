@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pastedeploy.git
 	branch = master
-	commit = c54145d002fee808baa296da4145180d1e626db7
-	parent = 98b1ab4c23f2ded881975f5f23564dd167324937
+	commit = 51afda5a198d683b7f8312079839d34bfd948478
+	parent = daa08a8bcb9a04c37410604683dadca1bd765fc7
 	method = merge
 	update = auto
 	cmdver = 0.4.1
