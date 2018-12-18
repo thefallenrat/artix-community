@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pluggy.git
 	branch = master
-	commit = bb2ab77fcaca4a68941426092a39ebf2ba9452c6
-	parent = 4e6117ebd3ae2dc47a2cc675715ef52f5d8fd7ee
+	commit = 04cc7edb2c5bb5ac7b24dbc04e70d531847a9ae4
+	parent = b3893be9deffc984f3a5c36a4e52cfb9a0053825
 	method = merge
 	update = auto
 	cmdver = 0.4.1
