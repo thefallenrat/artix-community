@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesB/brotli06.git
 	branch = master
-	commit = 773c60fc1b63f82e25740aee8c822c8e90b755be
-	parent = 2f0a5be408ec54fb4b0582160c5678e01fabe032
+	commit = b03944e750b62e9a609a42f78a852e833bd18ed6
+	parent = 5aeb07123d0e8036c65575ae8c01776e305d51bb
 	method = merge
 	update = auto
 	cmdver = 0.4.1
