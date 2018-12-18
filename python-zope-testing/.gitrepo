@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-zope-testing.git
 	branch = master
-	commit = 18bf1292f463668e459720b82219a7b5f894d25c
-	parent = ebf14d35e17e2feaf835b54d0a20070cb02794a0
+	commit = f47d7117410e1630ce8a20fcf006cbec94486c9a
+	parent = dfada0c9fcc020912c2fa6cd63bcc22ef73182cd
 	method = merge
 	update = auto
 	cmdver = 0.4.1
