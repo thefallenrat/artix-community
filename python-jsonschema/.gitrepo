@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-jsonschema.git
 	branch = master
-	commit = c5a9846c88082bf823ee9cb975b837e9206fe147
-	parent = 0f41e0151f15840c58a8be3f870abe59d3d5cb0c
+	commit = 0fb6bb7f3b7069a3ae958cd08c51da472123b382
+	parent = c8f1814f2538d61e08fdbb5d5a03c5bfec4a43cf
 	method = merge
 	update = auto
 	cmdver = 0.4.1
