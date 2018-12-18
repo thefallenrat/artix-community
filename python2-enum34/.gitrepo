@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python2-enum34.git
 	branch = master
-	commit = 1aca7fca6b8c81b0a11e22e0edc5879942927c78
-	parent = f842ea5d0c10a5ef401721f926f979db752ffac1
+	commit = 4b5a7fab357731818f205d3b4aecf929381125a4
+	parent = ddb8d819f5fa9d4c996f16f58cb7f9d7bee38b95
 	method = merge
 	update = auto
 	cmdver = 0.4.1
