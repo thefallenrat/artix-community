@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/tlp-runit.git
 	branch = master
-	commit = ad121c627c216803f9879acaecf35bab855ad9c0
-	parent = 7644ebd17b3314a37a68f5b5ccc5970932f6064d
+	commit = 6cf8523a137960c73e4c080d0c8475d6f0ade9df
+	parent = b036c991863cb55d3dfc68f2cde2646ea8bc7c0b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
