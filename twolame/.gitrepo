@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/twolame.git
 	branch = master
-	commit = 46c19784b0a5ad8c2b6a618a60b2ea926e305079
-	parent = baaff3057c35e7c1c7ef08f482bdb89583b3568d
+	commit = 41b413e771b3a790d4a53087422019c26f74e5fc
+	parent = 5f1a3a8afdb36de9ea3061e7d891148806d1740d
 	method = merge
 	update = auto
 	cmdver = 0.4.1
