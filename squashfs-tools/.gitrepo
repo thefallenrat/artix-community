@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/squashfs-tools.git
 	branch = master
-	commit = 337d07075b14796c4037f41023a87f81d48a9495
-	parent = b30b06366b7d6aeaa5e6644becde47349822f532
+	commit = 987dfe420ce2279cf658e20a0854d69b119b194d
+	parent = 9cd7a06c10244a8413c81ccd01e9c4d5490afe0c
 	method = merge
 	update = auto
 	cmdver = 0.4.1
