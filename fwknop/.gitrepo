@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesF/fwknop.git
 	branch = master
-	commit = 26e6e41bc67eb742b59d2cb7c6dc6711d6d5c595
-	parent = 3323f9645d03eb4136f693fcb5beaa1028da844c
+	commit = 85fb9487762e6b190e4eb923e963b9abb735a9ce
+	parent = 7ddc3a69fccf0289da5984458ee3daab1505a81c
 	method = merge
 	update = auto
 	cmdver = 0.4.1
