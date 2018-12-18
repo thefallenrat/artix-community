@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-mock.git
 	branch = master
-	commit = 34474346b961ce5e7bf6a329408c4f4311fb9bd3
-	parent = ad3b37c1574a2ccbb01f79a6e3fc0b5f15300ac1
+	commit = 7cc5c6dc1a09181a582b8fa197c151a3b2c18206
+	parent = 91f1eb10291bdea2e39bd3c8b246bcaa8dc6218b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
