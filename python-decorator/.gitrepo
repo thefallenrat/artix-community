@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-decorator.git
 	branch = master
-	commit = 35df3fc17410b32549d817f3c1ef5d6d1904b8d9
-	parent = 59365358cf1b6ea63af8e1b24be17369653ce795
+	commit = 42a39a1649727c1927c6b8b0a2726fb3b8a7b495
+	parent = ba6c7c2b4782863f25ab07df04bd0ccb031a9f5f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
