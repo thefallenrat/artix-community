@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-sphinx-alabaster-theme.git
 	branch = master
-	commit = e42f6206c9f0b9be87eb000ef15156239f23b138
-	parent = bbe2e7650c5c2147de9a3c9ced6fd7fb3f888820
+	commit = edbfc5a82635270f3e030aa2e82f4a11d299453f
+	parent = 8a29dd5154b09973b75bd038d40769276d1a10b4
 	method = merge
 	update = auto
 	cmdver = 0.4.1
