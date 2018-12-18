@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/lib32-libgudev.git
 	branch = master
-	commit = 630c252545e716efe2d1a8cf6970ca91ccf2c0fd
-	parent = 6a9d42f0e0bafbe971eda34375fd190c24f5b6cc
+	commit = e0d776084fb2ffec38e625ff43d7334fff0e034d
+	parent = d7ff2767089772c1d5c2ddb978ccb9bf017468ea
 	method = merge
 	update = auto
 	cmdver = 0.4.1
