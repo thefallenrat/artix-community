@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pandas-datareader.git
 	branch = master
-	commit = 3d673474c532dfeaeccfa87fa14f67a56355d106
-	parent = b10ec30a2cebdd5350994e5596eef6dbf25151ac
+	commit = 76f99225b3757cdb3fb48f9678461fc89fd6ad1f
+	parent = c55994d824ca1c2d37594fcc390fddc07bea2a60
 	method = merge
 	update = auto
 	cmdver = 0.4.1
