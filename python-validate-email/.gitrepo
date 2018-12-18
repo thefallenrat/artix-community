@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-validate-email.git
 	branch = master
-	commit = 7ce4c14a730dbdd48b56b135287b0a7d875c7a7b
-	parent = 8f7a2f23733edc36f4af779c700c5c7684ec4802
+	commit = 66eae513cd0288833cf66cc0370c23f84c75f511
+	parent = ebd4c0622e8a77588b4f890ddcb2b8217fbda4f3
 	method = merge
 	update = auto
 	cmdver = 0.4.1
