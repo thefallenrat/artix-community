@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-case.git
 	branch = master
-	commit = 8098458b794dd914ec5b7cbba6a42180f7df1f05
-	parent = ec5fd0422cffdf33cf71095f390a83676b47dc2f
+	commit = f49e6f4d96204313ff2a5fd24eba14f982c5b747
+	parent = 54a24f7436d4f8c72cb1e22badfec2e1467a6cd1
 	method = merge
 	update = auto
 	cmdver = 0.4.1
