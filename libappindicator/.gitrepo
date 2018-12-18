@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libappindicator.git
 	branch = master
-	commit = d15c92f2cfe763141cf102d0f0cfb4bc843db7ad
-	parent = 89d9e659a594f9fff8070a0fd536a85ad6380416
+	commit = d4ff2e81cc262332c68cb563e7a719dc52fcaee8
+	parent = edc7370d46b220536b2ca3b1659176827e121a89
 	method = merge
 	update = auto
 	cmdver = 0.4.1
