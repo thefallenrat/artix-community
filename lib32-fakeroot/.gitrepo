@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/lib32-fakeroot.git
 	branch = master
-	commit = b99332890fbf7ccff2a4bdee2109b4e04908f4db
-	parent = 5a564d016a05be213479bc7c806bb0cfcac5f47d
+	commit = 0225a306769e953bc35bb9ab5e433a8743cb1014
+	parent = 5ccf1892d8b7fb5abc457640d577f4d08bfd787b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
