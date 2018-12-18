@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyaml.git
 	branch = master
-	commit = 0a5d09d3431200033de30915d265631165142d30
-	parent = c039000fee08083e7aa0eab1a286734908682ed7
+	commit = 6a5244c720eb8c839d768bb96056cdd367fa6d66
+	parent = 35743d8433cae7d3e2f9390d1c154ea741f773e3
 	method = merge
 	update = auto
 	cmdver = 0.4.1
