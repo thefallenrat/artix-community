@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesD/ddclient.git
 	branch = master
-	commit = e369ca88ee5c652e537e87d23a2eaa06b9723782
-	parent = f33b16a29d2c6026a3ba88437c51a27f4152ce14
+	commit = 27e95e806ef117dc9fd2c1aead57042c72371bc3
+	parent = 1a4101069714c419d08816337d7e8dd4c140c06e
 	method = merge
 	update = auto
 	cmdver = 0.4.1
