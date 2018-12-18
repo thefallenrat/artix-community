@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/acpid.git
 	branch = master
-	commit = c983177c196f4ea019dec22c836c371d7b377aa0
-	parent = 9b3286c640bafb8b36f63da5957c7f39437cc462
+	commit = e96654d3959c0c13f81dc92b4f78d5383ccfca0c
+	parent = b8f3be484de86b189505f6378e9b05b9fcacfa11
 	method = merge
 	update = auto
 	cmdver = 0.4.1
