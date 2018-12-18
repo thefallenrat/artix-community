@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-unittest-mixins.git
 	branch = master
-	commit = 6314cd9b2095836dff32e44c9d041c566533782d
-	parent = 5880edbffe3dbb0259ca06d30fabff9c40422f8d
+	commit = 1692243ae2f17e443f2dac045d70c20a53ee3025
+	parent = eb4587eead0ab30874357d8147d5406f48909c06
 	method = merge
 	update = auto
 	cmdver = 0.4.1
