@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-daiquiri.git
 	branch = master
-	commit = 33442ac7c8695d4aedbc9e6234590f49f8a97a07
-	parent = 6bc4cdbf4eed53a04c0badc5a625f93f9296965f
+	commit = 6304c14142788697a7fe539b25e793754a6c6c73
+	parent = ed33d3deffbebe83871639a07356992b9ec66466
 	method = merge
 	update = auto
 	cmdver = 0.4.1
