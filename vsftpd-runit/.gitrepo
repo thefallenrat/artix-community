@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesV/vsftpd-runit.git
 	branch = master
-	commit = a21aadfcc9a4f678ae4a3bf08aee72d434a6e4f6
-	parent = 33de1f85dd442ac4b59a7ee8405a411318ea4f95
+	commit = 05a3d46b706466ef1b1a49ddf06277de76eab7b3
+	parent = 3625c723a43feee9e8929b3964fe6e6cbf986c0a
 	method = merge
 	update = auto
 	cmdver = 0.4.1
