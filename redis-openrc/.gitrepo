@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesR/redis-openrc.git
 	branch = master
-	commit = ee38e8bdc6fc2dcfc6ddbbf1d008e0e7a1c9e523
-	parent = a7943b23023d65947903a53c589ac51ca86e36e1
+	commit = 966f5f64aa1b7dcbdc60fcac84dc5701e2abfa82
+	parent = f965327f9077e9979476328d9a66e602dd7e00ac
 	method = merge
 	update = auto
 	cmdver = 0.4.1
