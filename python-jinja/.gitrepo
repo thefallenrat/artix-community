@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-jinja.git
 	branch = master
-	commit = 19267450c776630143b8a73a7d012d49279f7ad0
-	parent = cf34a20a490c9bf2089b0681b8ec2f8410b6bf59
+	commit = 0c783d786aef77e8dec222391308681860091d93
+	parent = 8f558d2157a0a12fcad075f8851fac1515f8831f
 	method = merge
 	update = auto
 	cmdver = 0.4.1
