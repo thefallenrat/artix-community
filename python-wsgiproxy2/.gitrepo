@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-wsgiproxy2.git
 	branch = master
-	commit = c784f9a8c2615f6388d0196f6ad61eec2daa9d51
-	parent = 2a07ef367b1554713ef24c75a87305ecc2ed96d8
+	commit = 3492f9df40879d22b98283f9fdb89f30b9cb00fb
+	parent = f3bd93c8abaf9b07cb271937bbe85df6532a8e73
 	method = merge
 	update = auto
 	cmdver = 0.4.1
