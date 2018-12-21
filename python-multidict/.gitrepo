@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-multidict.git
 	branch = master
-	commit = cffe4b550353d465742f53d962d4e79c9bb16b73
-	parent = 988cabdc0be7a49fedef769536e5e2c266b80ac8
+	commit = b6bfa0a181f87760922cfc857698a651b23f73e8
+	parent = 735d26ffbd9e194b92d44e3c00f7d8c9cd569b1b
 	method = merge
 	update = auto
 	cmdver = 0.4.1
