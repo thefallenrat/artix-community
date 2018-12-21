@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-oslo-utils.git
 	branch = master
-	commit = cb7ac8fcfcf6134301e8be7b02c08932b020a35c
-	parent = 698bed8f144b548cb6077eb0940a43334fbe9c54
+	commit = 9326c6859ef45a4c299b586f105c833a7eae1d14
+	parent = d64c6351a8eb16275431897864e03b89deb85431
 	method = merge
 	update = auto
 	cmdver = 0.4.1
