@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-flask-restful.git
 	branch = master
-	commit = bb1d75d87773e76b4efbc352069bae3499e7e2ad
-	parent = 65e4f4a8f094a41799d41534b933fe3f68df58a5
+	commit = 4ab5fc5932129199c12cae5790d37a0dfe57300e
+	parent = 3a03dc1926283d2762f79f384a1dd0403c0a1550
 	method = merge
 	update = auto
 	cmdver = 0.4.1
