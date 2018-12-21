@@ -3,7 +3,7 @@
 
 pkgbase=python-openstacksdk
 pkgname=(python-openstacksdk python2-openstacksdk)
-pkgver=0.20.0
+pkgver=0.22.0
 pkgrel=1
 pkgdesc="An SDK for building applications to work with OpenStack"
 arch=('any')
@@ -22,7 +22,7 @@ checkdepends=('python-stestr' 'python2-stestr' 'python-mock' 'python2-mock' 'pyt
               'python2-requests-mock' 'python-oslotest' 'python2-oslotest' 'python-jsonschema'
               'python2-jsonschema')
 source=("$pkgbase-$pkgver.tar.gz::https://github.com/openstack/openstacksdk/archive/$pkgver.tar.gz")
-sha512sums=('a118b8e7a069af468baec0fdfc09a62b27556d4f89fda93d51c9f5b53a7750bcf52b4ce70dcfa27952d06cddd16959c03c83bdf801803210f9c52e51814f9d2a')
+sha512sums=('917652b4faebb6db7e130bbd57d273bddb09401f29f57468edf1ca13ede9d6c2aa0a36f2511e82f8a93211258d98651c3b5d2835ba25fb48438d54e6239c2375')
 
 export PBR_VERSION=$pkgver
 
