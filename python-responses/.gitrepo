@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-responses.git
 	branch = master
-	commit = 21bf8c2bea075b2b736f15604c09307b9b02a421
-	parent = d92762c153530cea194e255e6caf99ae58c00f5f
+	commit = 8d9d6a17be7f29bfeed65607e481e538b18e6a7b
+	parent = 062acf1cd76ef5d356aeba690dbdfd21e551c0db
 	method = merge
 	update = auto
 	cmdver = 0.4.1
