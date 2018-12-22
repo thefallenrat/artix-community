@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-psycopg2.git
 	branch = master
-	commit = 5e778de37ebb9f12479ce566f0fb67d0b00bcf78
-	parent = 37405de6d81012a635eb3d14fd4e7e23ca9a0335
+	commit = e836b29fc5a09d60868a1f65c77454c869ab071e
+	parent = 52ae1a9d0785374c7402274aae01f6c96b9f62e4
 	method = merge
 	update = auto
 	cmdver = 0.4.1
