@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/ardour.git
 	branch = master
-	commit = d779650055d0265508772b76564692494d6116dd
-	parent = ed1589bb1463ab14c4ce0e5009f9c0435fbddc27
+	commit = 9315d62965ae2ac2600cc90ebd496f928953b1b7
+	parent = 168addfd48dff296fa139fc71ccb8fb12216ff0e
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
