@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/tp_smapi.git
 	branch = master
-	commit = 4fbb397e2dcfa3864ae288b59ebe22dbc52ffeac
-	parent = f336180b50586235440a0965713b913a6effaeac
+	commit = 364f73d83a0c3c4562c15d82317dc63611e2dce2
+	parent = b8cd8580150c34663a50882bfa19709baf1eb0e5
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
