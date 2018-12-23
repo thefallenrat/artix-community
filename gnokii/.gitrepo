@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesG/gnokii.git
+	branch = master
+	commit = 4689cdf6b60e7bc5b36f237547b7fa101bd786e2
+	parent = 6e92734a81db7143b4399ad0c271c9c4e1317ea1
+	method = merge
+	cmdver = 0.4.0
