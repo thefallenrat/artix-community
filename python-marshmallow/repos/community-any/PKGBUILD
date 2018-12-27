@@ -15,6 +15,7 @@ checkdepends=('python-pytest-runner' 'python2-pytest-runner' 'python-simplejson'
 source=("https://pypi.io/packages/source/m/marshmallow/marshmallow-$pkgver.tar.gz")
 sha512sums=('ec941f00e29fc49b6ae515307701df4194703c591386d2bf346ff3bf521d5b5281a3100343702957595e027074a05b8dc417f3a7ed23696e912002a20f61cb9e')
 
+
 prepare() {
   cp -a marshmallow-$pkgver{,-py2}
   rm -r marshmallow-$pkgver-py2/tests/test_py3
