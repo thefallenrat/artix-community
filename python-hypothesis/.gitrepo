@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-hypothesis.git
 	branch = master
-	commit = ab2b224e8d5c6bd400fc3208e779aee1b6c0098b
-	parent = 1c90480995019739a56500c01d000ddc0ceeae77
+	commit = b81e6367c52d8a617dde0dd55ac0a5ecce9513bf
+	parent = 88ead12471d535bc3a523a99f542214cc1028f10
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
