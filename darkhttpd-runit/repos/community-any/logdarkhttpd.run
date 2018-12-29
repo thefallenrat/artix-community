@@ -1,0 +1,5 @@
+#!/bin/sh
+[ -r ../conf ] && . ../conf
+[ ! -d /var/log/darkhttpd ] && mkdir -p /var/log/darkhttpd
+[ "$(ls -dl /var/log/darkthtpd | awk '{print $3}')" != ${USER} ] && chown ${USER}:${GROUP} /var/log/darkhttpd
+exec chpst -u ${USER}:${GROUP} svlogd -tt /var/log/darkhttpd

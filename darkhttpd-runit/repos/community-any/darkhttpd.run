@@ -1,0 +1,3 @@
+#!/bin/sh
+[ -r conf ] && . ./conf
+exec chpst -u ${USER:=http}:${GROUP:=http} darkhttpd ${DIR:=/srv/http} --port ${PORT:=8080} ${OPTS} 2>&1
