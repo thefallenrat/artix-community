@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesD/darkhttpd-runit.git
 	branch = master
-	commit = 340d38291719e69fc18dd1201bd1dd472fb27add
-	parent = 03a32f93bcfa2d57fa34baf7fe4437ec41f2ea2c
+	commit = 21569a8f738ecdf996b584fdc49deda7dbc073da
+	parent = 4651552db2b545b1cdcbfd918716eaecdb53bb5d
 	method = merge
 	cmdver = 0.4.0
