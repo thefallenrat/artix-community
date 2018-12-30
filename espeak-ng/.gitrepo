@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesE/espeak-ng.git
 	branch = master
-	commit = 29a6c194ebdbfc01cb30405f877121557656c7e0
-	parent = 4c84c86e2a42c5118b48dbe4a7cdd10d15d51cc9
+	commit = 7d03800d305fcc7838ba4a75d5e46afc16f83349
+	parent = b8314105e09c4020b4f16ce05a27c68f6c7db30f
 	method = merge
 	cmdver = 0.4.0
