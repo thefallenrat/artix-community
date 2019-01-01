@@ -1,6 +1,5 @@
 # Maintainer: Massimiliano Torromeo <massimiliano.torromeo@gmail.com>
 
-
 pkgbase=percona-server
 pkgname=('libperconaserverclient' 'percona-server-clients' 'percona-server')
 pkgver=8.0.13_3
@@ -9,7 +8,7 @@ _pkgver=${pkgver/_/-}
 _myver=${pkgver/_rel*}
 pkgrel=1
 arch=('x86_64')
-makedepends=('cmake' 'zlib' 'lz4' 'zstd' 'libaio' 'eudev' 'pam' 'numactl' 'jemalloc' 'openssl' 'rpcsvc-proto')
+makedepends=('cmake' 'zlib' 'lz4' 'zstd' 'libaio' 'pam' 'numactl' 'jemalloc' 'openssl' 'rpcsvc-proto')
 license=('GPL')
 url="https://www.percona.com/software/mysql-database/percona-server"
 source=("https://www.percona.com/downloads/Percona-Server-${pkgver%.*_*}/Percona-Server-$_pkgver/source/tarball/percona-server-$_pkgver.tar.gz"
@@ -21,11 +20,11 @@ source=("https://www.percona.com/downloads/Percona-Server-${pkgver%.*_*}/Percona
         'rocksdb-systemlibs.patch')
 sha256sums=('ab00626775b85ea506c1d992d66acee50f0bfbde54b830731f61652e87ff93da'
             '8aa4e330c870ef50a896634c931adf468b21f8a69b77007e45c444151229f665'
-            'ae451839c368f0db25a63bb0a6a890194897a8e74818bd4245140933c29e5f83'
+            'b467b04d6d06152b2abc33f2a6de63fef0fc922dd5119d2ee1d07d3c1a489731'
             'e638a2657085f15b6728f43c1fd6aa551b27608fbf6b435e33afd3606a0cfb0e'
             '1537fdbb92dd1c135c1eb9f4d10c44fd02e652db66c933d731990a1196f1397c'
             'fe1cb2b079c56ff0f827c7dfb25d004b2190410406820c490dc6152cfe392b70'
-            'fcc3bea0982cda6cc35637d448a46924eccdfeb4c4da0634a26c9d190cf50fe4')
+            '38f1acce8d8eff8167f1defcd4ce7063e67beeb7ab67bbf15ba5630290d00b71')
 
 prepare() {
 	cd $pkgbase-$_pkgver
@@ -138,7 +137,7 @@ package_percona-server-clients() {
 package_percona-server() {
 	pkgdesc='Drop-in replacement for MySQL that provides improved performance, diagnostics, instrumentation and MyRocks storage engine'
 	backup=('etc/mysql/my.cnf')
-	depends=('libaio' 'eudev' 'pam' 'jemalloc' 'numactl' 'lz4' 'zstd' 'openssl' 'libtirpc')
+	depends=('libaio' 'pam' 'jemalloc' 'numactl' 'lz4' 'zstd' 'openssl' 'libtirpc')
 	optdepends=('perl-dbd-mysql')
 	conflicts=('mysql')
 	provides=("mysql=$_myver" "mariadb=$_myver")
@@ -151,8 +150,8 @@ package_percona-server() {
 	install -Dm644 ../mysql-user.conf "$pkgdir"/usr/lib/sysusers.d/mysql.conf
 
 	cd "$pkgdir"
-	mv usr/usr/lib/* usr/lib
-	rm -rf usr/usr
+# 	mv usr/usr/lib/* usr/lib
+# 	rm -rf usr/usr
 
 	# Move documentation
 	if [ -f usr/PATENTS ]; then
