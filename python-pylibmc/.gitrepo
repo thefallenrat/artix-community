@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pylibmc.git
 	branch = master
-	commit = 647ee3b73c94da2f6a114b051789c1a235d25a32
-	parent = 8da2516648d5a98e2d427096c90ab53751268b96
+	commit = c1705a1855034214ef8a76efe6aa0948605d4293
+	parent = 29f2dbe637bb3e4cd44912e0e855b95e9d9d9c04
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
