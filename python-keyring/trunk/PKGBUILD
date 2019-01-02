@@ -8,7 +8,7 @@
 pkgbase=python-keyring
 _pkgname=${pkgbase#python-}
 pkgname=(python-$_pkgname python2-$_pkgname)
-pkgver=17.0.0
+pkgver=17.1.1
 pkgrel=1
 pkgdesc="Store and access your passwords safely."
 arch=('any')
