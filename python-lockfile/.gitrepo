@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-lockfile.git
 	branch = master
-	commit = fa0a402fcb32602be11843f30548958d45e856af
-	parent = 8a4c88a2757d55f6c814692148ff0e4bbcb62f99
+	commit = 70bb797fc158c2ed2d4764be860baa02bfe823ee
+	parent = 9007c434a0e9e26ece7b6a01f6959612aeb75301
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
