@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-cheroot.git
 	branch = master
-	commit = 9b1600529772f4049572fbd12a3412536a41a2b5
-	parent = 82b469cc705f24db65b146c1cfc9b310103ba03e
+	commit = 251b5e4c3fbb40d84f68aa62bfcb8374fd4bbce5
+	parent = 8fdffa4d5bc45eb4cbddbe30947b95a7cd3bc6d8
 	method = merge
 	update = auto
 	cmdver = 0.4.0
