@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-msgpack.git
 	branch = master
-	commit = e45807e525a2fc64a77555f0877d3a5538890182
-	parent = 74649e62663ff6d6b50caba802db6d8ef0e63586
+	commit = 82012bdcb50fb963315b3e861fefa86474b77ef9
+	parent = 3671205cdff79fb85e453c6574c4c09cdb40e961
 	method = merge
 	update = auto
 	cmdver = 0.4.0
