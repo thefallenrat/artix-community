@@ -2,14 +2,14 @@
 
 pkgname=calamares
 pkgver=3.2.2
-pkgrel=6
+pkgrel=7
 pkgdesc='Distribution-independent installer framework'
 arch=('x86_64')
 license=(GPL)
 url="https://github.com/artix-linux/calamares"
 license=('LGPL')
 depends=('yaml-cpp' 'kpmcore>=3.1.0' 'boost-libs' 'hwinfo' 'gtk-update-icon-cache'
-         'plasma-framework' 'libpwquality' 'pythonqt' 'polkit-qt5')
+         'plasma-framework' 'libpwquality' 'pythonqt' 'polkit-qt5' 'qt5-xmlpatterns')
 makedepends=('extra-cmake-modules' 'qt5-tools' 'qt5-translations' 'boost')
 optdepends=('calamares-branding: Artix branding')
 source=("${url}/archive/v$pkgver.tar.gz"
