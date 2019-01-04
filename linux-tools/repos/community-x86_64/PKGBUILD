@@ -35,10 +35,7 @@ makedepends+=('ncurses')
 groups=("$pkgbase")
 source=("git+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git#tag=v${pkgver//_/-}"
 #        'https://cdn.kernel.org/pub/linux/kernel/v4.x/patch-4.12.2.xz'
-        'cpupower.default'
-        'cpupower.systemd'
-        'cpupower.service'
-        'usbipd.service')
+        'cpupower.default')
 md5sums=('SKIP'
          '56883c159381ba89e50ab8ea65efec77'
          '34f5ecc19770a1abbcd0fd65bfd1f065'
@@ -205,8 +202,6 @@ package_cpupower() {
   popd
   # install startup scripts
   install -Dm 644 $pkgname.default "$pkgdir/etc/default/$pkgname"
-  install -Dm 644 $pkgname.service "$pkgdir/usr/lib/systemd/system/$pkgname.service"
-  install -Dm 755 $pkgname.systemd "$pkgdir/usr/lib/systemd/scripts/$pkgname"
 }
 
 package_x86_energy_perf_policy() {
@@ -220,7 +215,7 @@ package_x86_energy_perf_policy() {
 
 package_usbip() {
   pkgdesc='An USB device sharing system over IP network'
-  depends=('glibc' 'glib2' 'sysfsutils' 'libsystemd')
+  depends=('glibc' 'glib2' 'sysfsutils' 'libeudev')
 
   pushd linux/tools/usb/usbip
   make install DESTDIR="$pkgdir"
@@ -228,8 +223,6 @@ package_usbip() {
   # module loading
   install -Dm 644 /dev/null "$pkgdir/usr/lib/modules-load.d/$pkgname.conf"
   printf 'usbip-core\nusbip-host\n' > "$pkgdir/usr/lib/modules-load.d/$pkgname.conf"
-  # systemd
-  install -Dm 644 usbipd.service "$pkgdir/usr/lib/systemd/system/usbipd.service"
 }
 
 package_tmon() {
