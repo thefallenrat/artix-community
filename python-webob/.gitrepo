@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-webob.git
 	branch = master
-	commit = fa389e49a1ab1c78eca9a9afa4ca105c4dad3fa6
-	parent = 4f5da02461a7d9403f53f1abfc032806f86b729c
+	commit = d46a0c17104cbb9d0b2529516ee69f5acb470e5d
+	parent = eb80c1b38a1762abf3c979ceebf86b510f5b0e91
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
