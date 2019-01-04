@@ -1,8 +1,8 @@
 # Maintainer: Bruno Pagani <archange@archlinux.org>
 # Contributor (Artix): Muhammad Herdiansyah <koni@artixlinux.org>
 pkgname=stubby
-pkgver=0.2.3
-pkgrel=1.2
+pkgver=0.2.4
+pkgrel=1
 pkgdesc="DNS Privacy stub resolver"
 arch=('x86_64')
 url="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby"
@@ -12,7 +12,7 @@ install=stubby.install
 depends=('getdns')
 source=(${pkgname}-${pkgver}.tar.gz::"https://github.com/getdnsapi/stubby/archive/v${pkgver}.tar.gz"
         "stubby.sysusers")
-sha256sums=('5fbe10f421f1313b5e2259b0eec96785af0c5b460431cf86bb6450a11cb3f473'
+sha256sums=('40816d403584aaa8ce72d6276b47e9d91b96294418af7a031dc48a3515398540'
             '100abbdebe23ddcea854387fb0fb721aa3a6c0b3f6d46dd82e5539f75a7276ec')
 
 prepare() {
