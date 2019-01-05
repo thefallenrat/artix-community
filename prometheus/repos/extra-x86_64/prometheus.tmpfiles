@@ -1,2 +1,0 @@
-d /var/lib/prometheus 0755 prometheus prometheus -
-d /var/log/prometheus 0755 prometheus prometheus -
