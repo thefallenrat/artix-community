@@ -1,2 +1,0 @@
-# prometheus-openrc
-
