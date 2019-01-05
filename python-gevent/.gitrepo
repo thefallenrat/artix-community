@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-gevent.git
 	branch = master
-	commit = 36f40e47ad579ef281783b2f2f93056d1153e705
-	parent = 643283ef71fef61788234d726148741e411cd59d
+	commit = 0f8987197e64ae1ccc97565f1207d27c06939970
+	parent = aa350dcb2b0b8474afc7e1c0a03b51e97b93db7a
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
