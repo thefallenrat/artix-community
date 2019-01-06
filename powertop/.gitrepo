@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/powertop.git
 	branch = master
-	commit = d9cd8bb02f2d3bc47019cc0779c5907a8f46a413
-	parent = a2f55e6c3db0c00c05c2b7e33455db589078c34d
+	commit = 70766cbe30c0fbc3badd8da5e258e96e301c61ca
+	parent = 4eab0f484f0a9e358f96d331edac9f620ac81155
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
