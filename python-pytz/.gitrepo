@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytz.git
 	branch = master
-	commit = a522ea05be9b221768eaa02e35f3eb702a8fc99d
-	parent = 9ab2a4fc1cf507fd29245c6a89c978a5f94d9b29
+	commit = 927909b5f45c64f989255a1734085276c9a56a72
+	parent = 67e925ae988ab8879c2ca0cd82165d69218f9c4a
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
