@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-vine.git
 	branch = master
-	commit = de366b2d5494594a078f40772450184dccfece3a
-	parent = aaf32e72a920596dff1780357b60266d47372e11
+	commit = aa17dcfd7e3ffa77c2faf0c98eaa0cb26066e7aa
+	parent = 3012f0c5396fa23a2ded5dd6dfaff9ea06c72f89
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
