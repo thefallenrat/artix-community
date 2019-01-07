@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/pifpaf.git
 	branch = master
-	commit = db2efb69af14dd7d9be84fbb3154817afceedcde
-	parent = b8a0dae1f999be98f672ce92a6c50c8a194c4992
+	commit = 6fa4d1cbcd0ef3f40524318f66fa333f7d718641
+	parent = 406a0257fc32545c8c9a549834ddc4ed1f8c1dd1
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
