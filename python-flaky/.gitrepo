@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-flaky.git
 	branch = master
-	commit = 479b8c1fbac1cc40ad11b0a962a873bebd7847b0
-	parent = c57104f3f9311b759865b602501cb7b5acba9e74
+	commit = 2fed233d85307ac8823f28b95d40f22a4e1d9a34
+	parent = d42f11d0263944fb84d39c2d068cd45a99250377
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
