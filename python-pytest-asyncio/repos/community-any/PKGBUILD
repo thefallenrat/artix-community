@@ -1,15 +1,14 @@
-# $Id$
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 
 pkgname=python-pytest-asyncio
-pkgver=0.9.0
+pkgver=0.10.0
 pkgrel=1
 pkgdesc="Pytest support for asyncio."
 arch=('any')
 license=('Apache')
 url="https://github.com/pytest-dev/pytest-asyncio/"
 depends=('python-pytest')
-checkdepends=('python-pytest-cov' 'python-async_generator')
+checkdepends=('python-pytest-cov' 'python-async_generator' 'python-hypothesis')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/pytest-dev/pytest-asyncio/archive/v$pkgver.tar.gz")
 
 build() {
@@ -30,4 +29,4 @@ package() {
   python setup.py install --root="$pkgdir" --optimize=1
 }
 
-sha256sums=('20db04d27c197050f0ecdc30c115e677a77f0d27d95416f6ecef4b29e2de30f9')
+sha256sums=('4a2f53fb40b8075739018e026bd0d3d2485d9f7c228974c817a6b43ed1350ed0')
