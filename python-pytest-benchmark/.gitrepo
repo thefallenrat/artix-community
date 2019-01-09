@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-benchmark.git
 	branch = master
-	commit = 363fb85638eadceb4f97ccf604941c95135751cd
-	parent = 9e501742312b9f5aeccc102fbcf2d9bdca713660
+	commit = 8c29fc64497547bf3aa0f87b01bc87923f2cc68b
+	parent = 5251250320ec682a9a27da9d7b0c71e977802750
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
