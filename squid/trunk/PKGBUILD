@@ -3,6 +3,7 @@
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 # Contributor: Kevin Piche <kevin@archlinux.org>
 
+
 pkgname=squid
 pkgver=4.5
 pkgrel=1
