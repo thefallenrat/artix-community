@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesR/ruby-rake.git
 	branch = master
-	commit = 63f950826131a1d20b96acd63aaed96238ec5772
-	parent = 3e805ab0b6f87962eea8ca2f73f46a6c33118554
+	commit = 650f7c5a268d8404cccab1d0a355a86d45e58489
+	parent = 5d1d85e2ccc96b568a4ad7091820732c5838a7fb
 	method = merge
 	cmdver = 0.4.0
