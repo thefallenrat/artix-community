@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/asciidoctor.git
 	branch = master
-	commit = a393f3345151632a13c6c6218e1062d7c4c3cfb8
-	parent = 9b0dc7574f724cefeb44cd06ba6f9351105db4a7
+	commit = f06134e4d2d11d0a821259bb56ea326e71144e16
+	parent = ea02a840819f9f27b97c597cdcaee1d9a6d5e8d9
 	method = merge
 	update = auto
 	cmdver = 0.4.0
