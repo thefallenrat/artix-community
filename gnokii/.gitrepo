@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesG/gnokii.git
 	branch = master
-	commit = a4919471f28ff4b15eff1cbfc6fe01d77b04c84f
-	parent = 93a9ff2ddc3d8ec593a053b1e33cb70cdb8b68fd
+	commit = 4ec8199697630d48811c98bba0d5280f51294110
+	parent = e37b21ebf98f9cc2564ff995c00bdb489865e56f
 	method = merge
 	cmdver = 0.4.0
