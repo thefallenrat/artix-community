@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/stubby.git
 	branch = master
-	commit = b595a2cd6d45ae69de20c04d148d271fe81a0420
-	parent = d7e5e9c3de0dd603682923cef087be27ba87da28
+	commit = f6672895c41a18576413d214f7c281ab040a8b63
+	parent = b5838028d886e7e13313cba9426ddbbb848476a7
 	method = merge
 	update = auto
 	cmdver = 0.4.0
