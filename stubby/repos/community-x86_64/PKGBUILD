@@ -1,7 +1,8 @@
 # Maintainer: Bruno Pagani <archange@archlinux.org>
 # Contributor (Artix): Muhammad Herdiansyah <koni@artixlinux.org>
+
 pkgname=stubby
-pkgver=0.2.4
+pkgver=0.2.5
 pkgrel=1
 pkgdesc="DNS Privacy stub resolver"
 arch=('x86_64')
@@ -12,8 +13,6 @@ install=stubby.install
 depends=('getdns')
 source=(${pkgname}-${pkgver}.tar.gz::"https://github.com/getdnsapi/stubby/archive/v${pkgver}.tar.gz"
         "stubby.sysusers")
-sha256sums=('40816d403584aaa8ce72d6276b47e9d91b96294418af7a031dc48a3515398540'
-            '100abbdebe23ddcea854387fb0fb721aa3a6c0b3f6d46dd82e5539f75a7276ec')
 
 prepare() {
     cd ${pkgname}-${pkgver}
@@ -43,3 +42,5 @@ package() {
     install -Dm644 stubby.sysusers "${pkgdir}"/usr/lib/sysusers.d/stubby.conf
     install -Dm644 ${pkgname}-${pkgver}/systemd/${pkgname}.conf -t "${pkgdir}"/usr/lib/tmpfiles.d/
 }
+sha256sums=('56ee63f4b9ee00476a168e6ba5614f6830f93e89baa305c2d38577b2e39eae5b'
+            '100abbdebe23ddcea854387fb0fb721aa3a6c0b3f6d46dd82e5539f75a7276ec')
