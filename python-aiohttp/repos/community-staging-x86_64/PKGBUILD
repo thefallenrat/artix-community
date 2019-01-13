@@ -15,7 +15,8 @@ depends=('python' 'python-chardet' 'python-multidict' 'python-async-timeout'
 makedepends=('cython' 'python-setuptools' 'git')
 checkdepends=('python-pytest' 'python-pytest-runner' 'python-pytest-mock'
               'python-pytest-timeout' 'python-async_generator' 'python-brotlipy'
-              'python-pytest-xdist' 'python-pytest-forked' 'python-pytest-cov')
+              'python-pytest-xdist' 'python-pytest-forked' 'python-pytest-cov' 
+              'python-trustme')
 source=(${pkgname}::"git+https://github.com/aio-libs/aiohttp#commit=${_gitcommit}"
         git+https://github.com/nodejs/http-parser)
 sha512sums=('SKIP'
@@ -23,7 +24,7 @@ sha512sums=('SKIP'
 
 pkgver() {
   cd ${pkgname}
-  git describe --always --tags | sed 's/^v//;s/-/./g'
+  git describe --always --tags | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
 }
 
 prepare() {
