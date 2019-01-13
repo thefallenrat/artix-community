@@ -4,7 +4,7 @@
 
 pkgname=libvirt
 pkgver=4.9.0
-pkgrel=1
+pkgrel=2
 pkgdesc="API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)"
 arch=('x86_64')
 url="http://libvirt.org/"
@@ -12,7 +12,7 @@ license=('LGPL')
 makedepends=('lvm2' 'linux-api-headers' 'dnsmasq' 'lxc' 'libiscsi' 'open-iscsi'
              'perl-xml-xpath' 'libxslt' 'qemu' 'parted' 'python')
 depends=('e2fsprogs' 'gnutls' 'iptables' 'libxml2' 'parted' 'polkit' 'avahi'
-         'yajl' 'libpciaccess' 'udev' 'dbus' 'libxau' 'libxdmcp' 'libpcap'
+         'yajl' 'libpciaccess' 'eudev' 'dbus' 'libxau' 'libxdmcp' 'libpcap'
          'libcap-ng' 'curl' 'libsasl' 'libgcrypt' 'libgpg-error' 'openssl'
          'libxcb' 'gcc-libs' 'iproute2' 'libnl' 'libx11' 'numactl' 'gettext'
          'libssh2' 'netcf' 'fuse2' 'glusterfs' 'ceph-libs' 'libiscsi')
@@ -26,7 +26,9 @@ optdepends=('ebtables: required for default NAT networking'
             'parted'
             'ceph: for ceph support'
             'qemu-block-gluster: for qemu glusterfs support')
-backup=('etc/libvirt/virtlogd.conf'
+backup=('etc/libvirt/libvirt.conf'
+  'etc/libvirt/virtlogd.conf'
+  'etc/libvirt/libvirtd.conf'
   'etc/libvirt/lxc.conf'
   'etc/libvirt/nwfilter/allow-arp.xml'
   'etc/libvirt/nwfilter/allow-dhcp-server.xml'
@@ -103,7 +105,7 @@ build() {
     --libexec=/usr/lib/"${pkgname}" \
     --sbindir=/usr/bin \
     --disable-static \
-    --with-init-script=systemd \
+    --with-init-script=none \
     --with-qemu \
     --with-qemu-user=nobody \
     --with-qemu-group=kvm \
