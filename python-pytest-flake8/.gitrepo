@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pytest-flake8.git
 	branch = master
-	commit = ae2524bc2fde89222037c03dc2710dba69626521
-	parent = 404e0cbcac6da84b5d8c7d1e9df4380b64f93088
+	commit = 7ceb6d9b0c88ba542f2752aa575052d3570f1d2d
+	parent = d4bec04fed6025dd5976d8704ac77f43929fd746
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
