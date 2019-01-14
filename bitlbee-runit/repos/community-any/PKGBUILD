@@ -5,7 +5,7 @@ _url="https://github.com/voidlinux/void-packages/raw/master/srcpkgs"
 _sed_args=(-e 's|/var/service|/run/runit/service|g' -e 's|/var/run|/run|g' -e 's|/usr/sbin|/usr/bin|g' -e 's|/opt/bin|/usr/bin|g' -e 's|/usr/libexec|/usr/lib|g')
 
 pkgname=bitlbee-runit
-pkgver=20180226
+pkgver=20190114
 pkgrel=1
 pkgdesc="runit service scripts for bitlbee"
 arch=('any')
@@ -13,12 +13,13 @@ url="https://github.com/artix-linux"
 license=('BSD3')
 # Note: While this PKGBUILD is licensed under BSD-3 terms, all of the
 #       included runscript should follow it's main package's licenses.
-groups=('runit-world')
+groups=('runit-galaxy')
 depends=('bitlbee')
 provides=('bitlbee-runscripts')
 replaces=('bitlbee-runscripts')
 conflicts=('systemd-sysvcompat')
-source=("bitlbee.run::${_url}/bitlbee/files/bitlbee/run")
+# source=("bitlbee.run::${_url}/bitlbee/files/bitlbee/run")
+source=('bitlbee.run')
 sha256sums=('c1882fa90d6b7b7d83578c6487c05c3db76a4810237cbdf93fb1d9a684bfb536')
 
 _inst_logsv() {
