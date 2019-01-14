@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesV/virtualbox-modules-artix.git
 	branch = master
-	commit = 4437ee8075d96064725bcf620774adc24ba0f59f
-	parent = 6de337f9b106f8cbd9c069c48a31c66f7e0bebcb
+	commit = 1c0d7002ef2624829735beef1978869e975c9eba
+	parent = c925391a917486f33ceebfd3f4afdc66cc6ddfd5
 	method = merge
 	update = auto
 	cmdver = 0.4.0
