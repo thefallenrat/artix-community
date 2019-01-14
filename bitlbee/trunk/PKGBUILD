@@ -1,4 +1,3 @@
-# $Id$
 # Maintainer: Dave Reisner <dreisner@archlinux.org>
 # Contributor: Gaetan Bisson <bisson@archlinux.org>
 # Contributor: Daniel J Griffiths <ghost1227@archlinux.us>
@@ -8,7 +7,7 @@
 
 pkgname=bitlbee
 pkgver=3.5.1
-pkgrel=2
+pkgrel=4
 pkgdesc='Brings instant messaging (XMPP, MSN, Yahoo!, AIM, ICQ, Twitter) to IRC'
 url='http://www.bitlbee.org/'
 license=('GPL')
@@ -42,7 +41,7 @@ build() {
 }
 
 package() {
-  make -C "$pkgname-$pkgver" DESTDIR="$pkgdir" install{,-etc,-dev,-systemd}
+  make -C "$pkgname-$pkgver" DESTDIR="$pkgdir" install{,-etc,-dev}
 
   install -o65 -g65 -dm770 "$pkgdir/var/lib/bitlbee"
   install -Dm644 "$srcdir/bitlbee.tmpfiles" "$pkgdir/usr/lib/tmpfiles.d/bitlbee.conf"
