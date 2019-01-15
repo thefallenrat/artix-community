@@ -1,12 +1,12 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 
 pkgname=calamares
-pkgver=3.2.2
-pkgrel=7
+pkgver=3.2.3
+pkgrel=1
 pkgdesc='Distribution-independent installer framework'
 arch=('x86_64')
 license=(GPL)
-url="https://github.com/artix-linux/calamares"
+url="https://github.com/calamares/calamares"
 license=('LGPL')
 depends=('yaml-cpp' 'kpmcore>=3.1.0' 'boost-libs' 'hwinfo' 'gtk-update-icon-cache'
          'plasma-framework' 'libpwquality' 'pythonqt' 'polkit-qt5' 'qt5-xmlpatterns')
@@ -16,7 +16,7 @@ source=("${url}/archive/v$pkgver.tar.gz"
         0001-artix-default-config.patch
         0001-postcfg-module.patch
         0001-services-runit-module.patch)
-sha256sums=('db04dbe4a577438ec59b61eeb7ab23421c291d86795064dc1c437d09aad81a92'
+sha256sums=('c8d2f26b7b4eac360c9ca54a6d024b9507ad4afe1b71c0bed70eb75378d3eaec'
             '459b38135c147fa095f72dd91ae4e481a03f6eae9b4e8a6018f2d593da54a285'
             '5a96a6631b7b31e991fc037a23b3aa95c7951dbd3eef25fc4d0ccce4aebed8f8'
             '1833271a4c132ba4e030272bce253bf2d42a82071a1953426e6f4cbc51b70a3f')
