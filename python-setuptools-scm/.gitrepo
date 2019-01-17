@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-setuptools-scm.git
 	branch = master
-	commit = 6cb2ec5d1c7890c395d89adf0b7a1a1109bf9e57
-	parent = 78c27fa92f49bdc03cfb4ffd559b70bf5ba1b8f7
+	commit = a540396fb45691f702ac6fe630989086af7acc7b
+	parent = 26808b5f7b4b283c2e7b6d8bd467c2de442a090d
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
