@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pyzmq.git
 	branch = master
-	commit = c3a98766bf23dcad309265a054ad1629ebb21174
-	parent = ca2e4fdf0bd82f647c655716f5b19dda852b6140
+	commit = 4faaeee9b57be939d1f8dccbbccf238af2d08aa8
+	parent = 85a1ae2dc7791a9478dc711a6e4afe09f48a45be
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
