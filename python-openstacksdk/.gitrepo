@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-openstacksdk.git
 	branch = master
-	commit = 9904895167fa9367df35880b5a04789cff48a537
-	parent = 8adb875b00951c7f9e9c8ea8d05ae03d502e30c2
+	commit = bffb3f41f5d64606b178ef02b798fa3f52a697e4
+	parent = 48f512e4b978e4e43a3db43e357c10034d950d4f
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
