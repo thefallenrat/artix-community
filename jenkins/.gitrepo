@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesJ/jenkins.git
 	branch = master
-	commit = b6df91e4ed994667c2ddaee292bafb4bf2341c71
-	parent = c87f4ddc7406f90b760705d6ad9f307cc3021927
+	commit = 0c559bfa3cc9a7a5d8c22f4288a4b1e58dd32b24
+	parent = 2760c4e7a775aba17dd0714b49ba2c90b5417ada
 	method = merge
 	update = auto
 	cmdver = 0.4.0
