@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-waitress.git
 	branch = master
-	commit = 664aa49976351131e6819f03e864da229c08870c
-	parent = 6cfe53206fa9f1a24117f59017bc84ac2fac28d5
+	commit = c65a2029b6ec8ef72720082c42e71bd6e377ebd2
+	parent = 2e497bd22706cd5f6cc3bd5f5f352cbc7f9b4a4c
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
