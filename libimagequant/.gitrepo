@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesL/libimagequant.git
+	branch = master
+	commit = 563c0e7126c0a6f01312f3526dcdf96ec73db4cb
+	parent = ba43692f65453a1d51bbfafdb5a998ea61a69422
+	method = merge
+	cmdver = 0.4.0
