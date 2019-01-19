@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/check_api.git
 	branch = master
-	commit = 50044e0371a21053453319124daa4123843d557c
-	parent = 9ccd0596828fed81eff26358a41f753b925cdddf
+	commit = d4c1f1b12d6d6ce4c6460750d560f60404d704be
+	parent = 1883821681633145f2fec0e39ebed0c4e2aec65c
 	method = merge
 	update = auto
 	cmdver = 0.4.0
