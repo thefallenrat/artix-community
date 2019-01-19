@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-sqlalchemy.git
 	branch = master
-	commit = ef81cd3eac34efa95bcca7fb2a0cc65e7f113428
-	parent = 3b9eba1273d3c1365eca09648d2234a8fd6ebccc
+	commit = 7401205c7f275184550ad3b9f81e6fae20ceb395
+	parent = bc8eca95422e81af4c86939fab977a842c7965ab
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
