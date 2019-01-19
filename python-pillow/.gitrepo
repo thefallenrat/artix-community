@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pillow.git
 	branch = master
-	commit = 7b76e113391e751ad9b036075eaccf34ad4df415
-	parent = 90f8e1ced1635c67ab3d92804655aa018eadb1f3
+	commit = 25cb489d628b306d659b1162e65f44c6b960cec4
+	parent = 19190147d7bb56d37a28ce1d01af9434b4e1977c
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
