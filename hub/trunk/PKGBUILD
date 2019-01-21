@@ -1,9 +1,10 @@
 # Maintainer: Johannes Löthberg <johannes@kyriasis.com>
+# Maintainer: Eli Schwartz <eschwartz@archlinux.org>
 # Contributor: Daniel Wallace <danielwallace at gtmanfred dot com>
 # Contributor: Alfredo Palhares <masterkorp@masterkorp.net>
 
 pkgname=hub
-pkgver=2.7.0
+pkgver=2.7.1
 pkgrel=1
 
 pkgdesc="cli interface for Github"
@@ -48,4 +49,4 @@ package() {
   install -Dm644 etc/hub.zsh_completion "$pkgdir"/usr/share/zsh/site-functions/_hub
   install -Dm644 etc/hub.fish_completion "$pkgdir"/usr/share/fish/vendor_completions.d/hub.fish
 }
-sha256sums=('58d131c32404c963b06bcc067bda14317bc22be26187026a91960aecda324bf4')
+sha256sums=('83fac8b47b2f56da1e7366688df4bd0eeb5fa20bde5d3de39792ea1cc1d15cd4')
