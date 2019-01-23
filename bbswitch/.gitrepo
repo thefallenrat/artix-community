@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesB/bbswitch.git
 	branch = master
-	commit = 08ea77220dd86a689005ae8d34f86bd26bbe570e
-	parent = eee01b943757a0c0603bdaa48412936e00a98304
+	commit = 89a77c751a668ed17c042cc3fa903e48f4ceef31
+	parent = 02ef7907bc3dfe9d7a3d80c009c1cabbee5fd1a9
 	method = merge
 	update = auto
 	cmdver = 0.4.0
