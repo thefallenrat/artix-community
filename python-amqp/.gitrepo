@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-amqp.git
 	branch = master
-	commit = 8da56466a40f51b14920f1d193d1c51dbc124975
-	parent = 0ccdb653ee9837f7fa3367b7be4efdb52e21deff
+	commit = 02c2fb4039c830045342f948787ec6489784d434
+	parent = 44aea928381ca165b5ac87d2d025ba416554cb0e
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
