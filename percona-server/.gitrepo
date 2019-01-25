@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/percona-server.git
 	branch = master
-	commit = a3eefa5645d7951ea2e2b8d559ff338f723f4991
-	parent = 475e29bdbbf5608cb4afb7fbcb992fecd41a0e49
+	commit = 77b347bd3c33b3ae043e831d540c0c5c622ac823
+	parent = ca8e6b3853deed8f2bb1c59a72a2c32c4cdabc00
 	method = merge
 	update = auto
 	cmdver = 0.4.0
