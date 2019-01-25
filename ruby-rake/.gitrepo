@@ -4,7 +4,7 @@
 ; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
 ;
 [subrepo]
-	remote = gitea@gitea.artixlinux.org:packagesR/ruby-rake.git
+	remote = gitea@gitea.artixlinux.org:packagesRuby/ruby-rake.git
 	branch = master
 	commit = 937c9893bb4b9a0f528e07ff184d3de365234b2e
 	parent = e0f60509db09f1b37be0b4262c72721565364660
