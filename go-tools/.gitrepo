@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesG/go-tools.git
 	branch = master
-	commit = 0802b3ca5d4e8b6ef44202c48079ebd54e55cb7a
-	parent = e2235ae4f3a5edb5dd89023356c2a04a7ff5a5ab
+	commit = a605988c8c93c73b30fe0b5446c42837a8ba0b39
+	parent = 6e0a28174fcb74de74b852ca3f90a6d7f50aa04d
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
