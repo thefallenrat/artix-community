@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesB/broadcom-wl.git
 	branch = master
-	commit = 8725096b3684b8193d497005667d1dea1c9b2cfc
-	parent = 2bd8f1c6b14a6eca5fcc2541060d423ed704f963
+	commit = 40ce3f4da59361a7c52658979b568711960c5f78
+	parent = dd1a0a08cec0e10901864e568f9e1865376cb150
 	method = merge
 	update = auto
 	cmdver = 0.4.0
