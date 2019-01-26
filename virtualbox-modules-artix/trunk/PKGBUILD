@@ -3,8 +3,8 @@
 
 pkgbase=virtualbox-modules-artix
 pkgname=('virtualbox-host-modules-artix' 'virtualbox-guest-modules-artix')
-pkgver=6.0.0
-pkgrel=5
+pkgver=6.0.2
+pkgrel=4
 _linux_major=4
 _linux_minor=20
 arch=('x86_64')
