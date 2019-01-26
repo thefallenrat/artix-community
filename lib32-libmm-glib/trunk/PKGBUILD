@@ -3,7 +3,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
 
 pkgname=lib32-libmm-glib
-pkgver=1.8.2
+pkgver=1.10.0
 pkgrel=1
 pkgdesc='ModemManager library'
 arch=('x86_64')
@@ -13,7 +13,7 @@ depends=('lib32-glib2' 'libmm-glib')
 makedepends=('git' 'intltool' 'lib32-libmbim' 'lib32-libqmi'
              'lib32-polkit' 'python' 'vala')
 _commit=e89a4a6389cd05ee8f7323b382ac139a8d56768f # tags/1.8.2
-source=("git+https://anongit.freedesktop.org/git/ModemManager/ModemManager#commit=$_commit")
+source=("git+https://anongit.freedesktop.org/git/ModemManager/ModemManager#tag=${pkgver}")
 sha256sums=('SKIP')
 
 prepare() {
