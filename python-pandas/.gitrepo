@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesPython/python-pandas.git
 	branch = master
-	commit = 32475299fad5656d62a57aa238bbd835d1df687c
-	parent = f7df292fa48bdde4d4155329f72fcd9b8ac346ff
+	commit = 9ee3f79ec94501d25ea298713f385d25ff983cf1
+	parent = 08b65b4ab9904749b2783eb7d7dc46720ef7b8d6
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
