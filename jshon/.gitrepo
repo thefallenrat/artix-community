@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesJ/jshon.git
+	branch = master
+	commit = 6be35a8dc578e0196ca373453f339decf32fc464
+	parent = 8132ca3a853cc64d1547706907ac78f4b25bdc94
+	method = merge
+	cmdver = 0.4.0
