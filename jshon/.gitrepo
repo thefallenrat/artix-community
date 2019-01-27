@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesJ/jshon.git
 	branch = master
-	commit = e97445354479e71c22a3fec04e7f10ccd5d2b8ce
-	parent = ec4ecf5c833ac3e8f4af9b3447cdabed322fb7c6
+	commit = 3a998aeeeded5f3a53252710e677e814d335ecce
+	parent = a3ca8076a03aac508a2ef5eb645e703d465b7a1a
 	method = merge
 	cmdver = 0.4.0
