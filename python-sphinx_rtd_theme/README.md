@@ -1,2 +1,0 @@
-# python-sphinx_rtd_theme
-

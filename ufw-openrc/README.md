@@ -1,2 +1,0 @@
-# ufw-openrc
-

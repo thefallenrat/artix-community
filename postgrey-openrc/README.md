@@ -1,2 +1,0 @@
-# postgrey-openrc
-

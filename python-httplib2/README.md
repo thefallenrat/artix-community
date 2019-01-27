@@ -1,2 +1,0 @@
-# python-httplib2
-

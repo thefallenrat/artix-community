@@ -1,2 +1,0 @@
-# python-cssselect2
-

@@ -1,2 +1,0 @@
-# python-aniso8601
-

@@ -1,7 +1,0 @@
-LISTEN_HTTP=:9090
-LISTEN_HTTPS=
-LISTEN_PROXY=
-PAGES_DOMAIN=localhost
-PAGES_ROOT=/var/lib/gitlab/shared/pages
-
-LOGFILE=/var/log/gitlab-pages.log

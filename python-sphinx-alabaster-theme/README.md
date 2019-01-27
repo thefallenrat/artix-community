@@ -1,2 +1,0 @@
-# python-sphinx-alabaster-theme
-

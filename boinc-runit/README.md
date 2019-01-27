@@ -1,2 +1,0 @@
-# boinc-runit
-

@@ -1,2 +1,0 @@
-# python-os-service-types
-

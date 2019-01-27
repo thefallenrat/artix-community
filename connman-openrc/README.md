@@ -1,2 +1,0 @@
-# connman-openrc
-

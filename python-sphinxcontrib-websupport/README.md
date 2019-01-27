@@ -1,2 +1,0 @@
-# python-sphinxcontrib-websupport
-

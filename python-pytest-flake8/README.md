@@ -1,2 +1,0 @@
-# python-pytest-flake8
-

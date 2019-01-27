@@ -1,2 +1,0 @@
-# darkhttpd-openrc
-

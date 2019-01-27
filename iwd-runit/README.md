@@ -1,2 +1,0 @@
-# iwd-runit
-

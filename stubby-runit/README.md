@@ -1,2 +1,0 @@
-# stubby-runit
-

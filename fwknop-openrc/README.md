@@ -1,2 +1,0 @@
-# fwknop-openrc
-

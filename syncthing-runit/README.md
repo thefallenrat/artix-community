@@ -1,2 +1,0 @@
-# syncthing-runit
-

@@ -1,2 +1,0 @@
-# pdnsd-runit
-

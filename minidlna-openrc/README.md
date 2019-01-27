@@ -1,2 +1,0 @@
-# minidlna-openrc
-

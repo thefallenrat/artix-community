@@ -1,2 +1,0 @@
-# bitlbee-openrc
-

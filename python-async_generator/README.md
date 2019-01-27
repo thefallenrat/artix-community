@@ -1,2 +1,0 @@
-# python-async_generator
-

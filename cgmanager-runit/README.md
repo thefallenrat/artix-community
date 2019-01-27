@@ -1,2 +1,0 @@
-# cgmanager-runit
-

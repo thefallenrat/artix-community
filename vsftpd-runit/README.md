@@ -1,2 +1,0 @@
-# vsftpd-runit
-

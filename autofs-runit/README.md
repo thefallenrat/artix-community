@@ -1,2 +1,0 @@
-# autofs-runit
-

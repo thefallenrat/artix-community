@@ -1,2 +1,0 @@
-# znc-runit
-

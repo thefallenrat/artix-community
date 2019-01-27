@@ -1,2 +1,0 @@
-# pdnsd-openrc
-

@@ -1,2 +1,0 @@
-#!/bin/sh
-exec chpst -u tox-bootstrapd:tox-bootstrapd tox-bootstrapd --foreground --config /etc/tox-bootstrapd.conf

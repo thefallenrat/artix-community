@@ -1,2 +1,0 @@
-# apcupsd-openrc
-
