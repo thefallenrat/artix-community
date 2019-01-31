@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesE/emacs-nox.git
 	branch = master
-	commit = 8bcb2551c54083060328cb55f860a5917864cdab
-	parent = bf6af38c697e89527b656c9255f4c7c2f68ba589
+	commit = 072acc19f121c60429f0eb8fc58eae1cfe0e6531
+	parent = 3ea98388d575a49d953798670e72630993ab5c55
 	method = merge
 	cmdver = 0.4.0
