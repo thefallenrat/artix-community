@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesE/emacs-nox.git
+	branch = master
+	commit = 8bcb2551c54083060328cb55f860a5917864cdab
+	parent = bf6af38c697e89527b656c9255f4c7c2f68ba589
+	method = merge
+	cmdver = 0.4.0
