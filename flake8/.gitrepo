@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesF/flake8.git
 	branch = master
-	commit = 72f8c34a8fe05577e2a0b686f77224e5394bc0e3
-	parent = 28655b87fe5e18a27a8b0a24c3755670d5e4115e
+	commit = 1b236f91ca5a8cbe84448f855cefc20a0c9e5fcc
+	parent = 2a1b38bc065580b45731ac6f41c5854a4a6db4f7
 	method = merge
 	update = auto
 	cmdver = 0.4.0
