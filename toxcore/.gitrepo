@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/toxcore.git
 	branch = master
-	commit = a59f1420e322f60a64b9e4057aabafca5fa8684f
-	parent = 0da93f1c1a7af9247c395c59a600d4fe539009ac
+	commit = 350819b0bb01873f690e5b5fd65ec37167af173d
+	parent = de2b3e134814c9f7dd94eb1c46b4c3230a411a92
 	method = merge
 	update = auto
 	cmdver = 0.4.0
