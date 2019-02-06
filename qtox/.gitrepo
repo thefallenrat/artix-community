@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesQ/qtox.git
 	branch = master
-	commit = cd88d0aa5fa39b4721376ed613f53f5578fbac99
-	parent = bbabb3aece020fbea5863394012f16c1ec91d7b6
+	commit = 39764f2e83cf3eb2306a6404ba5a9a3d6f945733
+	parent = 542a76706868fec00238ab0a60580560121d95cd
 	method = merge
 	update = auto
 	cmdver = 0.4.0
