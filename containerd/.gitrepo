@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/containerd.git
 	branch = master
-	commit = 1d57506d14033dbdd188eb2b03656b0a643a2908
-	parent = 0d56d6fade5fc992212d1c727857205fa7915982
+	commit = 1915e624b921495e2b760ceac84233f84e53be1a
+	parent = e124aa4b2052266d5fd4e19577c33d1dfcba5306
 	method = merge
 	cmdver = 0.4.0
