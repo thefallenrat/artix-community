@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesB/bitlbee.git
 	branch = master
-	commit = c87c86ed36aaf616186360baf6c4eab1fbd36beb
-	parent = a2da057ec82002316f5345da128d75e345546c0c
+	commit = 10798678bd32f73a6cef652166311974f7bce2f6
+	parent = add48ced8ab6e189881701847e0062f063b9168f
 	method = merge
 	cmdver = 0.4.0
