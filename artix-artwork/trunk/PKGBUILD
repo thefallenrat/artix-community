@@ -2,7 +2,7 @@
 
 pkgbase=artix-artwork
 pkgname=('artix-icons' 'artix-backgrounds')
-pkgver=0.7.3
+pkgver=0.7.4
 pkgrel=1
 arch=('any')
 url="https://gitea.artixlinux.org/artix/artwork"
@@ -28,7 +28,7 @@ package_artix-icons(){
 
     cd artwork #-${pkgver}
     install -d ${pkgdir}/usr/share/icons/artix
-    cp Artix_Logo_2019/*.svg ${pkgdir}/usr/share/icons/artix
+    cp icons/*.{svg,png} ${pkgdir}/usr/share/icons/artix
 
     #make PREFIX=/usr DESTDIR=${pkgdir} install_icons
 }
