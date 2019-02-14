@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/calamares-branding.git
 	branch = master
-	commit = 55f1b494625d330f02bfce83ce7af4f86b254a1a
-	parent = 15de830a8cb526df3d80f214e2b08922ba7457c9
+	commit = 623e772b0e9ea3094e16a2e3906934dbdb7ef2db
+	parent = 3f7e099887524f4255f17e03805aebedfd794e33
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
