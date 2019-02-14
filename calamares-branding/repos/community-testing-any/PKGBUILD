@@ -1,7 +1,7 @@
 # Maintainer: artoo <artoo@cromnix.org>
 
 pkgname=calamares-branding
-pkgver=0.2.2
+pkgver=0.2.3
 pkgrel=1
 pkgdesc='Distribution-independent installer framework artix branding'
 arch=('any')
