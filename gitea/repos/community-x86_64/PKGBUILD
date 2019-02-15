@@ -21,22 +21,22 @@ optdepends=(
   'sqlite: SQLite support'
 )
 backup=('etc/gitea/app.ini')
-_tag=c3a963bbd7a842f0b532c710848c6e271b4c709e # git rev-parse v1.7.1
-source=("git+https://github.com/go-gitea/gitea.git#tag=${_tag}?signed"
+_tag=3b612ce42e48ec4fecd89eebcf9f73ac61927b25 # git rev-parse v1.7.2
+source=("git+https://github.com/go-gitea/gitea.git#tag=${_tag}"
         gitea-disable-u2f.patch::"https://patch-diff.githubusercontent.com/raw/go-gitea/gitea/pull/5994.patch"
         gitea.tmpfiles
         gitea.sysusers
         gitea-arch-defaults.patch
         gitea-ldflags.patch)
 sha256sums=('SKIP'
-            'd6842efd13b6971b77d233ff3ac2bd3d81c5d26c348ae1f2a2b19b0e7237726e'
+            '08915e2456d0c20bf786559ba316b49c03de11bfc4b37f8f0ad4e577baf0e3df'
             '1521fd7edc3830c695698ffe9835709f1408040b5ec989f07410972c894fa8ba'
             '2abc51ccd0086bb996194bb7fb241a3f26d84f518417c872b66a3db8970da7e4'
             '913a28110d2fbdabcfd2d19366aad8c645813b512f4591882efb47795ad8472f'
             'c552a5adb4058530d67176713240cc435b7b974747ec51e972c37d8834e32b3f')
-#validpgpkeys=('8C4033A23895237CB27D52D9D9B5613BEB813F99'  # Matti Ranta <matti@mdranta.net>, retrieved from https://github.com/techknowlogick.gpg
-#              'ED810FD31FBE67F406ED71BDD4F1E9B6493ED946'  # Jonas Franz <info@jonasfranz.software>
-#              '9C5BCD799B3CDB124147A748E0DDFEC24C48784C') # Lauris Bukšis-Haberkorns <lauris@nix.lv>
+# validpgpkeys=('8C4033A23895237CB27D52D9D9B5613BEB813F99'  # Matti Ranta <matti@mdranta.net>, retrieved from https://github.com/techknowlogick.gpg
+#               'ED810FD31FBE67F406ED71BDD4F1E9B6493ED946'  # Jonas Franz <info@jonasfranz.software>
+#               '9C5BCD799B3CDB124147A748E0DDFEC24C48784C') # Lauris Bukšis-Haberkorns <lauris@nix.lv>
 install=gitea.install
 
 prepare() {
@@ -67,7 +67,6 @@ build() {
 package() {
   install -Dm755 ${pkgname}/${pkgname} -t "${pkgdir}"/usr/bin/
   install -Dm644 ${pkgname}/LICENSE -t "${pkgdir}"/usr/share/licenses/${pkgname}/
-  install -Dm644 ${pkgname}.service -t "${pkgdir}"/usr/lib/systemd/system/
   install -Dm644 ${pkgname}.tmpfiles "${pkgdir}"/usr/lib/tmpfiles.d/${pkgname}.conf
   install -Dm644 ${pkgname}.sysusers "${pkgdir}"/usr/lib/sysusers.d/${pkgname}.conf
   install -D ${pkgname}/custom/conf/app.ini.sample "${pkgdir}"/etc/gitea/app.ini
