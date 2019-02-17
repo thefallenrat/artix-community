@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesH/hwinfo.git
 	branch = master
-	commit = 27f7f7e73c1a46125210aebf3210445017f064f1
-	parent = 44a44ca855a97773dbb0f808b06525cffd006ebf
+	commit = 62811208698f93b1d15222d3ae10e9fb3f1e6ae0
+	parent = 18c9aee4fe75661138848796022a38426ba1142d
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
