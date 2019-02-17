@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesF/fluidsynth.git
 	branch = master
-	commit = d6631f88079ae15c52c01709e7be607ffd67ffde
-	parent = 18baff73f97882664e0326b24ea77a55a66292b9
+	commit = 35ed2ed4ebf73fca46015e3dcdef0f0b93344007
+	parent = fb3b9d3816182de8ea8b55fd28109008adc7e8f5
 	method = merge
 	update = auto
 	cmdver = 0.4.0
