@@ -2,17 +2,17 @@
 
 pkgbase=grub-theme
 pkgname=('artix-grub-theme-common' 'artix-grub-theme')
-pkgver=0.5.3
+pkgver=0.6
 pkgrel=1
 pkgdesc='Artix grub theme'
 arch=('any')
 url="https://gitea.artixlinux.org/artix/grub-theme"
 license=('GPL')
 makedepends=('git')
-# source=("${pkgbase}-${pkgver}.tar.gz::${url}/archive/${pkgver}.tar.gz")
-# sha256sums=('fe9bc588607d79733bd6168523dd6c88e06fee2159a2ad0926479b1b902c520b')
-source=("git+https://gitea.artixlinux.org/artix/grub-theme.git")
-sha256sums=('SKIP')
+source=("${pkgbase}-${pkgver}.tar.gz::${url}/archive/${pkgver}.tar.gz")
+sha256sums=('5aa4d5167a6b7b9254eaa0aca7faaecb620e5f2dd93f1dcb56968e6351a88be3')
+# source=("git+https://gitea.artixlinux.org/artix/grub-theme.git")
+# sha256sums=('SKIP')
 
 package_artix-grub-theme-common() {
     depends=('grub')
