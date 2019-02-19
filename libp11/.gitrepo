@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libp11.git
 	branch = master
-	commit = a3d582029e4f75bdf1fb9cf9ad85b213abb36ddf
-	parent = bf6c42458dbf3495f91af81db8237778d2f9a903
+	commit = a416b12a095a7ecd5a9b29e0a4a8401ef092ba14
+	parent = 0667179968d9ce3aa30ca9e2dd894f3df6a32da3
 	method = merge
 	cmdver = 0.4.0
