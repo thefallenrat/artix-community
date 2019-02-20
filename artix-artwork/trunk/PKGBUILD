@@ -2,33 +2,24 @@
 
 pkgbase=artix-artwork
 pkgname=('artix-icons' 'artix-backgrounds')
-pkgver=0.7.4
+pkgver=0.8
 pkgrel=1
 arch=('any')
 url="https://gitea.artixlinux.org/artix/artwork"
 license=('GPL')
-makedepends=('git')
-#source=("${pkgbase}-${pkgver}.tar.gz::$url/archive/${pkgver}.tar.gz")
-#sha256sums=('551a5512d3c3682c856b51155817cfe8306679d41e57db0efe48dbb0085dc421')
-source=(git+https://gitea.artixlinux.org/artix/artwork.git)
-sha256sums=('SKIP')
+source=("${pkgbase}-${pkgver}.tar.gz::$url/archive/${pkgver}.tar.gz")
+sha256sums=('4fcd625272132fa3c66318cfcca75f3f7563d3c4d1c05b7f5608790b7dd88af6')
 
 package_artix-backgrounds(){
     pkgdesc='Artix backgrounds'
 
     cd artwork #-${pkgver}
-    install -d ${pkgdir}/usr/share/backgrounds
-    cp backgrounds/{Two*1080*,space*1080*,Gradient*Blue}.jpg ${pkgdir}/usr/share/backgrounds
-
-#     make PREFIX=/usr DESTDIR=${pkgdir} install_backgrounds
+    make PREFIX=/usr DESTDIR=${pkgdir} install_backgrounds
 }
 
 package_artix-icons(){
     pkgdesc='Artix icons'
 
     cd artwork #-${pkgver}
-    install -d ${pkgdir}/usr/share/icons/artix
-    cp icons/*.{svg,png} ${pkgdir}/usr/share/icons/artix
-
-    #make PREFIX=/usr DESTDIR=${pkgdir} install_icons
+    make PREFIX=/usr DESTDIR=${pkgdir} install_icons
 }
