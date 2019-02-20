@@ -4,7 +4,7 @@
 _pkgbase=desktop-presets
 
 pkgname=artix-lxqt-presets
-pkgver=0.7.10
+pkgver=0.8
 pkgrel=1
 pkgdesc='Artix lxqt presets'
 arch=('any')
@@ -18,10 +18,8 @@ depends=('breeze-icons'
         'artix-icons'
         'xcursor-breeze')
 makedepends=('git')
-# source=("${_pkgbase}-${pkgver}.tar.gz::$url/archive/${pkgver}.tar.gz")
-# sha256sums=('18e9dedf73d16fe768180b5c784e4b2b193a587900feab94c5a68d633b52fe40')
-source=("git+https://gitea.artixlinux.org/artix/desktop-presets.git")
-sha256sums=('SKIP')
+source=("${_pkgbase}-${pkgver}.tar.gz::$url/archive/${pkgver}.tar.gz")
+sha256sums=('7948d856c0789820b024aad9ee0941dd7a0f30b030aa76cf54ca59dcef2bd460')
 
 _inst_dir(){
     cd ${_pkgbase} #-${pkgver}
