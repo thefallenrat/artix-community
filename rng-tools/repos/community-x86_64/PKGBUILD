@@ -2,15 +2,16 @@
 # Contributor: Alasdair Haswell <ali at arhaswell dot co dot uk>
 
 pkgname=rng-tools
-pkgver=6.6
-pkgrel=2
+pkgver=6.7
+pkgrel=1
 pkgdesc="Random number generator related utilities"
 arch=('i686' 'x86_64')
 url="https://github.com/nhorman/rng-tools"
 license=('GPL')
-depends=('libgcrypt' 'curl' 'libxml2' 'sysfsutils' 'jitterentropy')
+depends=('libgcrypt' 'curl' 'libxml2' 'sysfsutils' 'jitterentropy' 'libp11')
 backup=(etc/conf.d/rngd)
-source=(https://github.com/nhorman/rng-tools/archive/v$pkgver/$pkgname-$pkgver.tar.gz)
+source=(https://github.com/nhorman/rng-tools/archive/v$pkgver/$pkgname-$pkgver.tar.gz
+        rngd.conf)
 
 prepare() {
     cd "$srcdir"/$pkgname-$pkgver
@@ -32,6 +33,8 @@ build() {
 package() {
 	cd "$srcdir"/$pkgname-$pkgver
 	make DESTDIR="$pkgdir" install
+	install -Dm0644 "$srcdir"/rngd.conf "$pkgdir"/etc/conf.d/rngd
 }
 
-sha256sums=('201d15e9e5ae8468b14a7a2f3a7fa714c4e83380f4468b80893148bf700c2efe')
+sha256sums=('b85e3530dbf943b6da03ebecaf64d0a4febfcc4f562fc7f8d886483906b15f08'
+            'f4fd197dd682cdab07ddeabe8d3b73b1bc2e1cf322237be238a26b49a7dcb047')
