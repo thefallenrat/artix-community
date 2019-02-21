@@ -1,25 +1,30 @@
-# Maintainer: artoo <artoo@cromnix.org>
-# Contributor: Philip Müller <philm[at]manjaro[dog]org>
+# Maintainer: artoo <artoo@artixlinux.org>
 
 _pkgbase=desktop-presets
 
 pkgname=artix-lxqt-presets
 pkgver=0.8
-pkgrel=1
+pkgrel=2
 pkgdesc='Artix lxqt presets'
 arch=('any')
 url="https://gitea.artixlinux.org/artix/desktop-presets"
 license=('GPL')
 provides=('desktop-presets')
-makedepends=('git')
 depends=('breeze-icons'
         'breeze-gtk'
         'artix-backgrounds'
         'artix-icons'
         'xcursor-breeze')
 makedepends=('git')
-source=("${_pkgbase}-${pkgver}.tar.gz::$url/archive/${pkgver}.tar.gz")
-sha256sums=('7948d856c0789820b024aad9ee0941dd7a0f30b030aa76cf54ca59dcef2bd460')
+source=("${_pkgbase}-${pkgver}.tar.gz::$url/archive/${pkgver}.tar.gz"
+        "panel-logo-fix.patch::https://gitea.artixlinux.org/artix/desktop-presets/commit/30f106b78b61a1ee0183984a912df5aed7600068.patch")
+sha256sums=('7948d856c0789820b024aad9ee0941dd7a0f30b030aa76cf54ca59dcef2bd460'
+            'eec6f6043c438b4f845de2e263bbbec82fcf52f97926206f7fb46c0792b60f08')
+
+prepare(){
+    cd ${_pkgbase}
+    patch -Np1 -i ../panel-logo-fix.patch
+}
 
 _inst_dir(){
     cd ${_pkgbase} #-${pkgver}
