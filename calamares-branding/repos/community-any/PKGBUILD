@@ -1,7 +1,7 @@
 # Maintainer: artoo <artoo@cromnix.org>
 
 pkgname=calamares-branding
-pkgver=0.2.1
+pkgver=0.3
 pkgrel=1
 pkgdesc='Distribution-independent installer framework artix branding'
 arch=('any')
@@ -9,11 +9,11 @@ license=(GPL)
 url="https://github.com/artix-linux/calamares-branding"
 license=('LGPL')
 depends=('calamares')
-source=("${url}/archive/$pkgver.tar.gz")
-sha256sums=('0e4dda68eeafca499c4c551ac165ff90852d7c392130f7f743551f4b44da04f4')
+makedepends=('git')
+source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/$pkgver.tar.gz")
+sha256sums=('54ccaf7f1f848d148616b8a4aa91df51ce4426b82683ebf4fe8c67d9c8c2a210')
 
 package() {
-	cd $pkgname-$pkgver/artix
+	cd ${pkgname}-${pkgver}/artix
 	make DESTDIR="$pkgdir" install
-
 }
