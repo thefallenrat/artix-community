@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesI/i3exit.git
 	branch = master
-	commit = c2ba8a8d9bacf5b13dd040aab68fcdde443c59ed
-	parent = d0e3ebd890b8364ba61ca0be35c309d5f77e57c5
+	commit = 072c7c0f67d41e84999e1a8be85cdd55317248bf
+	parent = 0d9e5c97d454f815c0d64a3c9f2137d7f208ecb4
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
