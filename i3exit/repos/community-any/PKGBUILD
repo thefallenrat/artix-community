@@ -1,11 +1,10 @@
 # Maintainer: relih <relih@artixlinux.org>
 
 pkgname=i3exit
-pkgver=20181109
+pkgver=20190222
 pkgrel=1
 pkgdesc="Systemd/OpenRC-compatible exit-script for i3, including 'blurlock'"
 arch=('any')
-groups=('i3-manjaro')
 license=('GPL')
 depends=('i3-wm'
     'i3lock'
