@@ -4,7 +4,7 @@
 
 pkgname=fluidsynth
 pkgver=2.0.4
-pkgrel=1
+pkgrel=1.1
 pkgdesc="A real-time software synthesizer based on the SoundFont 2 specifications"
 arch=('x86_64')
 url="http://www.fluidsynth.org/"
@@ -37,9 +37,6 @@ build() {
 package() {
   cd "${pkgname}-${pkgver}/build"
   make DESTDIR="$pkgdir" install
-  # systemd user unit
-  install -vDm 644 "${pkgname}.service" \
-    -t "$pkgdir/usr/lib/systemd/user/"
   # system-wide configuration file
   install -vDm 644 "${pkgname}.conf" "${pkgdir}/etc/conf.d/${pkgname}"
   # docs
