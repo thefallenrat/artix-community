@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesT/ttf-liberation.git
 	branch = master
-	commit = 80716e2bcae99e4369f15f0064bc0d975a28d773
-	parent = 173c66b4fac38e7833ff0f72acd11b7ff5ebc0c5
+	commit = 365a498616bd93a127a78cc7dbb60c4aead30479
+	parent = 7b05adece62f96e2b7708e65cd9aef0ac551f003
 	method = merge
 	update = auto
 	cmdver = 0.4.0
