@@ -9,8 +9,8 @@
 # --->>> remember to rebuild/bump pigeonhole in one step <<<---
 
 pkgname=dovecot
-pkgver=2.3.4.1
-pkgrel=2
+pkgver=2.3.5
+pkgrel=1
 
 pkgdesc="An IMAP and POP3 server written with security primarily in mind"
 url="http://dovecot.org/"
@@ -113,7 +113,7 @@ package() {
   install -Dm644 "${srcdir}/dovecot.pam" "${pkgdir}/etc/pam.d/dovecot"
 }
 
-sha256sums=('b8873e2ce5c33e58963bb7a8d2ff8427c09dbfdd63e13a0b0f4502864043aa07'
+sha256sums=('bfe112ec6d11f7d6c6f7f0440e3b6e2c840c15cec1e99466b5495765d54aaaff'
             'SKIP'
             'c5e3a8ffe23e5deb4f7893d9877d972347c2ee45c4ebf713de85c537e47cfcaf'
             'e3a2af9b4a904361b549db90b5046332628cdd8ad73f2b20b2e8645da6930604'
