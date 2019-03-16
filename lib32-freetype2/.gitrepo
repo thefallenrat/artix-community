@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/lib32-freetype2.git
 	branch = master
-	commit = 98935fbec1d77520a4442c3342b586496f3af2fb
-	parent = 632c7c9fab2bee125b2eaac351724b2920f8c102
+	commit = 30e1c953df2bfd6a04d196c6e0bbf8271bbefa21
+	parent = aa2b682d17f32b425e925c5184ebe1e26442bdf9
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
