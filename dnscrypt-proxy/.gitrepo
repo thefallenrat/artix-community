@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesD/dnscrypt-proxy.git
 	branch = master
-	commit = 0c3057b9230f31fdc790f4cfd77236b063372cb8
-	parent = cd66c723294b9300cfe7f9738b9e669ffd0d5767
+	commit = f76573f1cf161e5e0a29d16f4ba8fa2923d8e397
+	parent = 97274b12d4d2c8f4f115f6e465db06ecc560b518
 	method = merge
 	update = auto
 	cmdver = 0.4.0
