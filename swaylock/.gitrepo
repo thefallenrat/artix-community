@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesS/swaylock.git
+	branch = master
+	commit = 396e219c0c1e4249c2a973959af9d7eb4f1f3cf0
+	parent = fa1d6ee47a0c30d18a6a14fb2812914a34d59ea8
+	method = merge
+	cmdver = 0.4.0
