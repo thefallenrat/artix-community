@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesY/yaourtix-git.git
 	branch = master
-	commit = 536995536b71a29e8f999c119a53deaa83b41255
-	parent = 73fff3f38522c26e3d5c8139774253ae4beae103
+	commit = 5c60727f51f7950b1df2778287fb840c9cc90d2b
+	parent = 5ba4aba5950c8b04eb317727f1291431e4c0f910
 	method = merge
 	cmdver = 0.4.0
