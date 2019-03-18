@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesS/swayidle.git
+	branch = master
+	commit = 32c31e92a2f36a817465debe9f2e9dd0ba9a011a
+	parent = 7a62ecac02f59709a1f7cea6fe3d680857747358
+	method = merge
+	cmdver = 0.4.0
