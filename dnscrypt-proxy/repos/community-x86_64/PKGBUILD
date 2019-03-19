@@ -36,6 +36,7 @@ prepare() {
   touch "${pkgname}/ip-blacklist.txt"
   # symlink upstream's vendor to src
   ln -sfv vendor src
+  rm -v go.mod
 }
 
 build() {
