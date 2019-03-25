@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesC/connman-gtk.git
+	branch = master
+	commit = cf86f78abd79c08c3945a9bd9b64b4a6d93918ce
+	parent = d616d086a8688825f9c68662b6e8a8d25ec967c4
+	method = merge
+	cmdver = 0.4.0
