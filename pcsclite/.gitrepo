@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/pcsclite.git
 	branch = master
-	commit = 293f64fcfbba3123cb58be210403c6774a248760
-	parent = cb6ccd0ab1b2bcc75f23ec66b908cbaa2d2adc86
+	commit = 6dfe3d4ffa7c90d0eb955d9d78eb89d18792ff90
+	parent = 58ae08673ae8c4d98d7b5ecca10da66b586f1ec8
 	method = merge
 	cmdver = 0.4.0
