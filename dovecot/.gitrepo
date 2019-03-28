@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesD/dovecot.git
 	branch = master
-	commit = 71d686b6b58714e933eb85c02243c7131f6aa8a5
-	parent = 5bd898ed8c98295214202de3182812df614ace31
+	commit = 735203a3afab24f59ed58d7354d5d7c7ba0efff4
+	parent = 7ff6f8cd35f0e5fe4c0e321c26c01a61cdca302e
 	method = merge
 	update = auto
 	cmdver = 0.4.0
