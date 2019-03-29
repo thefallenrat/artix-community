@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/sway.git
 	branch = master
-	commit = db7428b3f76fa68e55497d9f0a3aa608edc43787
-	parent = c490673329464903e4f9e675a0c911b2bc0ace4b
+	commit = 5ca383bfb08d3301c6fcd578641843e62d8be675
+	parent = 35193212d322baed637bc11d154a9705b320a7f2
 	method = merge
 	cmdver = 0.4.0
