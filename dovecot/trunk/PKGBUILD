@@ -10,7 +10,7 @@
 
 pkgname=dovecot
 pkgver=2.3.5.1
-pkgrel=1
+pkgrel=3
 
 pkgdesc="An IMAP and POP3 server written with security primarily in mind"
 url="http://dovecot.org/"
@@ -19,10 +19,11 @@ license=("LGPL")
 
 depends=('krb5' 'openssl' 'sqlite' 'mariadb-libs' 'libsodium'
          'postgresql-libs' 'bzip2' 'lz4' 'expat' 'curl' 'pam')
-makedepends=('libcap' 'libldap' 'clucene' 'libsodium')
+makedepends=('libcap' 'libldap' 'clucene' 'libsodium' 'lua')
 optdepends=('libldap: ldap plugin'
             'xz: imap zlib  plugin'
-            'clucene: alternative FTS indexer')
+            'clucene: alternative FTS indexer'
+            'lua: LUA auth and push support')
 
 provides=('imap-server' 'pop3-server')
 backup=('etc/pam.d/dovecot')
@@ -72,6 +73,7 @@ build() {
     --with-ssldir=/etc/ssl \
     --with-gssapi \
     --with-ldap=plugin \
+    --with-lua=plugin \
     --with-zlib \
     --with-bzlib \
     --with-lzma \
@@ -118,5 +120,5 @@ sha256sums=('d78f9d479e3b2caa808160f86bfec1c9c7b46344d8b14b88f5fa9bbbf8c7c33f'
             'c5e3a8ffe23e5deb4f7893d9877d972347c2ee45c4ebf713de85c537e47cfcaf'
             'e3a2af9b4a904361b549db90b5046332628cdd8ad73f2b20b2e8645da6930604'
             'a457a1691cfa82495fc0503bfa4b61e54b149e63400fe0f568dff2c24a3f7858'
-            '08f4a8d4e88a2540efa8e8386690ae64cc65250aeeded1373cc83a8d0373a601'
+            'ad9245f5e916480edd67139603cbe52e7a868233075f900ab63a0ce58f03741a'
             'a97bd93b07c96e03d3c7540c8cd6c2d465a12728f31d9164ea4546e257e8a203')
