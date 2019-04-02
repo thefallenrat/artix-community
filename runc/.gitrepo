@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesR/runc.git
 	branch = master
-	commit = a83c1cd601421951b8b61f2483d843964413391d
-	parent = 357fecb5f44e8a54a4a31c910eda0b8ea33fb09b
+	commit = b604bf85f3f3d07a2ed1ae56cc5575cccb311477
+	parent = 8c3c4296e39faa36e75c468cffce7463ac7f1e29
 	method = merge
 	cmdver = 0.4.0
