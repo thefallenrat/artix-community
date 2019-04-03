@@ -3,7 +3,7 @@
 # Contributor: Jonathan Wiersma <archaur at jonw dot org>
 
 pkgname=libvirt
-pkgver=5.1.0
+pkgver=5.2.0
 pkgrel=1
 pkgdesc="API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)"
 arch=('x86_64')
@@ -63,7 +63,7 @@ options=('emptydirs')
 validpgpkeys=('C74415BA7C9C7F78F02E1DC34606B8A5DE95BC1F')
 source=("https://libvirt.org/sources/${pkgname}-${pkgver}.tar.xz"{,.asc}
         'libvirt.sysusers.d')
-sha512sums=('ca64d7be683614bdeb20a8865655fe80f911cf13c00aed2334db3a2e4131e1dd6fe5e9663a24e6f82161ad5aa53f1a2637cd21730eed46e4764b7eebced94f3f'
+sha512sums=('378dc1552263cce746117487abc0a1f3411e5be149331717158ba23825734ceae7ca474290264d71de798fdd089ad9672026bcb242fa5b3aef87294284d06f04'
             'SKIP'
             '519a9f245bed077137a1b01dec07a178885ac2527b47a1bd883bbb908bf9b4fa0c039525600e09f7db636f8849870fe2ce8ffe5b75532ff9d3fa1a91115875f8')
 
