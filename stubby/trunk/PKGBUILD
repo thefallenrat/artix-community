@@ -2,7 +2,7 @@
 # Contributor (Artix): Muhammad Herdiansyah <koni@artixlinux.org>
 
 pkgname=stubby
-pkgver=0.2.5
+pkgver=0.2.6
 pkgrel=1
 pkgdesc="DNS Privacy stub resolver"
 arch=('x86_64')
@@ -42,5 +42,5 @@ package() {
     install -Dm644 stubby.sysusers "${pkgdir}"/usr/lib/sysusers.d/stubby.conf
     install -Dm644 ${pkgname}-${pkgver}/systemd/${pkgname}.conf -t "${pkgdir}"/usr/lib/tmpfiles.d/
 }
-sha256sums=('56ee63f4b9ee00476a168e6ba5614f6830f93e89baa305c2d38577b2e39eae5b'
+sha256sums=('634b0b9fb8f36416e210fa65800a6c1672bcf9f4f276a042ccf89567ad8ef781'
             '100abbdebe23ddcea854387fb0fb721aa3a6c0b3f6d46dd82e5539f75a7276ec')
