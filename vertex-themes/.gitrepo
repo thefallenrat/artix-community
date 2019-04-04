@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesV/vertex-themes.git
 	branch = master
-	commit = bf281b2b1b36831cc0c27744c268fd9e597c7502
-	parent = d3eaa097999aeec0691c75bebbd9328380c4196d
+	commit = 48cbd99590513879e0c15749a895faa72dc9daaa
+	parent = a88db98feab0df3acf92836d8f2ec965010a746d
 	method = merge
 	cmdver = 0.4.0
