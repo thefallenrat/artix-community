@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/connman-gtk.git
 	branch = master
-	commit = 26e5e0b80f7517092f6202beed04941d14434b60
-	parent = 14d91c049c7f3269050ce4537fb0bea73b83ca0d
+	commit = e3d390dd199540dfb100d6256fc9c6c5142846bc
+	parent = ac341d3154594eab11fe68d7a1eaa3c851c8890a
 	method = merge
 	cmdver = 0.4.0
