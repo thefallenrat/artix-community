@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesV/vertex-themes.git
+	branch = master
+	commit = bf281b2b1b36831cc0c27744c268fd9e597c7502
+	parent = d3eaa097999aeec0691c75bebbd9328380c4196d
+	method = merge
+	cmdver = 0.4.0
