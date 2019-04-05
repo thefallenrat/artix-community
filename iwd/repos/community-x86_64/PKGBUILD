@@ -1,7 +1,7 @@
 # Maintainer: Christian Rebischke <chris.rebischke@archlinux.org>
 
 pkgname=iwd
-pkgver=0.14
+pkgver=0.16
 pkgrel=1
 pkgdesc='Internet Wireless Daemon'
 arch=('x86_64')
@@ -28,6 +28,6 @@ package() {
 }
 
 # vim: set ts=2 sw=2 ft=sh noet:
-sha256sums=('c4258b5789a8074a2dfdc33ed5f02415b62ff1ce0b7cba636402883933d6a643'
+sha256sums=('406f6c0bbd57647e18612026e58406f2f8e889d74dcdc8e3995866db23a81245'
             'SKIP'
             '5de6ff36bf5e4fddee26553b1ac9352d517d1bd68104c8619f480b3b33d09726')
