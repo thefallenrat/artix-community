@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesO/oath-toolkit.git
 	branch = master
-	commit = e3a612fadc2446fb82fdc2c3cba934b8bfeee75b
-	parent = 66dec28b20a9d66f4dc1ed198d026372e0c13038
+	commit = c69e68a9f0bcec38fc570950ca02541226abb371
+	parent = 4071f1e2c83440367642cc75cc32962da632a266
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
