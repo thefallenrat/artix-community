@@ -2,7 +2,7 @@
 
 pkgname=iwd
 pkgver=0.16
-pkgrel=2
+pkgrel=3
 pkgdesc='Internet Wireless Daemon'
 arch=('x86_64')
 url='https://git.kernel.org/cgit/network/wireless/iwd.git/'
@@ -26,9 +26,9 @@ build() {
 package() {
   cd "${srcdir}/${pkgname}-${pkgver}"
   make install DESTDIR="${pkgdir}"
+       install -Dm644 "${srcdir}/iwd.tmpfiles" "${pkgdir}/usr/lib/tmpfiles.d/iwd.conf"
 }
 
-# vim: set ts=2 sw=2 ft=sh noet:
 sha256sums=('406f6c0bbd57647e18612026e58406f2f8e889d74dcdc8e3995866db23a81245'
             'SKIP'
-            '5de6ff36bf5e4fddee26553b1ac9352d517d1bd68104c8619f480b3b33d09726')
+            'f572587236a27453fd4b45c4c85a2075586e60571e9cc0e7995c6b16c0cd3426')
