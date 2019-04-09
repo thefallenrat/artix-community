@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesG/go.git
 	branch = master
-	commit = c20d7a24fb9d5a51366aa9ce42577bf0fb13de3c
-	parent = 5e6c62f3f49c41fee0a3f03cfb3ee92923335dd7
+	commit = b979ee7df7f5a2e8e5e1b2ebd6856efc57496dee
+	parent = 7e573cd2f001dffab5b5d6ee5ee034aec92de348
 	method = merge
 	cmdver = 0.4.0
