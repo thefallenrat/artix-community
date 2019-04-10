@@ -2,18 +2,20 @@
 
 pkgname=iwd
 pkgver=0.16
-pkgrel=3
+pkgrel=4
 pkgdesc='Internet Wireless Daemon'
 arch=('x86_64')
 url='https://git.kernel.org/cgit/network/wireless/iwd.git/'
 license=('LGPL')
 depends=('glibc' 'dbus')
 source=("https://www.kernel.org/pub/linux/network/wireless/iwd-${pkgver}.tar"{.xz,.sign}
-	'iwd.tmpfiles')
+	'iwd.tmpfiles' 'skip-associate-event.patch')
 validpgpkeys=('E932D120BC2AEC444E558F0106CA9F5D1DCF2659')
 
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
+	# patch for #62245: will be fixed in 0.17
+	patch -p1 < "${srcdir}/skip-associate-event.patch"
 	./configure --prefix=/usr \
 	--sysconfdir=/etc \
 	--libexecdir=/usr/lib/iwd \
@@ -29,6 +31,3 @@ package() {
        install -Dm644 "${srcdir}/iwd.tmpfiles" "${pkgdir}/usr/lib/tmpfiles.d/iwd.conf"
 }
 
-sha256sums=('406f6c0bbd57647e18612026e58406f2f8e889d74dcdc8e3995866db23a81245'
-            'SKIP'
-            'f572587236a27453fd4b45c4c85a2075586e60571e9cc0e7995c6b16c0cd3426')
