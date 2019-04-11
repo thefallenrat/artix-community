@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesZ/zeromq.git
 	branch = master
-	commit = 77068d4460dad0c8a3d1ac182c94306201c9cb2d
-	parent = ed08718756ce6d164c7f451a66bf8ab8f0c6157e
+	commit = d8c1238d402aa479cfd7b36ad68e9cebbbf9b3bb
+	parent = 0ed2b02b6b1a956406181aff70800f1ae6b49894
 	method = merge
 	update = auto
 	cmdver = 0.4.0
