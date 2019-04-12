@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/squid.git
 	branch = master
-	commit = d14cd60a5ef431f4d5931e2d42777543371ef888
-	parent = f32a2c4d2c47329c4fc94d8ec92910f1077d551a
+	commit = b6fa9c98b10fed6e2e7aee8f3375d0d66111d6c1
+	parent = 7ca18cc30e84efc08d1f01c500f3d307e946c459
 	method = merge
 	update = auto
 	cmdver = 0.4.0
