@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/cython.git
 	branch = master
-	commit = 7dc00e21566667297b12432ac113ad97eeac7a10
-	parent = 4c953ab2ac5d06575392eebf19b58250310d0fdd
+	commit = b10db77cda79246339368b288a8aa92305b55a15
+	parent = 5ec412e80ca2afc49226de03e5b3275594912fee
 	method = merge
 	update = auto
 	cmdver = 0.4.0
