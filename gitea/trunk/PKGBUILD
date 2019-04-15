@@ -25,14 +25,12 @@ _tag=c09c44ae48a6b0eaca937c4888ce2bb041a8a91f # git rev-parse v${pkgver}
 source=("git+https://github.com/go-gitea/gitea.git#tag=${_tag}?signed"
         gitea-disable-u2f.patch::"https://patch-diff.githubusercontent.com/raw/go-gitea/gitea/pull/5994.patch"
         gitea.tmpfiles
-        gitea.service
         gitea.sysusers
         gitea-arch-defaults.patch
         gitea-ldflags.patch)
 sha256sums=('SKIP'
             '08915e2456d0c20bf786559ba316b49c03de11bfc4b37f8f0ad4e577baf0e3df'
             '1521fd7edc3830c695698ffe9835709f1408040b5ec989f07410972c894fa8ba'
-            '7789b3f6699b9e111fa080226047cdc765e55ff49a3f72aac989c11c06c3e7e0'
             '2abc51ccd0086bb996194bb7fb241a3f26d84f518417c872b66a3db8970da7e4'
             '913a28110d2fbdabcfd2d19366aad8c645813b512f4591882efb47795ad8472f'
             'c552a5adb4058530d67176713240cc435b7b974747ec51e972c37d8834e32b3f')
