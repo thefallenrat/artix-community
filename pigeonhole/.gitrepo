@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/pigeonhole.git
 	branch = master
-	commit = cb8ea43834bb8bf5e6245f552cad248d9dcc6c31
-	parent = 1fe947ecc80e6046b31fd4fdc92e6ba7145f9a42
+	commit = 8d961ac0abf00d9c2d885391757f1b3a924f10b8
+	parent = 06cb18b2a13c3507c51f5488f13e53bab285be55
 	method = merge
 	update = auto
 	cmdver = 0.4.0
