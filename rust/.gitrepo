@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesR/rust.git
 	branch = master
-	commit = 3bbcf3dcc8fb25f568ca6d76b77938a50b49ea06
-	parent = aaf876830c4c70787494a81364b61f459da518c3
+	commit = a6a6cf0a7cb89833af8fd7e63ddb4df5be82b3de
+	parent = aa43249e0ce98e9ef4c9bdefe847e3065da762fd
 	method = merge
 	update = auto
 	cmdver = 0.4.0
