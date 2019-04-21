@@ -47,8 +47,6 @@ prepare() {
   patch -Np1 -i ../gitea-arch-defaults.patch
   # Fix LDFLAGS not being respected by Go
   patch -Np1 -i ../gitea-ldflags.patch
-  # https://github.com/go-gitea/gitea/issues/4692
-  patch -Np1 -i ../gitea-disable-u2f.patch
 
   cd $GOPATH/src/code.gitea.io/gitea
   dep ensure
