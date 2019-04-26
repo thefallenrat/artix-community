@@ -41,9 +41,6 @@ build() {
 }
 
 package() {
-  # Systemd unit
-  install -Dm644 hostapd.service "$pkgdir/usr/lib/systemd/system/hostapd.service"
-
   cd $pkgname-$pkgver
 
   # License
