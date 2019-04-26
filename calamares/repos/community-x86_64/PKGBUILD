@@ -1,7 +1,7 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 
 pkgname=calamares
-pkgver=3.2.5
+pkgver=3.2.6
 pkgrel=1
 pkgdesc='Distribution-independent installer framework'
 arch=('x86_64')
@@ -16,7 +16,7 @@ source=("${url}/archive/v$pkgver.tar.gz"
         0001-artix-default-config.patch
         0001-postcfg-module.patch
         0001-services-runit-module.patch)
-sha256sums=('eb68f8dc2dd256101e3d59384d5a93c06729abec43ad5f358272066811a1cff9'
+sha256sums=('5afa3b2477aa73b8f3a87f9a9964dad90cf9f3759351490464a1c4f9407a0711'
             '459b38135c147fa095f72dd91ae4e481a03f6eae9b4e8a6018f2d593da54a285'
             '5a96a6631b7b31e991fc037a23b3aa95c7951dbd3eef25fc4d0ccce4aebed8f8'
             '1833271a4c132ba4e030272bce253bf2d42a82071a1953426e6f4cbc51b70a3f')
