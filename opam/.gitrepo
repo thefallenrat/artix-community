@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesO/opam.git
 	branch = master
-	commit = 287788960490554dc497b1bb02e9af53d9f6f4eb
-	parent = abf9bd15c0544470f208bc1dbc8a7c0e7fd016d2
+	commit = d640e256183719ca69f114bd67b12d4257ecab2c
+	parent = 885ce35cfda0a3908842124e9bf491ba80ae8fc2
 	method = merge
 	update = auto
 	cmdver = 0.4.0
