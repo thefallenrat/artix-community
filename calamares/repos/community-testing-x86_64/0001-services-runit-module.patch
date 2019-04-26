@@ -1,0 +1,147 @@
+From 34d1241d13e193f36380c3f731251cc9b429b4ff Mon Sep 17 00:00:00 2001
+From: artoo <artoo@artixlinux.org>
+Date: Tue, 2 Oct 2018 23:25:34 +0200
+Subject: [PATCH] add services-runit
+
+---
+ src/modules/services-runit/main.py            | 69 +++++++++++++++++++
+ src/modules/services-runit/module.desc        |  5 ++
+ .../services-runit/services-runit.conf        | 38 ++++++++++
+ 3 files changed, 112 insertions(+)
+ create mode 100644 src/modules/services-runit/main.py
+ create mode 100644 src/modules/services-runit/module.desc
+ create mode 100644 src/modules/services-runit/services-runit.conf
+
+diff --git a/src/modules/services-runit/main.py b/src/modules/services-runit/main.py
+new file mode 100644
+index 000000000..87c94f30d
+--- /dev/null
++++ b/src/modules/services-runit/main.py
+@@ -0,0 +1,69 @@
++#!/usr/bin/env python3
++# -*- coding: utf-8 -*-
++#
++# === This file is part of Calamares - <http://github.com/calamares> ===
++#
++#   Copyright 2016, Artoo <artoo@manjaro.org>
++#   Copyright 2017, Philip Müller <philm@manjaro.org>
++#   Copyright 2018, Artoo <artoo@artixlinux.org>
++#
++#   Calamares is free software: you can redistribute it and/or modify
++#   it under the terms of the GNU General Public License as published by
++#   the Free Software Foundation, either version 3 of the License, or
++#   (at your option) any later version.
++#
++#   Calamares is distributed in the hope that it will be useful,
++#   but WITHOUT ANY WARRANTY; without even the implied warranty of
++#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
++#   GNU General Public License for more details.
++#
++#   You should have received a copy of the GNU General Public License
++#   along with Calamares. If not, see <http://www.gnu.org/licenses/>.
++
++import libcalamares
++
++from libcalamares.utils import target_env_call
++from os.path import exists, join
++
++
++class RunitController:
++    """This is the runit service controller
++    """
++
++    def __init__(self):
++        self.root = libcalamares.globalstorage.value('rootMountPoint')
++        self.services = libcalamares.job.configuration.get('services', [])
++        self.runsvDir = libcalamares.job.configuration["runsvDir"]
++        self.svDir = libcalamares.job.configuration["svDir"]
++
++    def update(self, state):
++        """Update init scripts
++        """
++
++        for sv in self.services[state]:
++            if exists(self.root + self.svDir + "/" + sv["name"]):
++                if exists(self.runsvDir + "/" + sv["runlevel"]):
++                    if state == 'enabled':
++                        src = self.svDir + "/" + sv["name"]
++                        dest = self.runsvDir + "/" + sv["runlevel"] + "/"
++                        target_env_call(
++                            ["ln", "-s", src, dest]
++                        )
++                    elif state == 'disabled':
++                        dest = self.runsvDir + "/" + sv["runlevel"] + "/" + sv["name"]
++                        target_env_call(
++                            ["rm", dest]
++                        )
++
++    def run(self):
++        """Run the controller
++        """
++
++        for state in self.services.keys():
++            self.update(state)
++
++def run():
++    """Setup services
++    """
++
++    return RunitController().run()
+diff --git a/src/modules/services-runit/module.desc b/src/modules/services-runit/module.desc
+new file mode 100644
+index 000000000..29737c13e
+--- /dev/null
++++ b/src/modules/services-runit/module.desc
+@@ -0,0 +1,5 @@
++---
++type:       "job"
++name:       "services-runit"
++interface:  "python"
++script:     "main.py"
+diff --git a/src/modules/services-runit/services-runit.conf b/src/modules/services-runit/services-runit.conf
+new file mode 100644
+index 000000000..0cc8f6e23
+--- /dev/null
++++ b/src/modules/services-runit/services-runit.conf
+@@ -0,0 +1,38 @@
++# runitcfg module to set services
++###
++# location of services
++# svDir: /etc/runit/sv
++
++# location of runsvdir
++# runsvDir: /etc/runit/runsvdir
++#
++# services:
++#     enabled:
++#         - name: "foo1"
++#           runlevel: "default"
++#         - name: "foo2"
++#           runlevel: "nonetwork"
++#     disabled:
++#         - name: "foo3"
++#           runlevel: "default"
++###
++# enabled: list of services and their runlevels to add
++# disabled: list of services and their runlevels to delete
++# name: the service name
++# runlevel: can hold any runlevel present on the target system
++# svDir: holds the runit service directory location
++# runsvDir: holds the runsv directory location
++#
++# handle disable with care and only use it if absolutely necessary
++# if a service is listed in the conf but is not present/detected on the target system,
++# it will be ignored and skipped
++#
++---
++svDir: /etc/runit/sv
++
++runsvDir: /etc/runit/runsvdir
++
++services:
++    enabled:
++        - name: "NetworkManager"
++          runlevel: "default"
+-- 
+2.19.0
+
