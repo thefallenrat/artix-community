@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesU/uriparser.git
 	branch = master
-	commit = 0e5fe92c9d0fba841714d664c8782b7a33133024
-	parent = 1fa7230315c4095cb76932ea6e83717c45ddd8d2
+	commit = 63d86756ac446650e913e554e55ee8fe3d7a7423
+	parent = 4acd2db7efe69bf651e43565c0eeaa1d5a32936b
 	method = merge
 	update = auto
 	cmdver = 0.4.0
