@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesV/vnstat.git
 	branch = master
-	commit = 2e6226af37f0dc8988786a69780f7c74bcf3fde3
-	parent = 2dbdbaaf54405ab6ad7b13dd3cce2a985c734c7c
+	commit = 167c8fb14c8028645f6ceac2d0620ec92b202b10
+	parent = 708032abca9d806fbad8f178db5b0dd4fc7decfd
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
