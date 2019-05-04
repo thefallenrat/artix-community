@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libx86emu.git
 	branch = master
-	commit = a5d06b116913acbd48d0ff0c5f16f08d94f6da6b
-	parent = 74ba33a3ba0738d760a145e3ddb75e09acf8ed5e
+	commit = 845a30d4a9c865a30fcbf8c4d5c3a80ef34c6fce
+	parent = 54927a9e8e2da78ec37d331652f9b9253f801dd3
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
