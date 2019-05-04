@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/swaylock.git
 	branch = master
-	commit = c4164bcf3d687155235732b5778bbe77dfd948f9
-	parent = 3873bd10fe7cf42453161165e77b572641bbdcf9
+	commit = 0ac952b4700da52c329789339b0031edc0754451
+	parent = 25477933639f3c1f3dba81f366e6f04bbe8e4c5f
 	method = merge
 	cmdver = 0.4.0
