@@ -20,7 +20,7 @@ DISABLE_PIKAUR='1'
 
 pkgname=octopi
 pkgver=0.9.0
-pkgrel=4
+pkgrel=5
 pkgdesc="A powerful Pacman frontend using Qt libs"
 url="http://octopiproject.wordpress.com"
 arch=('x86_64')
@@ -38,8 +38,28 @@ optdepends=('pikaur: for AUR support'
             'lxqt-sudo: for LXQT')
 [[ ${USE_NOTIFIER} == "1" ]] && optdepends+=('kdesu: for KDE')
 [[ ${DISABLE_PIKAUR} == "1" ]] && unset optdepends[0]
-provides=('octopi-kde-git')
-conflicts=('octopi-git' 'octopi-kde-git')
+provides=('octopi-kde-git'
+            'octopi-repoeditor'
+            'octopi-cachecleaner'
+            'octopi-pacmanhelper')
+conflicts=('octopi-git' 'octopi-kde-git'
+            'octopi-repoeditor'
+            'octopi-cachecleaner'
+            'octopi-pacmanhelper')
+replaces=('octopi-notifier'
+            'octopi-repoeditor'
+            'octopi-cachecleaner'
+            'octopi-pacmanhelper')
+
+if [[ ${USE_NOTIFIER} == "1" ]];then
+    provides+=('octopi-notifier-frameworks')
+    conflicts+=('octopi-notifier-frameworks')
+    replaces+=('octopi-notifier-frameworks')
+else
+    provides+=('octopi-notifier-qt5')
+    conflicts+=('octopi-notifier-qt5')
+    replaces+=('octopi-notifier-qt5')
+fi
 source=('octopi-repoeditor.desktop'
         '0001-remove-qtermwidget.patch'
         '0002-add-pikaur-support.patch'
