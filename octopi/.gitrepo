@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesO/octopi.git
 	branch = master
-	commit = 3a86d72981346cb0a3718028dfa6417560e217f7
-	parent = 4ba38717d5248e0185d35fe4797e535b492b8feb
+	commit = 194b7e468436e1510859fe5323a9f9dc20b6a07f
+	parent = 3541de1402bba770d72ad88bb2c4aa50392b4b33
 	method = merge
 	update = auto
 	cmdver = 0.4.0
