@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesP/patchelf.git
+	branch = master
+	commit = c77bb9bdc1f5528df1cdad284bd47cf932c3c594
+	parent = 4a0534353b92c099d3cb188e7f9c0b3e4aebb653
+	method = merge
+	cmdver = 0.4.0
