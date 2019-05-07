@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/patchelf.git
 	branch = master
-	commit = c77bb9bdc1f5528df1cdad284bd47cf932c3c594
-	parent = 4a0534353b92c099d3cb188e7f9c0b3e4aebb653
+	commit = dddba07a9611c8ce8605c49ca1d053c3dccdd3c6
+	parent = cfe13bc15fdaa127184d630958f0ba9613367a2c
 	method = merge
 	cmdver = 0.4.0
