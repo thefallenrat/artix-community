@@ -3,7 +3,7 @@
 # Contributor: Frederik Schwan <frederik dot schwan at linux dot com>
 
 pkgname=gitea
-pkgver=1.8.0
+pkgver=1.8.1
 pkgrel=1
 pkgdesc="Painless self-hosted Git service. Community managed fork of Gogs."
 arch=(x86_64)
