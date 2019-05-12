@@ -7,7 +7,7 @@ pkgname=(
   tlp-rdw
 )
 pkgver=1.2.2
-pkgrel=1
+pkgrel=1.1
 arch=(any)
 url=https://linrunner.de/en/tlp/tlp.html
 license=(GPL2)
@@ -45,6 +45,7 @@ package_tlp() {
   export TLP_NO_INIT=1
   export TLP_SBIN=/usr/bin
   export TLP_ULIB=/usr/lib/udev
+  export TLP_ELOD=/usr/lib/elogind/system-sleep
   export TLP_WITH_ELOGIND=1
   export TLP_WITH_SYSTEMD=0
 
