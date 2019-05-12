@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libutf8proc.git
 	branch = master
-	commit = 965f09db405907126bead9b370fc89c63e7cd360
-	parent = 5640199b7d171ad779540b9c820efdf3d63bc2e3
+	commit = b69f34fc1091df0763076a8156166b950c724db9
+	parent = 458849977cf067edef2dff5f313cd6f6e837c63a
 	method = merge
 	update = auto
 	cmdver = 0.4.0
