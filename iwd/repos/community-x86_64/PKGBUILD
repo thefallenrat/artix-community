@@ -7,7 +7,7 @@ pkgdesc='Internet Wireless Daemon'
 arch=('x86_64')
 url='https://git.kernel.org/cgit/network/wireless/iwd.git/'
 license=('LGPL')
-depends=('glibc')
+depends=('glibc' 'dbus')
 source=("https://www.kernel.org/pub/linux/network/wireless/iwd-${pkgver}.tar"{.xz,.sign}
         'iwd.tmpfiles')
 sha512sums=('0eb5558f7bafe521aaf80f24e5818c1fb0dfa6445c671c4454d3a4f67f97643a1232709b1e9c376cbe09dd7ba521651e1e46328cce0bfe1befe15668d6081cd6'
