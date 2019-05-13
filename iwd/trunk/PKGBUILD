@@ -21,7 +21,7 @@ build() {
 	--sysconfdir=/etc \
 	--libexecdir=/usr/lib/iwd \
 	--enable-wired \
-	--localstatedir=/var /
+	--localstatedir=/var \
 	--disable-systemd-service
   make
 }
