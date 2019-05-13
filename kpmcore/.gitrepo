@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesK/kpmcore.git
 	branch = master
-	commit = 27915ccc866769050dc396e41df8b1cb1084714d
-	parent = 97e0105cd11b656d7c474853776cce3326cd1878
+	commit = 66ebd23ccb67ada4af3b4902ad60fcfed18cafbd
+	parent = 1864b1a1d84bf91bdc39089244d6e58e3ad42a84
 	method = merge
 	cmdver = 0.4.0
