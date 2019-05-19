@@ -54,7 +54,7 @@ build() {
     --disable-static \
     --enable-libsystemd-login='no' \
     --enable-libelogind='no' \
-    --with-systemdsystemunitdir='no'
+    --with-systemdsystemunitdir='no' \
     --with-os-type='redhat'
 
 #  sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
