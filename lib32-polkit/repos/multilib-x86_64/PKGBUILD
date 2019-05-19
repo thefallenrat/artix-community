@@ -25,7 +25,7 @@ makedepends=(
   intltool
 )
 _commit='941e9329f8d3d43ace8335d206365b212824e686' # tags/0.116^0
-source=("git+https://anongit.freedesktop.org/git/polkit#commit=$_commit"
+source=("git://anongit.freedesktop.org/git/polkit#commit=$_commit"
         elogind-configure-fix.patch)
 sha256sums=('SKIP'
             'd90b2a95aa3e9e1ebf9369c038c144e04900e095c5405bc4ba4901c31bf3f59b')
