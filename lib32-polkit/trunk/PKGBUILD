@@ -16,6 +16,7 @@ depends=(
   lib32-pam
   polkit
 )
+
 makedepends=(
   autoconf-archive
   git
