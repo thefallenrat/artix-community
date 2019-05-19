@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/lib32-polkit.git
 	branch = master
-	commit = d1d43bd4e9c6d61dd46251e6ac36d8fac6672346
-	parent = a5ef289e433953afd28ad07bd1eca56302a046bf
+	commit = 0d7dc42ffafa32513de4d7ed3d60a4f781777f6e
+	parent = f51e73c49debf15deb1a53690fd740d129c5c6de
 	method = merge
 	update = auto
 	cmdver = 0.4.0
