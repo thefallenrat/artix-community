@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libimagequant.git
 	branch = master
-	commit = adbfb08626498ada41a131a4292c35dccc2da4ee
-	parent = e2d444db0482b30afb9f79d81fb659d9716fa4d6
+	commit = 8e7628e7f1d70acd02c68158564ccca85d2078d4
+	parent = cd058c98b0b013e308aad375980f3ff59c1114eb
 	method = merge
 	cmdver = 0.4.0
