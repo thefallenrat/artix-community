@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/cinnamon-session.git
 	branch = master
-	commit = db6c04c30f02e9fd23d7c188495a36b332f3de4b
-	parent = 838e6266bc0de426d6e5e177820fe30c4ed03f01
+	commit = c4acad04ce34c08061a72e6cfc46d5b8c33c0717
+	parent = bfaa7c5cfed75b2541b5ccb2239f486b428cb039
 	method = merge
 	update = auto
-	cmdver = 0.4.1
+	cmdver = 0.4.0
