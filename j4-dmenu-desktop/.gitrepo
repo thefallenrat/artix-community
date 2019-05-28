@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesJ/j4-dmenu-desktop.git
 	branch = master
-	commit = 168ce1654defccb777c09a99373f4e3294ecadc5
-	parent = a8196a293545037643954ddb81ecacfd300c6ef3
+	commit = a92996933bdec985d33d105f55208fcb71f6dbb9
+	parent = d8cc7bca9d749561f50736914be624aea1f0d3ee
 	method = merge
 	update = auto
 	cmdver = 0.4.0
