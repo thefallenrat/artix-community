@@ -2,7 +2,7 @@
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 
 pkgname=consul
-pkgver=1.5.0
+pkgver=1.5.1
 pkgrel=1
 pkgdesc="A tool for service discovery, monitoring and configuration."
 arch=('x86_64')
@@ -20,7 +20,7 @@ source=("${pkgname}-${pkgver}.tar.gz::https://github.com/hashicorp/consul/archiv
         'unparallelize-or-disable-flaky-tests.patch'
         )
 install=consul.install
-sha512sums=('8cefb77b56b27995bba38517144bf42585bd1d9ad9a10fc0c9b6bc1a87bfbd042e336ed5e945cfce1fb8eb4b8162dbc8246e2b4109dea5767b8745a7b2159ef8'
+sha512sums=('7486d24bf1fa9fe94175abf9e008dc4fe4277c509381a524a9ee20e17bc4959f621e39be29e33622cb672ef3a04f9161e575009197bcd35c78b45f1d2637a2ea'
             'SKIP'
             'ef872aedb2bc022a29292b7972a792b22e684c1ccb904a2b2cfec6d8966c28fb19be1452ce060821c419f1b646b236ba2e783175595e4bb6926d164c27a15c87'
             'c4292b8f56ee955ed7385a49843fd90d6434029891b3e1e724cb2fc841514c06e2554a26d3937c114371b18c2168c4e64319eb2cbd726ee8b35870df19089348'
