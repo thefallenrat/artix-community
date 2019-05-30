@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesD/dune.git
 	branch = master
-	commit = ec50c002a0eca204afa386de955274dde13cfe54
-	parent = 3be09a29dc05f70be845666c5d78c1c3b1b25df6
+	commit = 2fa9e60f29d490db6deede8671f34ef9a76d01e2
+	parent = f16aefd8b24abbdfa224699a02ac1aa37ca7bcd4
 	method = merge
 	update = auto
 	cmdver = 0.4.0
