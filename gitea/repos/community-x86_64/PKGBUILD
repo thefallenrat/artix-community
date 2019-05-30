@@ -22,7 +22,7 @@ optdepends=(
 )
 backup=('etc/gitea/app.ini')
 _tag=db765ccecfba08818f3da6fed8534b28e66d654b # git rev-parse v${pkgver}
-source=("git+https://github.com/go-gitea/gitea.git#tag=${_tag}?signed"
+source=("git+https://github.com/go-gitea/gitea.git#tag=${_tag}"
         gitea.tmpfiles
         gitea.sysusers
         gitea-arch-defaults.patch
