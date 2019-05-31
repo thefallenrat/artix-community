@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesA/artix-dark-theme.git
 	branch = master
-	commit = a01264ff04a3b6fdfd30c2d0269d80cc072369f9
-	parent = a1a42e1545f179a01bd74e604da3813053110e82
+	commit = b3999b2611f39ae5df5e90c04e07f34312df25f3
+	parent = a7b833b3c2384f28675f614bbfca90fc956ee554
 	method = merge
 	cmdver = 0.4.0
