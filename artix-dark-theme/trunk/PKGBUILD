@@ -5,8 +5,8 @@ pkgver=20190601
 pkgver() {
   date +%Y%m%d
 }
-pkgrel=1
-pkgdesc="Dark themes for the community ISOs of Artix Linux. GTK2/3, QT5, Plasma splash."
+pkgrel=2
+pkgdesc="Dark theme for the community ISOs of Artix Linux. GTK2/3, QT5, Plasma splash."
 arch=('any')
 url="https://gitea.artixlinux.org/nous/artix-dark-theme"
 license=('GPL')
