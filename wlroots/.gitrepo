@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesW/wlroots.git
 	branch = master
-	commit = 4486888e2688d7d3b4b428bbd68534d8f54bd9fe
-	parent = cd42295c58e2ec8c355f3f52dbbd5e829dbe7849
+	commit = fc6a1c19a72684c04c9541ec820e08a7f035125c
+	parent = fd7a2ca37885726776f0fa35d7d69a4591ca1392
 	method = merge
 	cmdver = 0.4.0
