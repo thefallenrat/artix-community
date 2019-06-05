@@ -2,7 +2,7 @@
 # Contributor: Christoph Vigano <mail@cvigano.de>
 
 pkgname=lib32-p11-kit
-pkgver=0.23.15
+pkgver=0.23.16.1
 pkgrel=1
 pkgdesc="Provides a way to load and enumerate PKCS#11 modules (32-bit)"
 arch=(x86_64)
@@ -43,18 +43,15 @@ build() {
     --libexecdir=/usr/lib \
     --disable-doc \
     --with-module-path=/usr/lib32/pkcs11 \
+    --without-systemd \
     --with-trust-paths=/etc/ca-certificates/trust-source:/usr/share/ca-certificates/trust-source
   make
 }
 
-check() (
+check() {
   cd p11-kit
-
-  # https://github.com/p11-glue/p11-kit/issues/212
-  unset SOURCE_DATE_EPOCH
-
   make check
-)
+}
 
 package() {
   cd p11-kit
