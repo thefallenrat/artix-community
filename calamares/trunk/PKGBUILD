@@ -1,7 +1,7 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 
 pkgname=calamares
-pkgver=3.2.8
+pkgver=3.2.9
 pkgrel=1
 pkgdesc='Distribution-independent installer framework'
 arch=('x86_64')
@@ -9,14 +9,16 @@ license=(GPL)
 url="https://github.com/calamares/calamares"
 license=('LGPL')
 depends=('yaml-cpp' 'kpmcore>=3.1.0' 'boost-libs' 'hwinfo' 'gtk-update-icon-cache'
-         'plasma-framework' 'libpwquality' 'pythonqt' 'polkit-qt5' 'qt5-xmlpatterns')
+          'libpwquality' 'pythonqt' 'polkit-qt5' 'qt5-xmlpatterns' 'plasma-framework'
+#         'kcoreaddons' 'kconfig' 'ki18n' 'kservice' 'kwidgetsaddons'
+         )
 makedepends=('extra-cmake-modules' 'qt5-tools' 'qt5-translations' 'boost')
 optdepends=('calamares-branding: Artix branding')
 source=("${url}/archive/v$pkgver.tar.gz"
         0001-artix-default-config.patch
         0001-postcfg-module.patch
         0001-services-runit-module.patch)
-sha256sums=('c2bc82bfe376094ea355c799135503dc0c70ffabee12be9c9485f5ef44a0befa'
+sha256sums=('0f056619bf13fc6d795594a90a1389181330878aec5c4de42de0779c482df52f'
             '459b38135c147fa095f72dd91ae4e481a03f6eae9b4e8a6018f2d593da54a285'
             '5a96a6631b7b31e991fc037a23b3aa95c7951dbd3eef25fc4d0ccce4aebed8f8'
             '1833271a4c132ba4e030272bce253bf2d42a82071a1953426e6f4cbc51b70a3f')
@@ -44,9 +46,9 @@ build() {
               -DINSTALL_CONFIG:BOOL=ON \
               -DINSTALL_POLKIT:BOOL=ON \
               -DSKIP_MODULES="webview interactiveterminal initramfs \
-                              initramfscfg dracut dracutlukscfg \
+                              initramfscfg \
                               dummyprocess dummypython dummycpp \
-                              dummypythonqt"
+                              dummypythonqt services-systemd"
         make
 }
 
