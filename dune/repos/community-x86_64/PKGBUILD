@@ -15,6 +15,7 @@ replaces=(jbuilder)
 source=("${url}/archive/${pkgver}/${pkgname}-${pkgver}.tar.gz")
 sha256sums=('7c779a656807d659cf8b5c18af9362b67fd8273a3618f21742ac97b4a53b7328')
 
+
 build() {
     cd ${pkgname}-${pkgver}
     make release
