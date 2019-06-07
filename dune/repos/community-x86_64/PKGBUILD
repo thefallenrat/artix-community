@@ -12,9 +12,7 @@ depends=(glibc ocaml ocaml-findlib)
 provides=(jbuilder)
 conflicts=(jbuilder)
 replaces=(jbuilder)
-source=("${url}/archive/${pkgver}/${pkgname}-${pkgver}.tar.gz")
-sha256sums=('7c779a656807d659cf8b5c18af9362b67fd8273a3618f21742ac97b4a53b7328')
-
+source=("https://github.com/ocaml/dune/archive/${pkgver}.tar.gz")
 
 build() {
     cd ${pkgname}-${pkgver}
@@ -37,3 +35,4 @@ package() {
     install -dm755 "${pkgdir}"/usr/share
     mv "${pkgdir}"/usr/{man,share/}
 }
+sha256sums=('7c779a656807d659cf8b5c18af9362b67fd8273a3618f21742ac97b4a53b7328')
