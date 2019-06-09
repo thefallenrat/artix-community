@@ -5,13 +5,13 @@
 _name=Ardour
 pkgname=ardour
 pkgver=5.12
-pkgrel=11
+pkgrel=11.1
 pkgdesc="Professional-grade digital audio workstation"
 arch=('x86_64')
 url="https://ardour.org/"
 license=('GPL')
 groups=('pro-audio')
-depends=('liblrdf' 'libarchive' 'liblo' 'lilv' 'suil' 'taglib' 'aubio'
+depends=('liblrdf' 'libarchive' 'liblo' 'lilv' 'suil>=0.10.4' 'taglib' 'aubio'
 'rubberband' 'gtkmm')
 makedepends=('boost' 'cppunit' 'git' 'itstool' 'python2')
 optdepends=('xjadeo: video monitoring'
