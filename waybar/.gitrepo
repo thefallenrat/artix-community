@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesW/waybar.git
 	branch = master
-	commit = ce03c375c347a016049a65d903f5494a2e6a8381
-	parent = b9e25e21b3df1b0dcdfd4fe390dfda22def2b3a8
+	commit = 9115a1ffcb7e0a5d84d8f4e05df41b7f0e4f4b47
+	parent = 795aaf756168323f8b705268854888b53867c960
 	method = merge
 	cmdver = 0.4.0
