@@ -2,7 +2,7 @@
 # Maintainer: physkets <physkets@tutanota.com>
 
 pkgname=trizen
-pkgver=1.58
+pkgver=1.60
 pkgrel=1
 pkgdesc="Trizen AUR Package Manager: lightweight pacman wrapper and AUR helper"
 arch=('any')
@@ -28,7 +28,7 @@ optdepends=(
             #'perl-term-readline-gnu: better STDIN support'
            )
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/trizen/${pkgname}/archive/${pkgver}.tar.gz")
-sha256sums=('35a7ca13589624f42bf05df92ddc837cda8e8153f9c1322fbaf582641320238d')
+sha256sums=('21e8bd5366066dd4907a18fca1e0754f9c9671083bf4b950e90bc89d1e81ebf8')
 
 package() {
   cd "$pkgname-$pkgver"
