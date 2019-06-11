@@ -2,15 +2,15 @@
 # Contributor: Isaac Dupree <antispam@idupree.com>
 
 pkgname=sassc
-pkgver=3.5.0
-pkgrel=2
+pkgver=3.6.0
+pkgrel=1
 pkgdesc="C implementation of Sass CSS preprocessor."
 arch=("x86_64")
 url="http://libsass.org/"
 license=("MIT")
 depends=("libsass")
 source=("$pkgname-$pkgver.tar.gz::https://github.com/sass/$pkgname/archive/$pkgver.tar.gz")
-sha512sums=('9c94056f66688016dd8eaae9cc791be4b397406b89f1289946c4481b5e1904486878d22fd65e695ed89f9b41a9f902932eb4074e7b0923ce3d4823ea3140334f')
+sha256sums=("dac8d83339c3c8fc6b9599e2ff1e0a0ae833ab0e65d4370b9c69bde18f8ec676")
 
 
 build() {
