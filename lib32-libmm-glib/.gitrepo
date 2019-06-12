@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/lib32-libmm-glib.git
 	branch = master
-	commit = 3a4fedae192ee32ebbe7bdccb7e0c6477df9c68c
-	parent = 97f99d8769f79a6ea5658e019746ae0f9851901c
+	commit = 769480b4514a94bbba1a02c3b23ead2861b2ef84
+	parent = ef85c2d0eb94f67a95e39b6c9575e45ace8bf93e
 	method = merge
 	update = auto
 	cmdver = 0.4.0
