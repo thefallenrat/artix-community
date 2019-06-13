@@ -13,7 +13,7 @@ depends=('lib32-glib2' 'libmm-glib')
 makedepends=('git' 'intltool' 'lib32-libmbim' 'lib32-libqmi'
              'lib32-polkit' 'python' 'vala')
 _commit=e89a4a6389cd05ee8f7323b382ac139a8d56768f # tags/1.8.2
-source=("git+https://anongit.freedesktop.org/git/ModemManager/ModemManager#tag=${pkgver}")
+source=(""git+https://gitlab.freedesktop.org/mobile-broadband/ModemManager.git#commit=$_commit"")
 sha256sums=('SKIP')
 
 prepare() {
