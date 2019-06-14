@@ -16,7 +16,7 @@ pkgname=(
 )
 
 pkgver=5.1
-pkgrel=3
+pkgrel=3.1
 license=('GPL2')
 arch=('x86_64')
 url='https://www.kernel.org'
@@ -57,6 +57,9 @@ prepare() {
 }
 
 build() {
+  CFLAGS=${CFLAGS/-Werror=stringop-truncation/} # disable warning as error, gcc9
+  CXXFLAGS=${CXXFLAGS/-Werror=stringop-truncation/}
+
   msg2 'libtraceevent'
   pushd linux/tools/lib/traceevent
   make
