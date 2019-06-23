@@ -3,7 +3,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
 
 pkgname=cinnamon-session
-pkgver=4.0.0
+pkgver=4.2.0
 pkgrel=1
 pkgdesc="The Cinnamon Session Handler"
 arch=('x86_64')
@@ -16,7 +16,7 @@ source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/${pkgver}.tar.gz"
 	"cinnamon-session-3.8.0-elogind2.patch"
 	"cinnamon-session-3.8.0-elogind.patch"
 	)
-sha256sums=('cfd6d71ff4000f463b36ffa97ab415557d627776eefbe2720d8d954319a5bdc5'
+sha256sums=('37264a6d0d6c288ee1694a07bdfdd638f433ed742a381dd21c146db82b44d082'
             'e0a59cac803de9e5185497aae69838f23003c56e9c993dacc7015cee91c3dd45'
             'fd1d1c7f63510b91036510f51c4efbfa5dcd6e1ae2dbca7c47dd08c95b5e2461')
 prepare() {
