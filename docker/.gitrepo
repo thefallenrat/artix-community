@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesD/docker.git
 	branch = master
-	commit = 9907bf30297575cabd4e28e060cb1045eb997338
-	parent = 762ad704e89270cbc254ea27ea5c213fc03902a7
+	commit = 6c8ea35b53c4ecad11988f71ab7b4464825b3cf3
+	parent = db5eae14c3df1331cfcb5d6a1a79822f6b63e966
 	method = merge
 	update = auto
 	cmdver = 0.4.0
