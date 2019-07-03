@@ -25,6 +25,7 @@ sha1sums=('79874ef4eaa52025126b71d836453b8279bdd331'
           '6b289e2ba54a4513af9aa3981b374fccb20ffc89')
 validpgpkeys=('58E0C111E39F5408C5D3EC76C1A60EACE707FDA5')
 
+
 prepare() {
   # Rename source dir to allow building the demos
   mv freetype-${pkgver} freetype2
