@@ -1,7 +1,7 @@
 # Maintainer: Chris Cromer <cromer@artixlinux.org>
 
 pkgname=pamac
-pkgver=7.4.0
+pkgver=8.0.2
 pkgrel=1
 pkgdesc="A Gtk3 frontend for libalpm"
 arch=('i686' 'x86_64')
@@ -13,7 +13,7 @@ depends=('glib2>=2.42' 'json-glib' 'libsoup' 'dbus-glib' 'polkit' 'vte3>=0.38' '
 makedepends=('gettext' 'itstool' 'vala>=0.36' 'meson' 'ninja' 'gobject-introspection')
 conflicts=('pamac-tray-appindicator')
 source=("pamac-$pkgver.tar.gz::$url/-/archive/v${pkgver}/${pkgname}-v${pkgver}.tar.gz")
-sha256sums=('963674d40957c6f12a5a70cec64ed1e040459920661d39f42b0626a18bb6992d')
+sha256sums=('48b1d163c9ab347d55b91625179bd6027d818089b4344ffb42948c1f4a099dc0')
 
 prepare() {
   cd "$srcdir/pamac-v$pkgver"
