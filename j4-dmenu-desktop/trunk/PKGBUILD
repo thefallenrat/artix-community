@@ -24,7 +24,6 @@ build() {
 	make
 }
 
-
 package() {
 	cd ${pkgname}-r${pkgver}
 	make DESTDIR="$pkgdir/" install
