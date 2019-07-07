@@ -1,15 +1,15 @@
 # Maintainer: Chris Cromer <cromer@artixlinux.org>
 
 pkgname=pamac-classic
-pkgver=6.7.0
+pkgver=7.0.0
 pkgrel=1
 pkgdesc="A Gtk3 frontend for libalpm"
 arch=('i686' 'x86_64')
-url="https://github.com/cromnix/pamac-classic"
+url="https://git.cromer.cl/cromer/pamac-classic"
 license=('GPL3')
 depends=('glib2>=2.42' 'json-glib' 'libsoup' 'dbus-glib' 'polkit' 'vte3>=0.38' 'gtk3>=3.22'
          'libnotify' 'desktop-file-utils' 'pacman>=5.1' 'pacman<5.2' 'gnutls>=3.4')
-makedepends=('gettext' 'itstool' 'vala>=0.36' 'cmake')
+makedepends=('gettext' 'itstool' 'vala>=0.36' 'meson' 'ninja' 'gobject-introspection')
 conflicts=('pamac' 'pamac-classic-tray-appindicator')
 optdepends=('polkit-gnome: needed for authentification in Cinnamon, Gnome'
 			'mate-polkit: needed for authentification in Mate'
@@ -18,7 +18,7 @@ optdepends=('polkit-gnome: needed for authentification in Cinnamon, Gnome'
 source=("pamac-classic-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
 install=pamac-classic.install
 
-sha256sums=('54a505c56d06860464a8c1c694834cbc3b863da569a77900d3b29b3ae78dad05')
+sha256sums=('f7e663107bcc8cf0da057459afdb7fbc4f254c2c9fba6813e2706454be9c7d9b')
 
 prepare() {
 	[ -d "${srcdir}"/build ] && rm -rf build
@@ -27,17 +27,17 @@ prepare() {
 
 build() {
 	cd "${srcdir}"/build
-	cmake "${srcdir}/pamac-classic-${pkgver}" \
-		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
-		-DCMAKE_INSTALL_SYSCONFDIR=/etc \
-		-DICON_UPDATE=OFF
-	make
+	meson "${srcdir}/pamac-classic" \
+		--prefix=/usr \
+		--libdir=/usr/lib \
+		--sysconfdir=/etc \
+		-DENABLE_UPDATE_ICON=ON
+	ninja
 }
 
 package() {
 	cd "${srcdir}"/build
-	make DESTDIR="$pkgdir" install
+	DESTDIR="$pkgdir" ninja install
 	rm -rf "${pkgdir}/etc/systemd"
 	rm -rf "${pkgdir}/usr/lib/systemd"
 }
