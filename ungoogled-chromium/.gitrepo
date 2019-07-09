@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitea@gitea.artixlinux.org:packagesU/ungoogled-chromium.git
+	branch = master
+	commit = 8b2a489c906e020cf56a7ddf33d22ee9b5f3412e
+	parent = 8f5ccf3aa06d8c8148b1ba07345c4bffbf2ab30c
+	method = merge
+	cmdver = 0.4.0
