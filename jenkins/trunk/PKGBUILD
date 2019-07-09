@@ -26,6 +26,7 @@ sha512sums=('5368c1ee4ee6546a59859bb3a0852c1fc087e09b9a149782e7c3bfd94ee16796bd8
             '896cbc64eadb2f3bb9fa7fc26dbfc527b1823d8bff3158be7f1936cc250f55eeafe89079e1ceb8f3d269041662573ccbbb36248140b4ba24144a564366f8847a'
             '0df6479a600db395c12ad29ebda3120d00460338b9a6b15913e2245aa29212a3798c32e664ca70c8034146e2e0b573066deec9e3210198202f753994e1b83efa')
 
+
 package() {
   install -Dm444 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
   install -Dm444 "jenkins-${pkgver}.war" "$pkgdir/usr/share/java/jenkins/jenkins.war"
