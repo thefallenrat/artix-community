@@ -1,3 +1,0 @@
-post_remove() {
-  echo "binfmt binary formats will be updated at reboot"
-}
