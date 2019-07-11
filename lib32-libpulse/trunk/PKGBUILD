@@ -59,6 +59,8 @@ build() {
     --disable-default-build-tests \
     --with-systemduserunitdir=no \
     --enable-systemd-login=no \
+    --enable-systemd-journal=no \
+    --enable-systemd-daemon=no \
     DATADIRNAME=share
 
   # fight unused direct deps
