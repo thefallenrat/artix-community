@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/lib32-libpulse.git
 	branch = master
-	commit = a1d78575ef548e3cc6f47eee73d5d93e4fc1774c
-	parent = 64e77d16b815df7ae187493f6826e2d9234d48c0
+	commit = 48cd3aa1bc4d7c5450a25d5782239ac99538a388
+	parent = e2d2b96d018e7bdaba9fe4ae965df9f0d434f5f5
 	method = merge
 	update = auto
 	cmdver = 0.4.0
