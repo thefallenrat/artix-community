@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesS/swayidle.git
 	branch = master
-	commit = b8c3e14e893e0d7b37e86b9371f7ea58d8c7d289
-	parent = dfa8b72a412fc3aec540aaf0d39e574a9ac586aa
+	commit = 14b4a1ddec0c23896827b1635b515de963cb55be
+	parent = 7c477467ac06b45fcdeef87f36eb8cdfdc5b9d62
 	method = merge
 	cmdver = 0.4.0
