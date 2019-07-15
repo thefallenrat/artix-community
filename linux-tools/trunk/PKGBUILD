@@ -57,9 +57,6 @@ prepare() {
 }
 
 build() {
-  CFLAGS=${CFLAGS/-Werror=stringop-truncation/} # disable warning as error, gcc9
-  CXXFLAGS=${CXXFLAGS/-Werror=stringop-truncation/}
-
   msg2 'libtraceevent'
   pushd linux/tools/lib/traceevent
   make
