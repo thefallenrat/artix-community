@@ -15,8 +15,8 @@ pkgname=(
   'x86_energy_perf_policy'
 )
 
-pkgver=5.1
-pkgrel=3.1
+pkgver=5.2
+pkgrel=1
 license=('GPL2')
 arch=('x86_64')
 url='https://www.kernel.org'
@@ -35,8 +35,10 @@ makedepends+=('glib2' 'sysfsutils' 'udev')
 makedepends+=('ncurses')
 groups=("$pkgbase")
 source=("git+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git#tag=v${pkgver//_/-}"
+        "https://cdn.kernel.org/pub/linux/kernel/v5.x/patch-$pkgver.1.xz"
         'cpupower.default')
 md5sums=('SKIP'
+         'a45be902d46625f7b554f17bab3686f0'
          '56883c159381ba89e50ab8ea65efec77')
 
 prepare() {
@@ -88,6 +90,8 @@ build() {
 
   msg2 'usbip'
   pushd linux/tools/usb/usbip
+  # Fix gcc compilation
+  sed -i 's,-Wall -Werror -Wextra,,' configure.ac
   ./autogen.sh
   ./configure --prefix=/usr --sbindir=/usr/bin
   make
