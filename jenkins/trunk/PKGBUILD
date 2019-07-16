@@ -5,7 +5,7 @@
 
 pkgname=jenkins
 pkgver=2.185
-pkgrel=1
+pkgrel=2
 pkgdesc='Extendable continuous integration server (latest)'
 arch=('any')
 url='https://jenkins.io'
@@ -19,12 +19,10 @@ install='jenkins.install'
 noextract=("jenkins-${pkgver}.war")
 source=("jenkins-${pkgver}.war::http://mirrors.jenkins-ci.org/war/${pkgver}/jenkins.war"
         # Rename to force re-download on new version
-        'jenkins.conf'
         'jenkins.tmpfiles'
         'jenkins.sysusers'
         'LICENSE')
 sha512sums=('a4148ebfd67192c9097b237784a479f69ce37eb5fd0f68760e369f09d82c6a0cb482dd895d26d5384c553f7850dffd9d9803ab18448cbc96fe23113e4d8dc3cc'
-            '3a8421cef3953d899c150609f959cf5d5dd6d08d079a5e0f48bfece4f3c80491722b9e90ef841fddb87401c226b8338297c5c4e83e55a33ef8d6e387de3048d0'
             'a845a7147be54affc586dfce9a188ec24c92e673e88dec0b62da386d2e597de6ecda103429008562abd897f179a52c37cf2188ebc65b8c636efd07d707e18f90'
             '896cbc64eadb2f3bb9fa7fc26dbfc527b1823d8bff3158be7f1936cc250f55eeafe89079e1ceb8f3d269041662573ccbbb36248140b4ba24144a564366f8847a'
             '0df6479a600db395c12ad29ebda3120d00460338b9a6b15913e2245aa29212a3798c32e664ca70c8034146e2e0b573066deec9e3210198202f753994e1b83efa')
@@ -34,7 +32,6 @@ package() {
   install -Dm444 "jenkins-${pkgver}.war" "$pkgdir/usr/share/java/jenkins/jenkins.war"
   install -Dm644 jenkins.tmpfiles "$pkgdir/usr/lib/tmpfiles.d/jenkins.conf"
   install -Dm644 jenkins.sysusers "$pkgdir/usr/lib/sysusers.d/jenkins.conf"
-  install -Dm644 jenkins.conf "$pkgdir/etc/conf.d/jenkins"
 }
 
 # vim:set ts=2 sw=2 et:
