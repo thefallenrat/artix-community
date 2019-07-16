@@ -3,7 +3,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
 
 pkgname=lib32-libmm-glib
-pkgver=1.10.2
+pkgver=1.10.4
 pkgrel=1
 pkgdesc='ModemManager library'
 arch=('x86_64')
@@ -27,20 +27,20 @@ build() {
   cd ModemManager
 
   export CC='gcc -m32'
-  export PKG_CONFIG_PATH='/usr/lib32/pkgconfig'
+  export PKG_CONFIG_PATH=/usr/lib32/pkgconfig
 
   ./configure \
-    --prefix='/usr' \
-    --libdir='/usr/lib32' \
-    --localstatedir='/var' \
-    --sbindir='/usr/bin' \
-    --sysconfdir='/etc' \
+    --prefix=/usr \
+    --libdir=/usr/lib32 \
+    --localstatedir=/var \
+    --sbindir=/usr/bin \
+    --sysconfdir=/etc \
     --disable-gtk-doc-html \
     --disable-static \
-    --with-dbus-sys-dir='/usr/share/dbus-1/system.d' \
-    --with-polkit='permissive' \
+    --with-dbus-sys-dir=/usr/share/dbus-1/system.d \
+    --with-polkit=permissive \
     --with-suspend-resume=no \
-    --with-udev-base-dir='/usr/lib32/udev'
+    --with-udev-base-dir=/usr/lib32/udev
   sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
   make -C include
   make -C libmm-glib
