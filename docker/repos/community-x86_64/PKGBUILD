@@ -1,7 +1,7 @@
 # Maintainer: Sébastien "Seblu" Luttringer
 
 pkgname=docker
-pkgver=18.09.7
+pkgver=18.09.8
 pkgrel=1
 epoch=1
 pkgdesc='Pack, ship and run any application as a lightweight container'
@@ -29,6 +29,7 @@ md5sums=('SKIP'
          'SKIP'
          'SKIP'
          '9a8b2744db23b14ca3cd350fdf73c179')
+
 
 # create a fake go path directory and pushd into it
 # $1 real directory
@@ -115,7 +116,7 @@ package() {
   cd "$srcdir"/docker-ce/components/engine
   # binary
   install -Dm755 {bundles/latest/dynbinary-daemon,"$pkgdir"/usr/bin}/dockerd
-
+  # nosystemd
   install -Dm644 'contrib/udev/80-docker.rules' \
     "$pkgdir/usr/lib/udev/rules.d/80-docker.rules"
   install -Dm644 "$srcdir/$pkgname.sysusers" \
