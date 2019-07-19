@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesP/pamac-classic.git
 	branch = master
-	commit = dc1b55fb11943dbde855553c62d69eac3a9a0606
-	parent = e7dd3f82362e03ab6a060653d913d73c4d252151
+	commit = 198fe7deb2cf4949900a4095e9250cc82ab8f2e0
+	parent = 8d8ca133c6ee09f32b11c5edcf42670f0f524402
 	method = merge
 	update = auto
 	cmdver = 0.4.0
