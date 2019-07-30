@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesB/backuppc.git
 	branch = master
-	commit = bb21f5058627f7b5dfc6b777b3d4127e7bb532fd
-	parent = 85189dec70ab1dd19140aa51e8d7162bc5de2f9b
+	commit = 34a31898d742399d05af896957315300ddbe2284
+	parent = f8467660e5c99f2aba66e0d6ebd625f8c0bcf3ae
 	method = merge
 	cmdver = 0.4.0
