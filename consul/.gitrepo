@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesC/consul.git
 	branch = master
-	commit = 6dd35532148d82f35a5da79931ca0c5e9b5896c1
-	parent = 7363720f811aba8a48a584620c446edb7fac83c7
+	commit = 6ee987099dfdaeb1a78428c9c301493795dab732
+	parent = 01e6d254a55ef0e14a956ec60b637e662fa9ee97
 	method = merge
 	cmdver = 0.4.0
