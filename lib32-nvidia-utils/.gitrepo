@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/lib32-nvidia-utils.git
 	branch = master
-	commit = c036611d022cc594c7ea3cf5754191264fe6504b
-	parent = 087269668d6eb49ed15749c4788734884bed6e75
+	commit = de2d666b041b5f6e1af83ee80a8be2de53f489cc
+	parent = 3b355d91bb723f80fbd3cb0b0b5eb672675c8b8c
 	method = merge
 	update = auto
 	cmdver = 0.4.0
