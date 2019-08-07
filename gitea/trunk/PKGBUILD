@@ -30,8 +30,7 @@ source=("git+https://github.com/go-gitea/gitea.git#tag=${_tag}"
 sha256sums=('SKIP'
             '1521fd7edc3830c695698ffe9835709f1408040b5ec989f07410972c894fa8ba'
             '2abc51ccd0086bb996194bb7fb241a3f26d84f518417c872b66a3db8970da7e4'
-            'ab0183aeee92d127819b033cbe0b9eab2e1072fb67a0a20e838d911138799b70'
-            '2dd05c2ec8d5b17332525fe176e40df9893aa632f48525f9d5df98e05027aebf'
+            '5eb47d104acd2e4f8c83bfc27c77b98fcfabcab492ffb2c91675062ecd1706ad'
             '30d26cc5bcaccabe2a799c43a2f67c32ad9f3a3fd27de10fa5e447f1d201d7ac')
 validpgpkeys=(8C4033A23895237CB27D52D9D9B5613BEB813F99  # Matti Ranta <matti@mdranta.net> old RSA2048, retrieved from https://github.com/techknowlogick.gpg
               B56E3C7437A49E136862F5DE9D8A57ADAA232E95  # Matti Ranta <matti@mdranta.net> new RSA4096, retrieved from https://github.com/techknowlogick.gpg
@@ -43,6 +42,8 @@ prepare() {
   cd ${pkgname}
   # Change some defaults for ArchLinux
   patch -Np1 -i ../gitea-arch-defaults.patch
+  # Artixlinux! Make possible for teams with write access to create new repos on Organizations
+  patch -Np1 -i ../org-repo-creation.patch
   # Fetch dependency using go mod
   make vendor
 }
