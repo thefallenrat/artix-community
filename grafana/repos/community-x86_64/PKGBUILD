@@ -3,23 +3,23 @@
 # Contributor: Gilles Hamel <hamelg at laposte dot net>
 
 pkgname=grafana
-pkgver=6.2.5
+pkgver=6.3.2
 pkgrel=1
 pkgdesc='Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB'
-url='http://grafana.org'
+url='https://grafana.com/'
 arch=('x86_64')
 license=('Apache')
 depends=('glibc' 'freetype2' 'fontconfig' 'gsfonts')
-makedepends=('git' 'go-pie' 'npm' 'grunt-cli' 'python2')
-backup=("etc/grafana.ini")
+makedepends=('git' 'go-pie' 'npm' 'grunt-cli' 'python2' 'nodejs-lts-dubnium')
+backup=('etc/grafana.ini')
 source=("git+https://github.com/grafana/grafana.git#tag=v$pkgver"
-        "grafana.sysusers"
-        "grafana.tmpfiles"
+        'grafana.sysusers'
+        'grafana.tmpfiles'
        )
 install=$pkgname.install
-sha256sums=('SKIP'
-            '9cbd46f771dae5e2308b991a00d07a25cc1765f9bdd4082726108e3476403b56'
-            '3cd6026ba009e05f49ec265d049d590d4f35330c1f14cd90a468c8d588501675')
+sha512sums=('SKIP'
+            '38b46d953837a7afa5a654dfeef163b210d56cad57d937018531d00cd63b5341d6f9cd777299bdc7a994d0cb7df09b8157aad0f166e76ad47564e1ad6d5441d4'
+            'c1724bfc7cbd6a406f17acb661efca0f1e57e2c30cc1841f4cb7ccfc420adc40cc61cb1c023d00444827b2c40e9caa4c2fefbfd503419848c74a0b455b2375ab')
 
 prepare() {
   cd $pkgname
