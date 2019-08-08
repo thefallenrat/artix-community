@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesL/libvirt.git
 	branch = master
-	commit = ce3bf0864fc9933bc23fda8148b9099d638f6c47
-	parent = 088e1f1b5948dcc264799821754c80cbfec6c8fe
+	commit = fe69c7e50ce6ac599e3999cf418cbc3432783f94
+	parent = 4798f1f8202b46d6594705c8b52165ff1c9a87c5
 	method = merge
 	update = auto
 	cmdver = 0.4.0
