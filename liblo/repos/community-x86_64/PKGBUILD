@@ -1,0 +1,49 @@
+# Maintainer: David Runge <dave@sleepmap.de>
+# Contributor: Ray Rashif <schiv@archlinux.org>
+# Contributor: damir <damir@archlinux.org>
+# Contributor: Pajaro
+
+pkgname=liblo
+pkgver=0.30
+pkgrel=2
+epoch=1
+pkgdesc="A lightweight OSC (Open Sound Control) implementation"
+arch=('x86_64')
+url="http://liblo.sourceforge.net/"
+license=('LGPL2.1')
+depends=('glibc')
+makedepends=('doxygen')
+provides=('liblo.so')
+source=("https://github.com/radarsat1/${pkgname}/releases/download/${pkgver}/${pkgname}-${pkgver}.tar.gz")
+sha512sums=('51132933cc23237b70ed08fa7986a4a9f838529b83807746b358bcc171f8bbce7f37115b7c855520c9219bae93c74e502aebfb90e44dabdc6d0a00b8335336e3')
+
+prepare() {
+  cd "$pkgname-$pkgver"
+  autoreconf -vfi
+}
+
+build() {
+  cd "$pkgname-$pkgver"
+  ./configure --prefix=/usr
+  make
+}
+
+package() {
+  cd "$pkgname-$pkgver"
+  make DESTDIR="$pkgdir" install
+
+  # delete broken man pages
+  rm -f doc/man/man3/_*.3
+
+  # man pages
+  install -vDm 644 doc/man/man3/*.3 -t "${pkgdir}/usr/share/man/man3"
+  # examples
+  install -vDm 644 examples/*.{cpp,c} \
+    -t "${pkgdir}/usr/share/${pkgname}/examples/"
+  # docs
+  install -vDm 644 doc/html/* -t "${pkgdir}/usr/share/doc/${pkgname}/html/"
+  install -vDm 644 doc/latex/* -t "${pkgdir}/usr/share/doc/${pkgname}/latex/"
+  install -vDm 644 {AUTHORS,ChangeLog,NEWS,README,TODO} \
+    -t "${pkgdir}/usr/share/doc/${pkgname}/"
+}
+# vim:set ts=2 sw=2 et:
