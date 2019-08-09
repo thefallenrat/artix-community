@@ -1,2 +1,0 @@
-# cinnamon-session
-
