@@ -5,7 +5,7 @@
 
 pkgname=ungoogled-chromium
 pkgver=76.0.3809.87
-_rev=1
+_rev=2
 _archver=a32f86d7e4969e5f1ed63136e6568de79d1d2a46
 pkgrel=${_rev}
 _launcher_ver=6
