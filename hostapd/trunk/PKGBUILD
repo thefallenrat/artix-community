@@ -16,7 +16,7 @@ source=(https://w1.fi/releases/$pkgname-$pkgver.tar.gz{,.asc}
         openvswitch.patch)
 sha256sums=('881d7d6a90b2428479288d64233151448f8990ab4958e0ecaca7eeb3c9db2bd7'
             'SKIP'
-            '989bc6855f44c0b360e3d4cd4a146c35b7c12f8a0ced627b4b033f58edcade8e'
+            '15c116def37d99d02bc46c05d031c12ee00064bbb4b4c8df0e43eb227ff6aafc'
             '5ad1aadcd7682e517cab6afb474df6b9abad1a08dbe2bb40571a1b91c33f6f09'
             '64c06b5f6f58923446fd9351c596c759dec130997677f8b9f013c8ce360fbd98')
 
