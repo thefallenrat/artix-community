@@ -6,8 +6,8 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesH/hostapd.git
 	branch = master
-	commit = f34d25010de87f6f26ad601c5fb8e864906495da
-	parent = 9ef560881e356829e717ad2b526ba6e31541bf8c
+	commit = 43b43711c50255853bbfeb9a48761fd301a66ff3
+	parent = 84b416bebcb20250dcb3564aaa3385321ceec9ae
 	method = merge
 	update = auto
 	cmdver = 0.4.0
