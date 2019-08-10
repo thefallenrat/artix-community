@@ -82,7 +82,7 @@ prepare() {
   # fixes VA-API On Intel and Nvidia, Ugghh
   # https://aur.archlinux.org/packages/chromium-vaapi/
   msg2 'Fixing VA-API on Intel and Nvidia'
-  patch -p1 --ignore-whitespaces -i ../vaapi-fix.patch --no-backup-if-mismatch
+  patch -p1 --ignore-whitespace -i ../vaapi-fix.patch --no-backup-if-mismatch
 
   msg2 'Applying domain substitution'
   python "$_utils/domain_substitution.py" apply -r "$_ungoogled_repo/domain_regex.list" -f "$_ungoogled_repo/domain_substitution.list" -c domainsubcache.tar.gz ./
