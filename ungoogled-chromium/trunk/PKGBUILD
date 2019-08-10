@@ -5,16 +5,16 @@
 
 pkgname=ungoogled-chromium
 pkgver=76.0.3809.87
-_rev=2
+_rev=1
 _archver=a32f86d7e4969e5f1ed63136e6568de79d1d2a46
-pkgrel=${_rev}
+pkgrel=2
 _launcher_ver=6
 pkgdesc="A lightweight approach to removing Google web service dependency"
 arch=('x86_64')
 url="https://github.com/Eloston/ungoogled-chromium"
 license=('BSD')
 depends=('gtk3' 'nss' 'alsa-lib' 'xdg-utils' 'libxss' 'libcups' 'libgcrypt'
-         'ttf-font' 'systemd' 'dbus' 'libpulse' 'pciutils' 'json-glib' 'libva'
+         'ttf-font' 'eudev' 'dbus' 'libpulse' 'pciutils' 'json-glib' 'libva'
          'desktop-file-utils' 'hicolor-icon-theme' 'jsoncpp' 'openjpeg2')
 makedepends=('python' 'python2' 'gperf' 'yasm' 'mesa' 'ninja' 'git'
              'clang' 'lld' 'gn' 'llvm' 'quilt')
@@ -29,12 +29,14 @@ provides=('chromium')
 conflicts=('chromium')
 source=(https://commondatastorage.googleapis.com/chromium-browser-official/chromium-$pkgver.tar.xz
         chromium-launcher-$_launcher_ver.tar.gz::https://github.com/foutrelis/chromium-launcher/archive/v$_launcher_ver.tar.gz
-        https://github.com/Eloston/ungoogled-chromium/archive/$pkgver-$pkgrel.tar.gz
-        https://github.com/ungoogled-software/ungoogled-chromium-archlinux/archive/${_archver}.tar.gz)
+        https://github.com/Eloston/ungoogled-chromium/archive/$pkgver-${_rev}.tar.gz
+        https://github.com/ungoogled-software/ungoogled-chromium-archlinux/archive/${_archver}.tar.gz
+        vaapi-fix.patch)
 sha256sums=('215ca6acee7b4fd3c95fe796260af4dc5454dbba3b701aa43afeb98a06dc4194'
             '04917e3cd4307d8e31bfb0027a5dce6d086edb10ff8a716024fbb8bb0c7dccf1'
             'e448af101cc559cadf7d22dd1a198ab788f96fd46f5749b25c51ff607e871fa6'
-            'b1d19efd9e234abab9404e66484d99736be778f8507cdb311bff68f6f4255324')
+            'b1d19efd9e234abab9404e66484d99736be778f8507cdb311bff68f6f4255324'
+            '333b1e0997ad8831906f66550efc73f51b8650ec3436a247d920b5d12e2169de')
 
 # Possible replacements are listed in build/linux/unbundle/replace_gn_files.py
 # Keys are the names in the above script; values are the dependencies in Arch
@@ -67,7 +69,7 @@ depends+=(${_system_libs[@]})
 
 prepare() {
   _ungoogled_archlinux_repo="$srcdir/$pkgname-archlinux-${_archver}"
-  _ungoogled_repo="$srcdir/$pkgname-$pkgver-$pkgrel"
+  _ungoogled_repo="$srcdir/$pkgname-$pkgver-${_rev}"
   _utils="${_ungoogled_repo}/utils"
 
   cd "$srcdir/chromium-$pkgver"
@@ -76,6 +78,12 @@ prepare() {
   python "$_utils/prune_binaries.py" ./ "$_ungoogled_repo/pruning.list"
   msg2 'Applying patches'
   python "$_utils/patches.py" apply ./ "$_ungoogled_repo/patches" "$_ungoogled_archlinux_repo/patches"
+
+  # fixes VA-API On Intel and Nvidia, Ugghh
+  # https://aur.archlinux.org/packages/chromium-vaapi/
+  msg2 'Fixing VA-API on Intel and Nvidia'
+  patch -p1 --ignore-whitespaces -i ../vaapi-fix.patch --no-backup-if-mismatch
+
   msg2 'Applying domain substitution'
   python "$_utils/domain_substitution.py" apply -r "$_ungoogled_repo/domain_regex.list" -f "$_ungoogled_repo/domain_substitution.list" -c domainsubcache.tar.gz ./
 
@@ -104,7 +112,7 @@ prepare() {
 
 build() {
   _ungoogled_archlinux_repo="$srcdir/$pkgname-archlinux-${_archver}"
-  _ungoogled_repo="$srcdir/$pkgname-$pkgver-$pkgrel"
+  _ungoogled_repo="$srcdir/$pkgname-$pkgver-${_rev}"
 
   make -C chromium-launcher-$_launcher_ver
 
