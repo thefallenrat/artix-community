@@ -1,20 +1,20 @@
-# Maintainer: Rafli Akmal <thefallerat@artixlinux.org>
+# Maintainer: Rafli Akmal <thefallenrat@artixlinux.org>
 # Maintainer: Seppia <seppia@seppio.fish>
 # Contributors: Eloston
 # Derived from official Chromium and Inox PKGBUILDS and ungoogled-chromium buildkit
 
 pkgname=ungoogled-chromium
-pkgver=75.0.3770.100
+pkgver=76.0.3809.87
 _rev=1
-_archver=af242f55185ff0ff530d9be502099af0b9f6349b
-pkgrel=${_rev}
+_archver=7f34e646009e66258e3d567728d0ac209ea7556c
+pkgrel=3
 _launcher_ver=6
 pkgdesc="A lightweight approach to removing Google web service dependency"
 arch=('x86_64')
 url="https://github.com/Eloston/ungoogled-chromium"
 license=('BSD')
 depends=('gtk3' 'nss' 'alsa-lib' 'xdg-utils' 'libxss' 'libcups' 'libgcrypt'
-         'ttf-font' 'systemd' 'dbus' 'libpulse' 'pciutils' 'json-glib' 'libva'
+         'ttf-font' 'eudev' 'dbus' 'libpulse' 'pciutils' 'json-glib' 'libva'
          'desktop-file-utils' 'hicolor-icon-theme' 'jsoncpp' 'openjpeg2')
 makedepends=('python' 'python2' 'gperf' 'yasm' 'mesa' 'ninja' 'git'
              'clang' 'lld' 'gn' 'llvm' 'quilt')
@@ -29,14 +29,12 @@ provides=('chromium')
 conflicts=('chromium')
 source=(https://commondatastorage.googleapis.com/chromium-browser-official/chromium-$pkgver.tar.xz
         chromium-launcher-$_launcher_ver.tar.gz::https://github.com/foutrelis/chromium-launcher/archive/v$_launcher_ver.tar.gz
-        https://github.com/Eloston/ungoogled-chromium/archive/$pkgver-$pkgrel.tar.gz
-        https://github.com/ungoogled-software/ungoogled-chromium-archlinux/archive/${_archver}.tar.gz
-        gcc-9-fix.patch)
-sha256sums=('9e1360101b6d9f9635e540db77626e3e15b452f413d8750518244ac37b73fca0'
+        https://github.com/Eloston/ungoogled-chromium/archive/$pkgver-${_rev}.tar.gz
+        https://github.com/ungoogled-software/ungoogled-chromium-archlinux/archive/${_archver}.tar.gz)
+sha256sums=('215ca6acee7b4fd3c95fe796260af4dc5454dbba3b701aa43afeb98a06dc4194'
             '04917e3cd4307d8e31bfb0027a5dce6d086edb10ff8a716024fbb8bb0c7dccf1'
-            '6a0dbafd12f369e4a20e08565c80d8348603b49f7dcc6ada11b2ca6ae3acb7c1'
-            '25116b9affc7ffb93c11dc2e3f15e50d74da405b7b79d868ee65b482daa66777'
-            'dbebf3f50660c30e36ffdf05d9fc3abb338beed5510e051eaee6a2c3fe23a0fa')
+            'e448af101cc559cadf7d22dd1a198ab788f96fd46f5749b25c51ff607e871fa6'
+            'e4997a75b5396ae5aaaabcf51cd873e745159df29f31ab14e7fac09d3c5b4a43')
 
 # Possible replacements are listed in build/linux/unbundle/replace_gn_files.py
 # Keys are the names in the above script; values are the dependencies in Arch
@@ -69,17 +67,16 @@ depends+=(${_system_libs[@]})
 
 prepare() {
   _ungoogled_archlinux_repo="$srcdir/$pkgname-archlinux-${_archver}"
-  _ungoogled_repo="$srcdir/$pkgname-$pkgver-$pkgrel"
+  _ungoogled_repo="$srcdir/$pkgname-$pkgver-${_rev}"
   _utils="${_ungoogled_repo}/utils"
 
   cd "$srcdir/chromium-$pkgver"
 
-  msg2 'Fixing compile time bug on gcc9'
-  patch -p1 --ignore-whitespace -i ../gcc-9-fix.patch --no-backup-if-mismatch
   msg2 'Pruning binaries'
   python "$_utils/prune_binaries.py" ./ "$_ungoogled_repo/pruning.list"
   msg2 'Applying patches'
   python "$_utils/patches.py" apply ./ "$_ungoogled_repo/patches" "$_ungoogled_archlinux_repo/patches"
+
   msg2 'Applying domain substitution'
   python "$_utils/domain_substitution.py" apply -r "$_ungoogled_repo/domain_regex.list" -f "$_ungoogled_repo/domain_substitution.list" -c domainsubcache.tar.gz ./
 
@@ -108,7 +105,7 @@ prepare() {
 
 build() {
   _ungoogled_archlinux_repo="$srcdir/$pkgname-archlinux-${_archver}"
-  _ungoogled_repo="$srcdir/$pkgname-$pkgver-$pkgrel"
+  _ungoogled_repo="$srcdir/$pkgname-$pkgver-${_rev}"
 
   make -C chromium-launcher-$_launcher_ver
 
@@ -130,6 +127,7 @@ build() {
   cp "$_ungoogled_repo/flags.gn" "out/Default/args.gn"
   printf '\n' >> "out/Default/args.gn"
   cat "$_ungoogled_archlinux_repo/flags.archlinux.gn" >> "out/Default/args.gn"
+  printf '\nis_official_build=false' >> "out/Default/args.gn"
 
   # Facilitate deterministic builds (taken from build/config/compiler/BUILD.gn)
   CFLAGS+='   -Wno-builtin-macro-redefined'
