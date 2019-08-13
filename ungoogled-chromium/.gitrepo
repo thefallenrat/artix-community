@@ -6,7 +6,7 @@
 [subrepo]
 	remote = gitea@gitea.artixlinux.org:packagesU/ungoogled-chromium.git
 	branch = master
-	commit = 3cf05b610af6aec225eb4bf1a19e0f50e048aecc
-	parent = 4f9338276affc25a69272b5809911e0a1afeb80b
+	commit = 4e25ed6f9de5136c8b9486f2b8a342586b4135f9
+	parent = 6ce2e7efc174965639d199d3bace5751ccebc260
 	method = merge
 	cmdver = 0.4.0
